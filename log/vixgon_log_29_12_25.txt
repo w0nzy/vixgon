@@ -1,0 +1,29 @@
+2025-12-29 21:15:45,071 - INFO - root - Database initialized - 73
+2025-12-29 21:18:33,207 - INFO - root - Username alperen count is 0 - 81
+2025-12-29 21:18:56,371 - INFO - root - Username alperen count is 0 - 81
+2025-12-29 21:19:06,663 - INFO - root - Username alperen count is 0 - 81
+2025-12-29 21:19:06,670 - INFO - root - User created alperen - 35
+2025-12-29 21:21:30,668 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:21:57,337 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:21:58,219 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:22:12,523 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:23:23,748 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:23:40,043 - INFO - root - Database initialized - 73
+2025-12-29 21:23:41,872 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:24:15,869 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:24:15,869 - CRITICAL - root - Cannot fetch user pwd !1 - 107
+2025-12-29 21:24:16,875 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:24:16,875 - CRITICAL - root - Cannot fetch user pwd !1 - 107
+2025-12-29 21:24:20,124 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:24:20,124 - CRITICAL - root - Cannot fetch user pwd !1 - 107
+2025-12-29 21:24:47,548 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:25:54,396 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:26:23,938 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:27:58,203 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:27:58,203 - CRITICAL - root - Cannot fetch user pwd !1 - 107
+2025-12-29 21:28:22,026 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:28:42,529 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:29:28,207 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:30:31,574 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:31:28,696 - INFO - root - Username alperen count is 1 - 81
+2025-12-29 21:32:36,347 - INFO - root - Username alperen count is 1 - 81

@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="main">
+    <file>assets/gender_female.png</file>
+    <file>assets/gender_non_identified.png</file>
+    <file>assets/gender_male.png</file>
+    <file>assets/user_management.png</file>
+    <file>assets/vixgon_window.icon.png</file>
+    <file>assets/agreement_colorized.png</file>
+    <file>assets/password_colorized.png</file>
+    <file>assets/username_colorized.png</file>
+    <file>assets/logout_colorized.png</file>
+    <file>assets/item_io.png</file>
+    <file>assets/vixgon_main.png</file>
+    <file>assets/item_management_colorized.png</file>
+    <file>assets/log_colorized.png</file>
+    <file>assets/plus_colorized.png</file>
+    <file>assets/search_colorized.png</file>
+    <file>assets/shelf_colorized.png</file>
+  </qresource>
+</RCC>
