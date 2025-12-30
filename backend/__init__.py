@@ -1,4 +1,5 @@
-﻿import jwt
+﻿from logging import Logger
+import jwt
 import base64
 import secrets
 from typing import Annotated
@@ -9,14 +10,17 @@ from fastapi import (
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.exceptions import HTTPException
 from argon2 import PasswordHasher
-from backend.models import UserLoginDataModel
+from backend.db import Database, DatabaseRegisterCode, DatabaseUserRegisterModel
+from backend.models import UserLoginDataModel, UserRegistrationModel, UserRegistrationResponseModel
 from backend.models import LoginModel
+from modules.vixgon_log import create_logger
 
-
+logger = create_logger()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/vixgon/api/login")
 backend_api = FastAPI()
 argon2 = PasswordHasher()
-
+database = Database("main.db")
+database.init_db()
 jwt_secret_key = "0b1211543e2971991cc26974b53e7a5b9adf00576d8d82c9de38e691b1b3110e"
 def verify_hash(pwd_hash: str,pwd: str) -> bool:
     try:
@@ -25,8 +29,6 @@ def verify_hash(pwd_hash: str,pwd: str) -> bool:
         return False
     return True
 
-def validate_user_credentials(username: str,pwd_hash: str):
-    if username != "alperen" and pwd_hash: pass
 def validate_user_token(token_data: Annotated[str,Depends(oauth2_scheme)]):
     try:
         decoded_jwt = jwt.decode(token_data,jwt_secret_key,algorithms=["HS256"])
@@ -39,3 +41,33 @@ def login(data: LoginModel) -> UserLoginDataModel:
     if verify_hash("$argon2id$v=19$m=65536,t=3,p=4$8BkqIYg020xAxnYB9oKN0Q$omVaEx1bvfVTB4llRH3q1eF3YKkV7reh1iywPs6WRYw",data.password):
         return UserLoginDataModel(auth_token = secrets.token_hex(32),user_photo = base64.b64encode(secrets.token_bytes(32)).decode())
     raise HTTPException(status_code = 401,detail = "Bad username or password")
+
+@backend_api.post("/vixgon/api/register")
+async def register_user(data: UserRegistrationModel) -> UserRegistrationResponseModel:
+    result = database.push_user(user_data = DatabaseUserRegisterModel(
+        username = data.username,
+        password = data.password,
+        name = data.name,
+        surname = data.surname,
+        age = data.age,
+        user_type = data.user_type,
+        gender = data.gender,
+        registertration_time = data.registertration_time,
+        user_photo_name = data.user_photo_name
+        ))
+    match result:
+        case DatabaseRegisterCode.USER_ALREADY_EXISTS:
+            return UserRegistrationResponseModel(detail = "User already exists")
+        case DatabaseRegisterCode.USER_CREATED_SUCCESSFULLY:
+            return UserRegistrationResponseModel(detail = "User created successfully")
+        case DatabaseRegisterCode.BAD_PARAMETER_LIST:
+            return UserRegistrationResponseModel(detail = "Check username or password contains bad value")
+        case _:
+            return UserRegistrationResponseModel(detail = "Unknown error %s" % (result))
+            logger.critical("Cannot register user :( )")
+@backend_api.get("/vixgon/api/get_users")
+async def get_users() -> dict:
+    return {"users":database.extract_all_users()}
+@backend_api.get("/vixgon/api/get_user/{user_name}")
+async def get_user(user_name: str) -> list:
+    return database.extract_user(user_name)

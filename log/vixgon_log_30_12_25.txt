@@ -1,0 +1,40 @@
+2025-12-30 22:12:52,578 - WARNING - root - Database is not initialized cannot register user the_bora - 29
+2025-12-30 22:13:01,294 - INFO - root - Database initialized - 83
+2025-12-30 22:13:02,334 - WARNING - root - Bad parameter list DatabaseUserRegisterModel(username='the_bora', password='the_bora1234', name='Bora', surname='Kalem', age=20, gender='male', registertration_time=32, user_type=0, user_photo_name='burak_3') - 32
+2025-12-30 22:15:14,768 - INFO - root - Username the_bora count is 0 - 91
+2025-12-30 22:15:14,831 - CRITICAL - root - Cannot register user the_bora because Incorrect number of bindings supplied. The current statement uses 8, and there are 0 supplied. error occured - 47
+2025-12-30 22:17:46,116 - INFO - root - Database initialized - 84
+2025-12-30 22:17:49,427 - INFO - root - Username the_bora count is 0 - 92
+2025-12-30 22:17:49,490 - CRITICAL - root - Cannot register user the_bora because Incorrect number of bindings supplied. The current statement uses 8, and there are 0 supplied. error occured - 48
+2025-12-30 22:19:05,581 - WARNING - root - Database is not initialized cannot register user the_bora - 29
+2025-12-30 22:19:09,878 - INFO - root - Database initialized - 84
+2025-12-30 22:19:13,017 - INFO - root - Username the_bora count is 0 - 92
+2025-12-30 22:19:13,087 - INFO - root - User created the_bora - 46
+2025-12-30 22:19:25,175 - INFO - root - Username the_bora count is 1 - 92
+2025-12-30 22:19:25,175 - WARNING - root - User already exists the_bora - 35
+2025-12-30 22:29:04,314 - WARNING - root - Database is not initialized cannot register user {'username': 'string', 'password': 'string', 'name': 'string', 'surname': 'string', 'gender': 'string', 'age': 0, 'user_type': 0, 'registertration_time': 0, 'user_photo_name': 'string'} - 29
+2025-12-30 22:32:02,489 - WARNING - root - Database is not initialized cannot register user string - 29
+2025-12-30 22:33:17,372 - WARNING - root - Database is not initialized cannot register user string - 29
+2025-12-30 22:33:58,564 - WARNING - root - Database is not initialized cannot register user string - 29
+2025-12-30 22:34:22,243 - INFO - root - Database initialized - 83
+2025-12-30 22:34:25,044 - WARNING - root - Bad parameter list DatabaseUserRegisterModel(username='string', password='string', name='string', surname='string', gender='string', age=0, user_type=0, registertration_time=0, user_photo_name='string') - 32
+2025-12-30 22:35:29,923 - CRITICAL - root - Cannot get mehmet_123 count error SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 5672 and this is thread id 7984. - 93
+2025-12-30 22:35:29,994 - CRITICAL - root - Cannot register user mehmet_123 because SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 5672 and this is thread id 7984. error occured - 47
+2025-12-30 22:37:02,493 - INFO - root - Database initialized - 83
+2025-12-30 22:37:09,238 - INFO - root - Username mehmet_123 count is 0 - 91
+2025-12-30 22:37:09,311 - INFO - root - User created mehmet_123 - 45
+2025-12-30 22:38:13,739 - INFO - root - Database initialized - 83
+2025-12-30 22:38:16,555 - INFO - root - Username mehmet_123 count is 1 - 91
+2025-12-30 22:38:16,555 - WARNING - root - User already exists mehmet_123 - 35
+2025-12-30 22:38:31,072 - INFO - root - Username mehmet_1234 count is 0 - 91
+2025-12-30 22:38:31,169 - INFO - root - User created mehmet_1234 - 45
+2025-12-30 22:44:27,919 - INFO - root - Database initialized - 83
+2025-12-30 22:48:00,412 - INFO - root - Database initialized - 83
+2025-12-30 22:48:21,422 - INFO - root - Database initialized - 83
+2025-12-30 22:48:23,826 - INFO - root - Username alperen count is 0 - 91
+2025-12-30 22:48:24,839 - INFO - root - Username alperen count is 0 - 91
+2025-12-30 22:48:31,321 - INFO - root - Username the_mehmet123 count is 0 - 91
+2025-12-30 22:48:45,843 - INFO - root - Username mehmet123 count is 0 - 91
+2025-12-30 22:50:55,971 - INFO - root - Username mehmet123 count is 0 - 91
+2025-12-30 22:52:27,250 - INFO - root - Username mehmet_123 count is 1 - 91
+2025-12-30 22:52:32,206 - INFO - root - Username mehmet_1234 count is 1 - 91
