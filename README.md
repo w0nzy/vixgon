@@ -10,7 +10,9 @@ This command will install all necessary Python packages.
 
 Running the Backend Server
 Start the backend server using the following command:
-```bash
+
+
+```
 uvicorn backend:backend_api
 ```
 Make sure the server is running before proceeding to the next step.
@@ -19,7 +21,7 @@ Running the Application
 After the backend server is up, run the main application:
 
 ```
-python vixgon.py,
+python vixgon.py
 ```
 ⚠️ Important Notice
 Vixgon is still under active development.
