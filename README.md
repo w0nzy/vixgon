@@ -1,42 +1,39 @@
-🚀 Vixgon Installation & Usage
-Installation
+## 🚀 Vixgon Installation & Usage
 
-First, install the required dependencies by running:
+### Installation
 
+- First, install the required dependencies:
+
+```bash
 pip install -r requirements.txt
-
-
 This command will install all necessary Python packages.
 
 Running the Backend Server
-
-To start the backend server, run the following command:
-
+Start the backend server using the following command:
+```bash
 uvicorn backend:backend_api
-
-
-Make sure the server starts successfully before continuing.
+```
+Make sure the server is running before proceeding to the next step.
 
 Running the Application
+After the backend server is up, run the main application:
 
-After the backend is running, start the main application with:
-
-python vixgon.py
-
+```
+python vixgon.py,
+```
 ⚠️ Important Notice
-
 Vixgon is still under active development.
-Many features are not yet complete and are currently in the development phase.
+
+Many parts of the application are incomplete and currently under development.
 
 🔑 Test Login Credentials
-
-For testing purposes, you can use the following credentials:
+You can use the following credentials for testing purposes:
 
 Username: alperen
 
 Password: alperen
 
-🛠️ Status
+🛠️ Project Status
+This project is experimental and intended for development and testing only.
 
-This project is experimental and intended for testing and development only.
-Features, structure, and behavior may change at any time.
+Features and functionality may change in future updates.
