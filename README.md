@@ -7,12 +7,11 @@
 ```bash
 pip install -r requirements.txt
 This command will install all necessary Python packages.
-
+```
+```
 Running the Backend Server
 Start the backend server using the following command:
 
-
-```
 uvicorn backend:backend_api
 ```
 Make sure the server is running before proceeding to the next step.
