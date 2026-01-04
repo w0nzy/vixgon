@@ -38,5 +38,6 @@ Password: alperen
 This project is experimental and intended for development and testing only.
 
 Features and functionality may change in future updates.
-#Known bugs
+
+# Known bugs
 * every login app creates new photo 
