@@ -10,3 +10,11 @@ def hash_pwd(data: str) -> str:
     except:
         return ""
     return hash
+
+
+def compare_hash(pwd: str,hash: str) -> str:
+    try:
+        argon2.verify(hash,pwd)
+    except:
+        return False
+    return True

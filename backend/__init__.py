@@ -14,7 +14,7 @@ from backend.models import UserDataModel, UserLoginDataModel, UserRegistrationRe
 from backend.models import LoginModel
 from backend.util import read_user_photo
 from modules.vixgon_log import create_logger
-
+from backend.hash import compare_hash
 logger = create_logger()
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/vixgon/api/login")
 backend_api = FastAPI()
@@ -76,7 +76,9 @@ async def get_user(user_name: str) -> UserDataModel:
     return database.extract_user(user_name)
 @backend_api.post("/vixgon/login_test")
 async def login_test(user_input: LoginModel) -> UserLoginDataModel:
-    if database.get_username_count(user_input.username) != 0:
-        user_data = database.extract_user(user_input.username)
-        return UserLoginDataModel(user_name = user_data.username,user_surname = user_data.surname,user_photo = read_user_photo(user_data.username),auth_token = secrets.token_hex(16))
+    if database.get_username_count(user_input.username) != 0 and (user_data := database.extract_user(user_input.username)):
+        if compare_hash(user_input.password,user_data.password):
+            logger.info("User %s logged in" % (user_input.username))
+            return UserLoginDataModel(user_name = user_data.username,user_surname = user_data.surname,user_photo = read_user_photo(user_data.username),auth_token = secrets.token_hex(16))
+    logger.warning("Wrong password or username %s:%s" % (user_input.username,user_input.password))
     return UserLoginDataModel(auth_token="no_token",user_name="no_username",user_surname="no_surname",user_photo="no_photo")
