@@ -1,5 +1,4 @@
-﻿from logging import Logger
-import jwt
+﻿import jwt
 import base64
 import secrets
 from typing import Annotated
@@ -11,8 +10,9 @@ from fastapi.security import OAuth2PasswordBearer
 from fastapi.exceptions import HTTPException
 from argon2 import PasswordHasher
 from backend.db import Database, DatabaseRegisterCode, DatabaseUserRegisterModel
-from backend.models import UserLoginDataModel, UserRegistrationModel, UserRegistrationResponseModel
+from backend.models import UserDataModel, UserLoginDataModel, UserRegistrationResponseModel
 from backend.models import LoginModel
+from backend.util import read_user_photo
 from modules.vixgon_log import create_logger
 
 logger = create_logger()
@@ -43,7 +43,7 @@ def login(data: LoginModel) -> UserLoginDataModel:
     raise HTTPException(status_code = 401,detail = "Bad username or password")
 
 @backend_api.post("/vixgon/api/register")
-async def register_user(data: UserRegistrationModel) -> UserRegistrationResponseModel:
+async def register_user(data: UserDataModel) -> UserRegistrationResponseModel:
     result = database.push_user(user_data = DatabaseUserRegisterModel(
         username = data.username,
         password = data.password,
@@ -53,7 +53,7 @@ async def register_user(data: UserRegistrationModel) -> UserRegistrationResponse
         user_type = data.user_type,
         gender = data.gender,
         registertration_time = data.registertration_time,
-        user_photo_name = data.user_photo_name
+        user_photo_name  = data.user_photo_data
         ))
     match result:
         case DatabaseRegisterCode.USER_ALREADY_EXISTS:
@@ -65,9 +65,18 @@ async def register_user(data: UserRegistrationModel) -> UserRegistrationResponse
         case _:
             return UserRegistrationResponseModel(detail = "Unknown error %s" % (result))
             logger.critical("Cannot register user :( )")
+@backend_api.post("/vixgon/test")
+async def test_data() -> dict:
+    return {"token":secrets.token_hex(32)}
 @backend_api.get("/vixgon/api/get_users")
 async def get_users() -> dict:
     return {"users":database.extract_all_users()}
 @backend_api.get("/vixgon/api/get_user/{user_name}")
-async def get_user(user_name: str) -> list:
+async def get_user(user_name: str) -> UserDataModel:
     return database.extract_user(user_name)
+@backend_api.post("/vixgon/login_test")
+async def login_test(user_input: LoginModel) -> UserLoginDataModel:
+    if database.get_username_count(user_input.username) != 0:
+        user_data = database.extract_user(user_input.username)
+        return UserLoginDataModel(user_name = user_data.username,user_surname = user_data.surname,user_photo = read_user_photo(user_data.username),auth_token = secrets.token_hex(16))
+    return UserLoginDataModel(auth_token="no_token",user_name="no_username",user_surname="no_surname",user_photo="no_photo")

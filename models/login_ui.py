@@ -7,7 +7,9 @@
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
-
+import os
+import sys
+sys.path.append(os.path.dirname(__file__))
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -18,9 +20,6 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QCheckBox, QDialog, QFrame,
     QHBoxLayout, QLabel, QLineEdit, QPushButton,
     QSizePolicy, QVBoxLayout, QWidget)
-import os
-import sys
-sys.path.append(os.path.dirname(__file__))
 import res_rc
 
 class Ui_Dialog(object):
@@ -149,15 +148,6 @@ class Ui_Dialog(object):
         self.verticalLayout_4 = QVBoxLayout(self.frame_3)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
         self.verticalLayout_4.setContentsMargins(-1, 10, -1, -1)
-        self.user_icon_label = QLabel(self.frame_3)
-        self.user_icon_label.setObjectName(u"user_icon_label")
-        self.user_icon_label.setMinimumSize(QSize(150, 150))
-        self.user_icon_label.setMaximumSize(QSize(150, 150))
-        self.user_icon_label.setStyleSheet(u"")
-        self.user_icon_label.setScaledContents(True)
-
-        self.verticalLayout_4.addWidget(self.user_icon_label, 0, Qt.AlignmentFlag.AlignHCenter)
-
 
         self.verticalLayout_3.addWidget(self.frame_3)
 
@@ -188,10 +178,20 @@ class Ui_Dialog(object):
 
         self.verticalLayout_5.addWidget(self.password_input, 0, Qt.AlignmentFlag.AlignHCenter)
 
+        self.loading_icon_frame = QFrame(self.frame_4)
+        self.loading_icon_frame.setObjectName(u"loading_icon_frame")
+        self.loading_icon_frame.setMinimumSize(QSize(0, 70))
+        self.loading_icon_frame.setMaximumSize(QSize(16777215, 70))
+        self.loading_icon_frame.setFrameShape(QFrame.Shape.StyledPanel)
+        self.loading_icon_frame.setFrameShadow(QFrame.Shadow.Raised)
+
+        self.verticalLayout_5.addWidget(self.loading_icon_frame)
+
         self.status_label = QLabel(self.frame_4)
         self.status_label.setObjectName(u"status_label")
+        self.status_label.setAlignment(Qt.AlignmentFlag.AlignHCenter|Qt.AlignmentFlag.AlignTop)
 
-        self.verticalLayout_5.addWidget(self.status_label, 0, Qt.AlignmentFlag.AlignHCenter)
+        self.verticalLayout_5.addWidget(self.status_label)
 
         self.checkbox_user_creds = QCheckBox(self.frame_4)
         self.checkbox_user_creds.setObjectName(u"checkbox_user_creds")
@@ -239,7 +239,6 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.sidebar_icon.setText("")
-        self.user_icon_label.setText("")
         self.username_text.setText("")
         self.username_input.setText("")
         self.username_input.setPlaceholderText(QCoreApplication.translate("Dialog", u"Kullan\u0131c\u0131 ad\u0131 giriniz", None))

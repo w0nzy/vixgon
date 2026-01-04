@@ -220,31 +220,6 @@ QCheckBox::indicator:checked {
             <property name="topMargin">
              <number>10</number>
             </property>
-            <item alignment="Qt::AlignmentFlag::AlignHCenter">
-             <widget class="QLabel" name="user_icon_label">
-              <property name="minimumSize">
-               <size>
-                <width>150</width>
-                <height>150</height>
-               </size>
-              </property>
-              <property name="maximumSize">
-               <size>
-                <width>150</width>
-                <height>150</height>
-               </size>
-              </property>
-              <property name="styleSheet">
-               <string notr="true"/>
-              </property>
-              <property name="text">
-               <string/>
-              </property>
-              <property name="scaledContents">
-               <bool>true</bool>
-              </property>
-             </widget>
-            </item>
            </layout>
           </widget>
          </item>
@@ -314,10 +289,35 @@ QCheckBox::indicator:checked {
               </property>
              </widget>
             </item>
-            <item alignment="Qt::AlignmentFlag::AlignHCenter">
+            <item>
+             <widget class="QFrame" name="loading_icon_frame">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>70</height>
+               </size>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Shape::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Shadow::Raised</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QLabel" name="status_label">
               <property name="text">
                <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop</set>
               </property>
              </widget>
             </item>

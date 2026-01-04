@@ -1,6 +1,10 @@
 import os
 import sys
 import sqlite3
+
+from backend.util import read_user_photo
+from backend.util import get_user_photo
+
 sys.path.append(os.path.dirname(__file__))
 
 from argon2 import PasswordHasher
@@ -8,7 +12,7 @@ from backend.enums import UserType
 from backend.enums import DatabaseRegisterCode
 from modules.vixgon_log import create_logger
 from backend.hash import hash_pwd
-from backend.models import DatabaseUserRegisterModel
+from backend.models import DatabaseUserRegisterModel, UserLoginDataModel,UserDataModel
 
 logger = create_logger()
 argon2 = PasswordHasher()
@@ -86,6 +90,9 @@ class Database:
             print("Cannot initialize db ",db_error)
     def get_username_count(self,username: str):
         result = 0
+        if (username == ""):
+            logger.info("Username is empty ")
+            return result
         try:
             result = self.cursor.execute("SELECT COUNT(*) FROM users WHERE username = ?;",(username,)).fetchone()[0]
             logger.info("Username %s count is %s" % (username,result))
@@ -101,11 +108,20 @@ class Database:
             except Exception as db_error:
                 logger.critical("cannot close close %s" % (str(db_error)))
                 print("Cannot close db ",db_error)
-    def extract_user(self,username: str):
-        user_credentials = []
+    def extract_user(self,username: str) -> UserDataModel:
+        user_credentials = UserDataModel()
         if self.get_username_count(username) > 0:
             try:
-                user_credentials = self.cursor.execute("SELECT * FROM users WHERE username = ?;",(username,)).fetchone()
+                db_data = self.cursor.execute("SELECT * FROM users WHERE username = ?;",(username,)).fetchone()
+                user_credentials.password = db_data[2] # only debugging remove after !!!!!
+                user_credentials.username = db_data[1]
+                user_credentials.name = db_data[3]
+                user_credentials.surname = db_data[4]
+                user_credentials.gender = db_data[5]
+                user_credentials.age = db_data[6]
+                user_credentials.user_type = db_data[7]
+                user_credentials.registertration_time = db_data[8]
+                user_credentials.user_photo_data = read_user_photo(username)
             except Exception as error:
                 logger.critical("Cannot get data %s : %s" % (username,str(error)))
         return user_credentials

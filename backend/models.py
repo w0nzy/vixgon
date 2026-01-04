@@ -2,8 +2,6 @@
 from dataclasses import dataclass
 from dataclasses import field as Field
 
-from .enums import UserType
-
 
 class LoginModel(BaseModel):
     username: str
@@ -11,19 +9,21 @@ class LoginModel(BaseModel):
 
 class UserLoginDataModel(BaseModel):
     auth_token: str
+    user_name: str
+    user_surname: str
     user_photo: str
 
 
-class UserRegistrationModel(BaseModel):
-    username: str
-    password: str
-    name: str
-    surname: str
-    gender: str
-    age: int
-    user_type: int
-    registertration_time: int
-    user_photo_name: str
+class UserDataModel(BaseModel):
+    username: str = Field(default = "no_username")
+    password: str = Field(default="no_password")
+    name: str = Field(default="no_name")
+    surname: str = Field(default="no_surname")
+    gender: str = Field(default="no_gender")
+    age: int = Field(default = 0)
+    user_type: int = Field(default = -1)
+    registertration_time: int = Field(default =-1)
+    user_photo_data: str = Field(default = "no_photo")
 
 class UserRegistrationResponseModel(BaseModel):
     detail: str

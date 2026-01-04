@@ -2,153 +2,118 @@
 # -*- coding: utf-8 -*-
 
 
+
 import os
+import sys
 import time
 import json
 import base64
 import hashlib
 import requests
 
-from PySide6.QtWidgets import QDialog,QApplication
+from PySide6.QtWidgets import QDialog,QApplication, QVBoxLayout
 from PySide6.QtGui import QPixmap,QBrush
-from PySide6.QtCore import Qt,QRect
+from PySide6.QtCore import QObject, Qt,QRect, Signal
+from PySide6.QtGui import QPen,QBrush,QPixmap,QIcon
+from PySide6.QtWidgets import (QMainWindow,QApplication,QLabel)
+
 from requests import status_codes
+from backend import UserLoginDataModel
 from models.login_ui import QPainter, Ui_Dialog
 from backend.enums import UserType
-from modules.typer_label import QLabelTyper
-from PySide6.QtWidgets import (QMainWindow,QApplication)
-from PySide6.QtGui import QPen,QBrush,QPixmap,QIcon
 from models.vixgon_main_ui import Ui_MainWindow
+from modules.request import Requests
+from modules.widgets.loading_bar import LoadingIcon
+from modules.widgets.typer_label import QLabelTyper
+from modules.widgets.rounded_label import RoundedLabel
+from modules.db import ClientDatabase
+from modules.db_models import LocalCredentialsModel
+
+from modules import get_app_path, get_local_database_path
+
+sys.path.append(os.path.dirname(__file__))
 
 
 
 
+class SignalClass(QObject):
+    closed = Signal(requests.Session)
 
-class Vixgon(QMainWindow,Ui_MainWindow):
-    def __init__(self,session,data: dict):
-        super(Vixgon,self).__init__()
-        self.setupUi(self)
-        self.about_btn.clicked.connect(lambda:self.stackedWidget.setCurrentIndex(3))
-        self.username_text.setText("NaN")
-        self.data = data
+class VixgonMainApp(QMainWindow,Ui_MainWindow):
+    def __init__(self,session: requests.Session):
         self.session = session
-        self.setup_ui_begin_startup()
-    def setup_ui_begin_startup(self):
-        user_action_img = self.data.get("gender","non_identified")
-        print("Gender ",user_action_img)
-        self.user_actions_pixmap = QPixmap(f":/main/assets/gender_{user_action_img}.png")
-        self.user_actions.setIcon(self.user_actions_pixmap)
-        self.user_actions.setText("KULLANICI BİLGİSİ" if self.data["user_type"] != 2 else "KULLANICI YÖNETİMİ")
-class login_window(QDialog,Ui_Dialog):
-    def __init__(self):
-        super(login_window,self).__init__()
+        super(VixgonMainApp,self).__init__()
         self.setupUi(self)
-        self.setWindowTitle("Login")
-        self._pixmap = QPixmap(".\\user128px.png")
-        self.username_input.returnPressed.connect(self.handle_login)
-        self.password_input.returnPressed.connect(self.handle_login)
-        self.base_url = "http://127.0.0.1:8000/login" # this is not static may change configuration
-        self.login_btn.clicked.connect(self.handle_login)
-        self.exit_btn.clicked.connect(self.close)
-        self.base_dir = os.path.join(os.path.dirname(__file__),"creds")
-        self.local_data_file = os.path.join(self.base_dir,"data.json")
-        self.setup_ui_begin_at_startup()
-        self.session = requests.Session()
-    def handle_login(self):
-        save_creds = self.checkbox_user_creds.isChecked()
-        username = self.username_input.text()
-        password = self.password_input.text()
-
-        username_len = len(username)
-        password_len = len(password)
-        if (username_len < 4 or password_len < 4):
-            self.status_label.setText("Username or password must be at least 4 characters")
+        self.request = Requests("http://127.0.0.1:8000",self.session)
+        self.about_btn.clicked.connect(lambda:self.request.post("/vixgon/api/get_user/alperen"))
+class VixgonLogin(Ui_Dialog,QDialog):
+    def __init__(self,parent = None):
+        super(VixgonLogin,self).__init__()
+        self.setupUi(self)
+        self.signal = SignalClass()
+        self.parent = parent
+        self.request = Requests("http://127.0.0.1:8000")
+        self.loading_icon_widget = LoadingIcon()
+        self.loading_icon_widget_layout = QVBoxLayout(self.loading_icon_frame)
+        self.loading_icon_widget_layout.setContentsMargins(0,0,0,0)
+        self.loading_icon_widget_layout.addWidget(self.loading_icon_widget,alignment = Qt.AlignmentFlag.AlignBottom )
+        self.request.request_exception.connect(self.set_result_to_bad)
+        self.request.request_begin.connect(lambda:self.status_label.setText("Sunucuya bağlanılıyor"))
+        self.request.request_data.connect(self.handle_server_data)
+        self.login_btn.clicked.connect(self.post_login_data)
+        self.setup_ui_at_startup()
+    def post_login_data(self):
+        username_len = len(self.username_input.text())
+        password_len = len(self.password_input.text())
+        if (not 6 < username_len <= 25) or (not 6 < password_len <= 25):
+            self.status_label.setText("Kullanıcı adı veya parola izin verilen maximum karakteri aşıyor max:25")
             return
-        data = self.post(username = username,password = password)
-        if (data.get("status",None) is None):
-            self.status_label.setText("Server connection problem")
-            print(data)
+        self.request.post("/vixgon/login_test",username = self.username_input.text(),password = self.password_input.text())
+        self.loading_icon_widget.start_movie()
+    def set_result_to_bad(self):
+        self.loading_icon_widget.hide_widget()
+        self.status_label.setText("Sunucuya ulaşılamıyor :/")
+    def handle_server_data(self,response):
+        self.status_label.setText("Sunucuya bağlanıldı ")
+        self.loading_icon_widget.hide_widget()
+        payload = UserLoginDataModel(**response.json()) # its not safe :/
+        if payload.user_name == "no_username":
+            self.status_label.setText("Kullanıcı bilgileri hatalı")
             return
-        status = data["status"]
-        if (status == "BAD"):
-            self.status_label.setText("Invalid username or password")
-            return
-        data = data["data"]
-        self.write_credentials(username=username,name=data["name"],surname=data["surname"],photo=data["user_photo"])
-        self.status_label.setText("Giriş başarılı")
-        app = Vixgon(self.session,data)
-        app.show()
+        if self.checkbox_user_creds.isChecked():
+            local_database = ClientDatabase()
+            local_database.init_db()
+            local_database.push_user_login_credentials(user_data=
+                LocalCredentialsModel(
+                    username = payload.user_name,
+                    token = payload.auth_token,
+                    user_photo = payload.user_photo
+                    )
+                )
+            local_database.close()
+        self.parent.session = self.request.session 
+        self.parent.show()
         self.close()
-    def setup_ui_begin_at_startup(self):
-        self.password_input.setPlaceholderText("Enter your password")
-        self.pixmap = QPixmap()
-        data = None
-        if os.path.exists(self.local_data_file) and self.get_local_data().get("username") != None:
-            data = self.get_local_data()
-            self.typer = QLabelTyper(self,self.username_text, "Greetings %s %s :)" % (data["name"],data["surname"]), 50)
+    def setup_ui_at_startup(self):
+        if os.path.exists(get_local_database_path()):
+            database = ClientDatabase()
+            database.init_db()
+            user_data = database.extract_user_credentials()
+            self.rounded_label = RoundedLabel(user_data.user_photo_path)
+            self.user_greeting_label = QLabel()
+            self.verticalLayout_4.setSpacing(10)
+            self.typer = QLabelTyper(self, self.user_greeting_label,"Merhaba," + user_data.username ,50)
+            self.verticalLayout_4.addWidget(self.rounded_label,alignment = Qt.AlignmentFlag.AlignCenter | Qt.AlignmentFlag.AlignTop)
+            self.verticalLayout_4.addWidget(self.user_greeting_label,alignment = Qt.AlignmentFlag.AlignCenter | Qt.AlignmentFlag.AlignBottom)
             self.typer.start()
-        self.pixmap.loadFromData(data["photo"] if data is not None else self.get_png_data())
-        self.rounded_pixmap = QPixmap(self.pixmap.size())
-        self.rounded_pixmap.fill(Qt.transparent)
-        painter = QPainter(self.rounded_pixmap)
-        painter.setRenderHint(QPainter.Antialiasing)
-        painter.setBrush(QBrush(self.pixmap))
-        painter.setPen(Qt.NoPen)
-        painter.drawRoundedRect(self.pixmap.rect(), 300,300)
-        self.user_icon_label.setPixmap(self.rounded_pixmap)
-    def post(self,**kwargs) -> dict:
-        self.session
-        try:
-            data = self.session.post(self.base_url,json=kwargs)
-        except Exception as e:
-            print("Error ",e)
-            return {"error":None}
-        return data.json()
-    def write_credentials(self,**kwargs):
-        if not os.path.exists(self.base_dir):
-            try:
-                os.makedirs(self.base_dir)
-            except:
-                return
-        try:
-            data = json.dumps(kwargs)
-            with open(os.path.join(self.local_data_file),"w") as fd:
-                fd.write(data)
-        except Exception as photo_write_error:
-            self.status_label.setText("Cannot write photo data")
-            return False
-        return True
-    def get_local_data(self) -> dict:
-        return_data = {"username":None}
-        if (os.path.exists(self.local_data_file)):
-            try:
-                with open(self.local_data_file,"r") as fd:
-                    data = fd.read()
-                data = json.loads(data)
-                username = data.get("username","_bad_username")
-                userphoto = data.get("photo","_bad_photo")
-                name = data.get("name","_bad_name")
-                surname = data.get("surname","_bad_surname")
-                return_data["username"] = username
-                return_data["photo"] = base64.b64decode(userphoto.encode())
-                return_data["name"] = name
-                return_data["surname"] = surname
-            except IOError:
-                self.status_label.setText("Cannot read local data")
-            except json.JSONDecodeError:
-                self.status_label.setText("Json parsing error")
-            except Exception as non_identified_error:
-                self.status_label.setText("Non identified error %s" % (str(non_identified_error)))
-        return return_data
-    def get_png_data(self):
-        try:
-            with open(os.path.join(os.path.dirname(__file__),"assets","vixgon_window.icon.png"),"rb") as fd:
-                return fd.read()
-        except Exception as err:
-            print("Error ",err)
-            return b""
+def launch_main_app(session: requests.Session):
+    print("Launching app")
+    main_app = VixgonMainApp(session)
+    main_app.show()
 if __name__ == "__main__":
-    app = QApplication()
-    window = login_window()
-    window.show()
+    app = QApplication([])
+    main_app = VixgonMainApp(session = None)
+    login = VixgonLogin(parent=main_app)
+    login.show()
+
     app.exec()
