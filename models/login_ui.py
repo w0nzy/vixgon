@@ -3,7 +3,7 @@
 ################################################################################
 ## Form generated from reading UI file 'login.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.10.0
+## Created by: Qt User Interface Compiler version 6.8.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -182,7 +182,7 @@ class Ui_Dialog(object):
         self.loading_icon_frame.setObjectName(u"loading_icon_frame")
         self.loading_icon_frame.setMinimumSize(QSize(0, 70))
         self.loading_icon_frame.setMaximumSize(QSize(16777215, 70))
-        self.loading_icon_frame.setFrameShape(QFrame.Shape.StyledPanel)
+        self.loading_icon_frame.setFrameShape(QFrame.Shape.NoFrame)
         self.loading_icon_frame.setFrameShadow(QFrame.Shadow.Raised)
 
         self.verticalLayout_5.addWidget(self.loading_icon_frame)

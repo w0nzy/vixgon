@@ -1,6 +1,10 @@
 import os
+import secrets
 import sys
 import sqlite3
+
+from fastapi import HTTPException
+from requests import session
 
 from backend.util import read_user_photo
 from backend.util import get_user_photo
@@ -13,6 +17,8 @@ from backend.enums import DatabaseRegisterCode
 from modules.vixgon_log import create_logger
 from backend.hash import hash_pwd
 from backend.models import DatabaseUserRegisterModel, UserLoginDataModel,UserDataModel
+
+from modules.error_handling import error
 
 logger = create_logger()
 argon2 = PasswordHasher()
@@ -82,6 +88,12 @@ class Database:
                 id INTEGER PRIMARY KEY AUTOINCREMENT
             )
             """)
+
+            self.database.execute("""CREATE TABLE IF NOT EXISTS sessions (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                username VARCHAR(25) NOT NULL,
+                session_token VARCHAR(32) NOT NULL
+            )""")
             self.database.commit()
             self.opt = True
             logger.info("Database initialized")
@@ -147,6 +159,27 @@ class Database:
     def check_user_registration_input(cls,input: DatabaseUserRegisterModel) -> bool:
         if not isinstance(input,DatabaseUserRegisterModel):
             return False # anormal data type
-        model_members = DatabaseUserRegisterModel().__dict__
+        model_members = DatabaseUserRegisterModel().__dict__ # change here
         return all([getattr(input,member) != model_members[member] for member in model_members.keys()])
-        
+    @error(return_value = UserLoginDataModel())
+    def get_username_from_token(self,session_token: str) -> UserLoginDataModel:
+        result = self.cursor.execute("SELECT username FROM sessions WHERE session_token = ?;",(session_token,)).fetchone()[0]
+        user_data = self.extract_user(result)
+        return UserLoginDataModel(
+            auth_token=session_token,
+            user_name = user_data.username,
+            user_surname = user_data.surname,
+            user_photo = user_data.user_photo_data,
+            gender = user_data.gender)
+    def save_user_session_token(self,username: str,token: str) -> bool:
+        if self.get_username_count(username) == 0:
+            logger.warning("You cannot save non-exist user's token")
+            return False
+        try:
+            self.cursor.execute("INSERT INTO sessions(username,session_token) VALUES(?,?);",(username,token,))
+            self.database.commit()
+            logger.info("User %s session token saved %s" % (username,token))
+        except sqlite3.Error as sql_error:
+            logger.critical("Cannot save %s username token %s" % (username,sql_error))
+            return False
+        return True

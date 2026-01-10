@@ -19,15 +19,15 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFrame,
     QHBoxLayout, QLabel, QLineEdit, QMainWindow,
-    QSizePolicy, QSpacerItem, QStackedWidget, QToolButton,
-    QVBoxLayout, QWidget)
+    QPushButton, QSizePolicy, QSpacerItem, QStackedWidget,
+    QTabWidget, QToolButton, QVBoxLayout, QWidget)
 import res_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(756, 604)
+        MainWindow.resize(784, 644)
         icon = QIcon()
         icon.addFile(u":/main/assets/vixgon_window.icon.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
         MainWindow.setWindowIcon(icon)
@@ -35,6 +35,12 @@ class Ui_MainWindow(object):
 "	background-color: #222422;\n"
 "}\n"
 "\n"
+"QLineEdit {\n"
+"	border-radius: 5px;\n"
+"	color: #ced9cf;\n"
+"	background-color: \"yellow\";\n"
+"	font: 700 11pt \"Candara\";\n"
+"}\n"
 "QLabel {\n"
 "	font: 700 11pt \"Candara\";\n"
 "}\n"
@@ -45,10 +51,7 @@ class Ui_MainWindow(object):
 "	border-radius: 3px;\n"
 "}\n"
 "\n"
-"QLineEdit {\n"
-"	border-radius: 10px;\n"
-"	background-color:#687069;\n"
-"}\n"
+"\n"
 "\n"
 "QLineEdit#item_search_lineedit {\n"
 "	background-image: url(:/main/assets/search_colorized.png);\n"
@@ -58,11 +61,28 @@ class Ui_MainWindow(object):
 "	font: 700 11pt \"Candara\";\n"
 "}\n"
 "\n"
+"\n"
 "QComboBox {\n"
 "	height: 30px;\n"
 "	border-radius: 10px;\n"
+"    background-color: \"red\";\n"
 "}\n"
-"")
+"\n"
+"QTabBar:tab {\n"
+"\n"
+"	border: 1px solid gray;\n"
+"	border-top-right-radius: 5px;\n"
+"	border-top-left-radius: 5px;\n"
+"	width: 100px;\n"
+"	height: 20px;\n"
+"	color: #ced9cf;\n"
+"	font: 700 9pt \"Candara\";\n"
+"}\n"
+"\n"
+"\n"
+"QTabBar::tab:selected {\n"
+"	background-color: #f2b818;\n"
+"}")
         MainWindow.setIconSize(QSize(32, 32))
         self.main_widget = QWidget(MainWindow)
         self.main_widget.setObjectName(u"main_widget")
@@ -332,49 +352,49 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3 = QHBoxLayout(self.frame_4)
         self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
-        self.frame_8 = QFrame(self.frame_4)
-        self.frame_8.setObjectName(u"frame_8")
-        self.frame_8.setFrameShape(QFrame.Shape.NoFrame)
-        self.frame_8.setFrameShadow(QFrame.Shadow.Raised)
-        self.verticalLayout_13 = QVBoxLayout(self.frame_8)
+        self.label_frame = QFrame(self.frame_4)
+        self.label_frame.setObjectName(u"label_frame")
+        self.label_frame.setFrameShape(QFrame.Shape.NoFrame)
+        self.label_frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_13 = QVBoxLayout(self.label_frame)
         self.verticalLayout_13.setObjectName(u"verticalLayout_13")
-        self.username_label = QLabel(self.frame_8)
+        self.username_label = QLabel(self.label_frame)
         self.username_label.setObjectName(u"username_label")
 
         self.verticalLayout_13.addWidget(self.username_label)
 
-        self.name_label = QLabel(self.frame_8)
+        self.name_label = QLabel(self.label_frame)
         self.name_label.setObjectName(u"name_label")
 
         self.verticalLayout_13.addWidget(self.name_label)
 
-        self.surname_label = QLabel(self.frame_8)
+        self.surname_label = QLabel(self.label_frame)
         self.surname_label.setObjectName(u"surname_label")
 
         self.verticalLayout_13.addWidget(self.surname_label)
 
-        self.age_label = QLabel(self.frame_8)
+        self.age_label = QLabel(self.label_frame)
         self.age_label.setObjectName(u"age_label")
 
         self.verticalLayout_13.addWidget(self.age_label)
 
-        self.gender_label = QLabel(self.frame_8)
+        self.gender_label = QLabel(self.label_frame)
         self.gender_label.setObjectName(u"gender_label")
 
         self.verticalLayout_13.addWidget(self.gender_label)
 
-        self.registration_label = QLabel(self.frame_8)
+        self.registration_label = QLabel(self.label_frame)
         self.registration_label.setObjectName(u"registration_label")
 
         self.verticalLayout_13.addWidget(self.registration_label)
 
-        self.user_type_label = QLabel(self.frame_8)
+        self.user_type_label = QLabel(self.label_frame)
         self.user_type_label.setObjectName(u"user_type_label")
 
         self.verticalLayout_13.addWidget(self.user_type_label)
 
 
-        self.horizontalLayout_3.addWidget(self.frame_8)
+        self.horizontalLayout_3.addWidget(self.label_frame)
 
         self.text_frame = QFrame(self.frame_4)
         self.text_frame.setObjectName(u"text_frame")
@@ -429,6 +449,112 @@ class Ui_MainWindow(object):
         self.stackedWidget.addWidget(self.user_info_page)
         self.user_management_page = QWidget()
         self.user_management_page.setObjectName(u"user_management_page")
+        self.verticalLayout_15 = QVBoxLayout(self.user_management_page)
+        self.verticalLayout_15.setSpacing(0)
+        self.verticalLayout_15.setObjectName(u"verticalLayout_15")
+        self.verticalLayout_15.setContentsMargins(0, 0, 0, 0)
+        self.user_management_frame = QFrame(self.user_management_page)
+        self.user_management_frame.setObjectName(u"user_management_frame")
+        self.user_management_frame.setFrameShape(QFrame.Shape.NoFrame)
+        self.user_management_frame.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_16 = QVBoxLayout(self.user_management_frame)
+        self.verticalLayout_16.setSpacing(0)
+        self.verticalLayout_16.setObjectName(u"verticalLayout_16")
+        self.verticalLayout_16.setContentsMargins(0, 20, 0, 0)
+        self.tabWidget = QTabWidget(self.user_management_frame)
+        self.tabWidget.setObjectName(u"tabWidget")
+        self.tabWidget.setStyleSheet(u"background-color: #222422;\n"
+"border: none;")
+        self.tabWidget.setTabPosition(QTabWidget.TabPosition.North)
+        self.tabWidget.setElideMode(Qt.TextElideMode.ElideNone)
+        self.tabWidget.setDocumentMode(True)
+        self.tabWidget.setTabsClosable(False)
+        self.tabWidget.setMovable(False)
+        self.item_add_page = QWidget()
+        self.item_add_page.setObjectName(u"item_add_page")
+        self.horizontalLayout_4 = QHBoxLayout(self.item_add_page)
+        self.horizontalLayout_4.setSpacing(0)
+        self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.frame_2 = QFrame(self.item_add_page)
+        self.frame_2.setObjectName(u"frame_2")
+        self.frame_2.setStyleSheet(u"")
+        self.frame_2.setFrameShape(QFrame.Shape.NoFrame)
+        self.frame_2.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_17 = QVBoxLayout(self.frame_2)
+        self.verticalLayout_17.setObjectName(u"verticalLayout_17")
+        self.frame_5 = QFrame(self.frame_2)
+        self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_5.setFrameShadow(QFrame.Shadow.Raised)
+        self.horizontalLayout_5 = QHBoxLayout(self.frame_5)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
+        self.item_name = QLineEdit(self.frame_5)
+        self.item_name.setObjectName(u"item_name")
+        self.item_name.setMaximumSize(QSize(400, 16777215))
+        self.item_name.setStyleSheet(u"QLineEdit#item_name{\n"
+"	border-radius: 5px;\n"
+"	color: #ced9cf;\n"
+"	height: 30px;\n"
+"	background-color: #687069;\n"
+"	\n"
+"	font: 700 11pt \"Candara\";\n"
+"}")
+        self.item_name.setMaxLength(100)
+        self.item_name.setFrame(True)
+
+        self.horizontalLayout_5.addWidget(self.item_name)
+
+        self.item_shelf_box = QComboBox(self.frame_5)
+        self.item_shelf_box.setObjectName(u"item_shelf_box")
+        self.item_shelf_box.setStyleSheet(u"\n"
+"	border-radius: 5px;\n"
+"	color: #ced9cf;\n"
+"	background-color: #687069;\n"
+"\n"
+"	font: 700 11pt \"Candara\";\n"
+"")
+        self.item_shelf_box.setFrame(True)
+
+        self.horizontalLayout_5.addWidget(self.item_shelf_box)
+
+
+        self.verticalLayout_17.addWidget(self.frame_5)
+
+        self.frame_8 = QFrame(self.frame_2)
+        self.frame_8.setObjectName(u"frame_8")
+        self.frame_8.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_8.setFrameShadow(QFrame.Shadow.Raised)
+
+        self.verticalLayout_17.addWidget(self.frame_8)
+
+        self.frame_9 = QFrame(self.frame_2)
+        self.frame_9.setObjectName(u"frame_9")
+        self.frame_9.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_9.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_18 = QVBoxLayout(self.frame_9)
+        self.verticalLayout_18.setObjectName(u"verticalLayout_18")
+        self.pushButton = QPushButton(self.frame_9)
+        self.pushButton.setObjectName(u"pushButton")
+
+        self.verticalLayout_18.addWidget(self.pushButton)
+
+
+        self.verticalLayout_17.addWidget(self.frame_9)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_2)
+
+        self.tabWidget.addTab(self.item_add_page, "")
+        self.item_remove_page = QWidget()
+        self.item_remove_page.setObjectName(u"item_remove_page")
+        self.tabWidget.addTab(self.item_remove_page, "")
+
+        self.verticalLayout_16.addWidget(self.tabWidget)
+
+
+        self.verticalLayout_15.addWidget(self.user_management_frame)
+
         self.stackedWidget.addWidget(self.user_management_page)
         self.about_page = QWidget()
         self.about_page.setObjectName(u"about_page")
@@ -473,7 +599,8 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(5)
+        self.stackedWidget.setCurrentIndex(4)
+        self.tabWidget.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -506,6 +633,11 @@ class Ui_MainWindow(object):
         self.gender_text.setText("")
         self.registration_text.setText("")
         self.user_type_text.setText("")
+        self.item_name.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn ismi", None))
+        self.item_shelf_box.setPlaceholderText(QCoreApplication.translate("MainWindow", u"RAF ADI", None))
+        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.item_add_page), QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn Ekleme", None))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.item_remove_page), QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn Silme", None))
         self.app_icon.setText("")
         self.about_text.setText(QCoreApplication.translate("MainWindow", u"\u00a9 Alperen \u00c7avu\u015f \u2013 T\u00fcm Haklar\u0131 Sakl\u0131d\u0131r\n"
 "\n"

@@ -1,0 +1,81 @@
+2026-01-07 21:24:33,607 - INFO - root - Database initialized - 87
+2026-01-07 21:24:34,367 - INFO - root - Database initialized :) - 25
+2026-01-07 21:24:48,818 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:24:50,865 - CRITICAL - root - Cannot reach server http://127.0.0.1:8000/vixgon/login_test -> HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /vixgon/login_test (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8000): Failed to establish a new connection: [WinError 10061] Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý")) - 28
+2026-01-07 21:25:36,992 - INFO - root - Database initialized - 87
+2026-01-07 21:25:42,357 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:25:42,361 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:25:42,362 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:25:42,371 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:25:42,372 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:25:42,438 - INFO - root - User alperen logged in - 73
+2026-01-07 21:25:42,439 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:25:42,439 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:25:42,440 - DEBUG - urllib3.connectionpool - http://127.0.0.1:8000 "POST /vixgon/login_test HTTP/1.1" 200 18764 - 544
+2026-01-07 21:32:57,353 - INFO - root - Database initialized - 87
+2026-01-07 21:33:19,857 - INFO - root - Username string count is 0 - 98
+2026-01-07 21:33:19,858 - WARNING - root - Wrong password or username string:string - 75
+2026-01-07 21:33:55,319 - INFO - root - Database initialized - 87
+2026-01-07 21:33:57,425 - INFO - root - Username string count is 0 - 98
+2026-01-07 21:33:57,426 - WARNING - root - Wrong password or username string:string - 75
+2026-01-07 21:34:20,721 - INFO - root - Database initialized - 87
+2026-01-07 21:34:22,588 - INFO - root - Username string count is 0 - 98
+2026-01-07 21:34:22,588 - WARNING - root - Wrong password or username string:string - 75
+2026-01-07 21:34:31,347 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:34:31,347 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:34:31,348 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:34:31,349 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:34:31,414 - WARNING - root - Wrong password or username alperen:string - 75
+2026-01-07 21:34:41,789 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:34:41,790 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:34:41,791 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:34:41,792 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:34:41,859 - INFO - root - User alperen logged in - 73
+2026-01-07 21:34:41,860 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:34:41,860 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:40:05,983 - INFO - root - Database initialized - 87
+2026-01-07 21:42:21,819 - INFO - root - Database initialized - 87
+2026-01-07 21:42:35,516 - INFO - root - Database initialized - 87
+2026-01-07 21:42:35,629 - INFO - root - Database initialized :) - 25
+2026-01-07 21:42:46,151 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:42:46,154 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:42:46,154 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:42:46,154 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:42:46,155 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:42:46,219 - INFO - root - User alperen logged in - 73
+2026-01-07 21:42:46,220 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:42:46,220 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:42:46,221 - DEBUG - urllib3.connectionpool - http://127.0.0.1:8000 "POST /vixgon/login_test HTTP/1.1" 200 18780 - 544
+2026-01-07 21:44:22,855 - INFO - root - Database initialized - 87
+2026-01-07 21:44:22,971 - INFO - root - Database initialized :) - 25
+2026-01-07 21:44:29,335 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:44:29,338 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:44:29,338 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:44:29,339 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:44:29,339 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:44:29,402 - INFO - root - User alperen logged in - 73
+2026-01-07 21:44:29,403 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:44:29,403 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:44:29,404 - DEBUG - urllib3.connectionpool - http://127.0.0.1:8000 "POST /vixgon/login_test HTTP/1.1" 200 18780 - 544
+2026-01-07 21:44:52,277 - INFO - root - Database initialized - 87
+2026-01-07 21:44:52,392 - INFO - root - Database initialized :) - 25
+2026-01-07 21:44:59,550 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:44:59,552 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:44:59,552 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:44:59,553 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:44:59,553 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:44:59,617 - INFO - root - User alperen logged in - 73
+2026-01-07 21:44:59,617 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:44:59,618 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:44:59,619 - DEBUG - urllib3.connectionpool - http://127.0.0.1:8000 "POST /vixgon/login_test HTTP/1.1" 200 18780 - 544
+2026-01-07 21:45:23,005 - INFO - root - Database initialized - 87
+2026-01-07 21:45:23,115 - INFO - root - Database initialized :) - 25
+2026-01-07 21:45:29,260 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-07 21:45:29,263 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:45:29,263 - INFO - root - Username alperen count is 1 - 98
+2026-01-07 21:45:29,264 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:45:29,264 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:45:29,328 - INFO - root - User alperen logged in - 73
+2026-01-07 21:45:29,329 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-07 21:45:29,329 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-07 21:45:29,330 - DEBUG - urllib3.connectionpool - http://127.0.0.1:8000 "POST /vixgon/login_test HTTP/1.1" 200 18780 - 544

@@ -22,7 +22,7 @@ class Workerw(QRunnable):
     def run(self):
         self.parent.request_begin.emit(True)
         try:
-            result = self.session.post(self.base_url,json = self.kwargs)
+            result = self.session.post(self.base_url,json = self.kwargs,timeout=1)
             self.parent.request_data.emit(result)
         except Exception as e:
             logger.critical("Cannot reach server %s -> %s" % (self.base_url,str(e)))
@@ -45,7 +45,7 @@ class Requests(QObject):
         print(url)
         self.url = url
         self.kws = kwargs
-        self.test_thread = Workerw(self.session,self,self.base_url + url,**kwargs)
+        self.test_thread = Workerw(self.session,self,self.base_url + url,**self.kws)
         self.threadpool.start(self.test_thread)
     def __repr__(self):
         return "<%s base_url = %s>" % (self.__class__.__name__,self.base_url)

@@ -2,6 +2,7 @@ import os
 from PySide6.QtGui import QMovie
 from PySide6.QtWidgets import QLabel, QVBoxLayout, QWidget
 from PySide6.QtCore import Qt
+from PySide6.QtCore import QTimer
 from modules import get_assets_path
 class LoadingIcon(QWidget):
     def __init__(self,label_text: str = ""):
@@ -22,7 +23,10 @@ class LoadingIcon(QWidget):
         self.vertical_layout.addWidget(self.gif_label,alignment = Qt.AlignmentFlag.AlignCenter)
         self.vertical_layout.addWidget(self.text_label,alignment = Qt.AlignmentFlag.AlignCenter)
         self.hided = False
+        self.timer = QTimer(self,interval = 1000)
+        self.timer.timeout.connect(self.hide_widget)
     def start_movie(self):
+        self.timer.start()
         if self.hided:
             self.show()
             self.hided = False

@@ -12,7 +12,7 @@ from . import get_app_path, get_local_database_path
 from . import get_user_photo_path
 from . import create_uuid
 from . import can_decodeb64data
-
+from .error_handling import error
 logger = create_logger()
 class ClientDatabase:
     def __init__(self,*,database: str = get_local_database_path()):
@@ -41,7 +41,7 @@ class ClientDatabase:
             return False
         if (
             (0 < username_len <= 25) and 
-            (0 < auth_token_len <= 32)
+            (0 < auth_token_len <= 127)
             ):
             try:
                 user_photo_path = os.path.join(get_user_photo_path(create_uuid()))
@@ -58,6 +58,7 @@ class ClientDatabase:
         return_model = LocalCredentialsModel()
         if self.check_db_initialized_or_not():
             logger.warning("Database is not initialized")
+            return
         try:
             data = self.cursor.execute("SELECT * FROM login_credentials;").fetchall()[0]
             return_model.username = data[0]
@@ -107,3 +108,11 @@ class ClientDatabase:
                 logger.critical("Cannot close db %s " % (str(sql_error)))
             return
         logger.info("Database cannot close because it's not opened anyway")
+    @classmethod
+    def remove_local_db(cls):
+        logger.warning("Removing local database")
+        try:
+            shutil.rmtree(get_app_path())
+            logger.info("Database removed")
+        except Exception as err:
+            logger.error("Cannot remove app path %s " % (str(err)))

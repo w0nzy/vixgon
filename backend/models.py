@@ -6,13 +6,14 @@ from dataclasses import field as Field
 class LoginModel(BaseModel):
     username: str
     password: str
+    remember_me: bool
 
 class UserLoginDataModel(BaseModel):
-    auth_token: str
-    user_name: str
-    user_surname: str
-    user_photo: str
-
+    auth_token: str = Field(default = "no_auth_token")
+    user_name: str = Field(default = "no_username")
+    user_surname: str =  Field(default = "no_user_surname")
+    user_photo: str = Field(default = "no_photo")
+    gender: str = Field(default = "no_gender")
 
 class UserDataModel(BaseModel):
     username: str = Field(default = "no_username")

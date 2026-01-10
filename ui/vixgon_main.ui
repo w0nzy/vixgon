@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>756</width>
-    <height>604</height>
+    <width>784</width>
+    <height>644</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -22,6 +22,12 @@
 	background-color: #222422;
 }
 
+QLineEdit {
+	border-radius: 5px;
+	color: #ced9cf;
+	background-color: &quot;yellow&quot;;
+	font: 700 11pt &quot;Candara&quot;;
+}
 QLabel {
 	font: 700 11pt &quot;Candara&quot;;
 }
@@ -32,10 +38,7 @@ QStackedWidget {
 	border-radius: 3px;
 }
 
-QLineEdit {
-	border-radius: 10px;
-	background-color:#687069;
-}
+
 
 QLineEdit#item_search_lineedit {
 	background-image: url(:/main/assets/search_colorized.png);
@@ -45,11 +48,28 @@ QLineEdit#item_search_lineedit {
 	font: 700 11pt &quot;Candara&quot;;
 }
 
+
 QComboBox {
 	height: 30px;
 	border-radius: 10px;
+    background-color: &quot;red&quot;;
 }
-</string>
+
+QTabBar:tab {
+
+	border: 1px solid gray;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	width: 100px;
+	height: 20px;
+	color: #ced9cf;
+	font: 700 9pt &quot;Candara&quot;;
+}
+
+
+QTabBar::tab:selected {
+	background-color: #f2b818;
+}</string>
   </property>
   <property name="iconSize">
    <size>
@@ -741,7 +761,7 @@ QToolButton:hover {
               <item>
                <widget class="QFrame" name="user_management_frame">
                 <property name="frameShape">
-                 <enum>QFrame::Shape::StyledPanel</enum>
+                 <enum>QFrame::Shape::NoFrame</enum>
                 </property>
                 <property name="frameShadow">
                  <enum>QFrame::Shadow::Raised</enum>
@@ -764,17 +784,157 @@ QToolButton:hover {
                  </property>
                  <item>
                   <widget class="QTabWidget" name="tabWidget">
-                   <property name="currentIndex">
-                    <number>1</number>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: #222422;
+border: none;</string>
                    </property>
-                   <widget class="QWidget" name="user_registration_page">
+                   <property name="tabPosition">
+                    <enum>QTabWidget::TabPosition::North</enum>
+                   </property>
+                   <property name="currentIndex">
+                    <number>0</number>
+                   </property>
+                   <property name="elideMode">
+                    <enum>Qt::TextElideMode::ElideNone</enum>
+                   </property>
+                   <property name="documentMode">
+                    <bool>true</bool>
+                   </property>
+                   <property name="tabsClosable">
+                    <bool>false</bool>
+                   </property>
+                   <property name="movable">
+                    <bool>false</bool>
+                   </property>
+                   <widget class="QWidget" name="item_add_page">
                     <attribute name="title">
-                     <string>Tab 1</string>
+                     <string>Ürün Ekleme</string>
                     </attribute>
+                    <layout class="QHBoxLayout" name="horizontalLayout_4">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <property name="leftMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="topMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="rightMargin">
+                      <number>0</number>
+                     </property>
+                     <property name="bottomMargin">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QFrame" name="frame_2">
+                       <property name="styleSheet">
+                        <string notr="true"/>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::Shape::NoFrame</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Shadow::Raised</enum>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_17">
+                        <item>
+                         <widget class="QFrame" name="frame_5">
+                          <property name="frameShape">
+                           <enum>QFrame::Shape::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Shadow::Raised</enum>
+                          </property>
+                          <layout class="QHBoxLayout" name="horizontalLayout_5">
+                           <item>
+                            <widget class="QLineEdit" name="item_name">
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">QLineEdit#item_name{
+	border-radius: 5px;
+	color: #ced9cf;
+	height: 30px;
+	background-color: #687069;
+	
+	font: 700 11pt &quot;Candara&quot;;
+}</string>
+                             </property>
+                             <property name="maxLength">
+                              <number>100</number>
+                             </property>
+                             <property name="frame">
+                              <bool>true</bool>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Ürün ismi</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="item_shelf_box">
+                             <property name="styleSheet">
+                              <string notr="true">
+	border-radius: 5px;
+	color: #ced9cf;
+	background-color: #687069;
+
+	font: 700 11pt &quot;Candara&quot;;
+</string>
+                             </property>
+                             <property name="placeholderText">
+                              <string>RAF ADI</string>
+                             </property>
+                             <property name="frame">
+                              <bool>true</bool>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="frame_8">
+                          <property name="frameShape">
+                           <enum>QFrame::Shape::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Shadow::Raised</enum>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QFrame" name="frame_9">
+                          <property name="frameShape">
+                           <enum>QFrame::Shape::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Shadow::Raised</enum>
+                          </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_18">
+                           <item>
+                            <widget class="QPushButton" name="pushButton">
+                             <property name="text">
+                              <string>PushButton</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
                    </widget>
-                   <widget class="QWidget" name="tab_2">
+                   <widget class="QWidget" name="item_remove_page">
                     <attribute name="title">
-                     <string>Tab 2</string>
+                     <string>Ürün Silme</string>
                     </attribute>
                    </widget>
                   </widget>
