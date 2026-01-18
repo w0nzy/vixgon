@@ -1,5 +1,9 @@
 <RCC>
   <qresource prefix="main">
+    <file>assets/item_send_colorized.png</file>
+    <file>assets/arrow_down_colorized.png</file>
+    <file>assets/item_photo_add_colorized.png</file>
+    <file>assets/item_add_colorized.png</file>
     <file>assets/gender_female.png</file>
     <file>assets/gender_non_identified.png</file>
     <file>assets/gender_male.png</file>

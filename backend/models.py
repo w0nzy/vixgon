@@ -2,6 +2,8 @@
 from dataclasses import dataclass
 from dataclasses import field as Field
 
+from typing import List
+
 
 class LoginModel(BaseModel):
     username: str
@@ -9,7 +11,7 @@ class LoginModel(BaseModel):
     remember_me: bool
 
 class UserLoginDataModel(BaseModel):
-    auth_token: str = Field(default = "no_auth_token")
+    auth_token: str = Field(default = "no_auth_token") 
     user_name: str = Field(default = "no_username")
     user_surname: str =  Field(default = "no_user_surname")
     user_photo: str = Field(default = "no_photo")
@@ -41,3 +43,8 @@ class DatabaseUserRegisterModel:
     registertration_time: int = Field(default=0)
     user_photo_name: str = Field(default="no_photo")
 
+class ShelfList(BaseModel):
+    shelfs: List[str] = Field(default=[])
+
+class TokenData(BaseModel):
+    token: str

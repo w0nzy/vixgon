@@ -7,9 +7,7 @@
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
-import os
-import sys
-sys.path.append(os.path.dirname(__file__))
+
 from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
     QMetaObject, QObject, QPoint, QRect,
     QSize, QTime, QUrl, Qt)
@@ -17,10 +15,11 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFrame,
-    QHBoxLayout, QLabel, QLineEdit, QMainWindow,
-    QPushButton, QSizePolicy, QSpacerItem, QStackedWidget,
-    QTabWidget, QToolButton, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QAbstractItemView, QApplication, QCheckBox, QComboBox,
+    QFrame, QHBoxLayout, QHeaderView, QLabel,
+    QLineEdit, QMainWindow, QSizePolicy, QSpacerItem,
+    QStackedWidget, QTabWidget, QTableWidget, QTableWidgetItem,
+    QTextEdit, QToolButton, QVBoxLayout, QWidget)
 import res_rc
 
 class Ui_MainWindow(object):
@@ -35,12 +34,7 @@ class Ui_MainWindow(object):
 "	background-color: #222422;\n"
 "}\n"
 "\n"
-"QLineEdit {\n"
-"	border-radius: 5px;\n"
-"	color: #ced9cf;\n"
-"	background-color: \"yellow\";\n"
-"	font: 700 11pt \"Candara\";\n"
-"}\n"
+"\n"
 "QLabel {\n"
 "	font: 700 11pt \"Candara\";\n"
 "}\n"
@@ -62,11 +56,7 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "\n"
-"QComboBox {\n"
-"	height: 30px;\n"
-"	border-radius: 10px;\n"
-"    background-color: \"red\";\n"
-"}\n"
+"\n"
 "\n"
 "QTabBar:tab {\n"
 "\n"
@@ -82,6 +72,19 @@ class Ui_MainWindow(object):
 "\n"
 "QTabBar::tab:selected {\n"
 "	background-color: #f2b818;\n"
+"	color: \"#bf4392\";\n"
+"}\n"
+"\n"
+"QFileDialog {\n"
+"	background-color: none;\n"
+"}\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"QTableWidgetItem {\n"
+"	font: 700 11pt \"Candara\";\n"
+"	color:  #ced9cf;\n"
 "}")
         MainWindow.setIconSize(QSize(32, 32))
         self.main_widget = QWidget(MainWindow)
@@ -466,10 +469,12 @@ class Ui_MainWindow(object):
         self.tabWidget.setStyleSheet(u"background-color: #222422;\n"
 "border: none;")
         self.tabWidget.setTabPosition(QTabWidget.TabPosition.North)
+        self.tabWidget.setIconSize(QSize(16, 16))
         self.tabWidget.setElideMode(Qt.TextElideMode.ElideNone)
         self.tabWidget.setDocumentMode(True)
         self.tabWidget.setTabsClosable(False)
-        self.tabWidget.setMovable(False)
+        self.tabWidget.setMovable(True)
+        self.tabWidget.setTabBarAutoHide(True)
         self.item_add_page = QWidget()
         self.item_add_page.setObjectName(u"item_add_page")
         self.horizontalLayout_4 = QHBoxLayout(self.item_add_page)
@@ -485,13 +490,13 @@ class Ui_MainWindow(object):
         self.verticalLayout_17.setObjectName(u"verticalLayout_17")
         self.frame_5 = QFrame(self.frame_2)
         self.frame_5.setObjectName(u"frame_5")
+        self.frame_5.setMaximumSize(QSize(16777215, 100))
         self.frame_5.setFrameShape(QFrame.Shape.StyledPanel)
         self.frame_5.setFrameShadow(QFrame.Shadow.Raised)
         self.horizontalLayout_5 = QHBoxLayout(self.frame_5)
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.item_name = QLineEdit(self.frame_5)
         self.item_name.setObjectName(u"item_name")
-        self.item_name.setMaximumSize(QSize(400, 16777215))
         self.item_name.setStyleSheet(u"QLineEdit#item_name{\n"
 "	border-radius: 5px;\n"
 "	color: #ced9cf;\n"
@@ -507,13 +512,39 @@ class Ui_MainWindow(object):
 
         self.item_shelf_box = QComboBox(self.frame_5)
         self.item_shelf_box.setObjectName(u"item_shelf_box")
-        self.item_shelf_box.setStyleSheet(u"\n"
-"	border-radius: 5px;\n"
-"	color: #ced9cf;\n"
-"	background-color: #687069;\n"
-"\n"
+        self.item_shelf_box.setMinimumSize(QSize(200, 0))
+        self.item_shelf_box.setMaximumSize(QSize(400, 16777215))
+        self.item_shelf_box.setStyleSheet(u"QComboBox {\n"
+"	height: 30px;\n"
+"	background-color:  #687069;\n"
 "	font: 700 11pt \"Candara\";\n"
-"")
+"	color:  #ced9cf;\n"
+"	border: 1px solid \"gray\";\n"
+"	border-top-left-radius: 10px;\n"
+"	border-top-right-radius: 10px;\n"
+"}\n"
+"\n"
+"\n"
+"QComboBox:drop-down {\n"
+"	border: 1px solid \"white\";\n"
+"	background-image: url(:/main/assets/arrow_down_colorized.png);\n"
+"	background-repeat: no-repeat;\n"
+"	background-position: right;\n"
+"	padding-top: 4px;\n"
+"	background-color: \"red\";\n"
+"	width: 20px;\n"
+"	border-top-right-radius: 5px;\n"
+"	border-top-right-radius: 10px;\n"
+"	background-color: #f2b818;\n"
+"	color: \"#bf4392\";\n"
+"}\n"
+"\n"
+" QComboBox QAbstractItemView {\n"
+"					background-color: #9b9e91;\n"
+"                    border-bottom-right-radius: 10px;\n"
+"                    border-bottom-left-radius: 10px;\n"
+"                   color:  #ced9cf;\n"
+"                  }")
         self.item_shelf_box.setFrame(True)
 
         self.horizontalLayout_5.addWidget(self.item_shelf_box)
@@ -525,6 +556,120 @@ class Ui_MainWindow(object):
         self.frame_8.setObjectName(u"frame_8")
         self.frame_8.setFrameShape(QFrame.Shape.StyledPanel)
         self.frame_8.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_19 = QVBoxLayout(self.frame_8)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.item_add_btn = QToolButton(self.frame_8)
+        self.item_add_btn.setObjectName(u"item_add_btn")
+        self.item_add_btn.setStyleSheet(u"QToolButton {\n"
+"	background-color: \"gray\";\n"
+"	border-radius: 10px;\n"
+"	width: 100px;\n"
+"	height: 70px;\n"
+"	color: #ced9cf;\n"
+"	background-color: #687069;\n"
+"	\n"
+"	font: 700 11pt \"Candara\";\n"
+"}\n"
+"QToolButton:hover {\n"
+"color: \"#bf4392\";\n"
+"background-color: #f2b818;\n"
+"}")
+        icon7 = QIcon()
+        icon7.addFile(u":/main/assets/item_photo_add_colorized.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.item_add_btn.setIcon(icon7)
+        self.item_add_btn.setIconSize(QSize(32, 32))
+        self.item_add_btn.setCheckable(False)
+        self.item_add_btn.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
+        self.item_add_btn.setAutoRaise(False)
+
+        self.verticalLayout_19.addWidget(self.item_add_btn, 0, Qt.AlignmentFlag.AlignHCenter|Qt.AlignmentFlag.AlignTop)
+
+        self.item_photo_list_table_widget = QTableWidget(self.frame_8)
+        if (self.item_photo_list_table_widget.columnCount() < 3):
+            self.item_photo_list_table_widget.setColumnCount(3)
+        self.item_photo_list_table_widget.setObjectName(u"item_photo_list_table_widget")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.item_photo_list_table_widget.sizePolicy().hasHeightForWidth())
+        self.item_photo_list_table_widget.setSizePolicy(sizePolicy1)
+        self.item_photo_list_table_widget.setStyleSheet(u"/*\n"
+"\n"
+"border-radius: 5px;\n"
+"	color: #ced9cf;\n"
+"	height: 30px;\n"
+"	background-color: #687069;\n"
+"	\n"
+"	font: 700 11pt \"Candara\";\n"
+"\n"
+"*/\n"
+"\n"
+"QTableWidget {\n"
+"\n"
+"	border: 1px solid gray;\n"
+"	border-radius: 10px;\n"
+"}\n"
+"\n"
+"QHeaderView {\n"
+"	margin: 2px;\n"
+"	height: 5px;\n"
+"	border-bottom: 1px solid  #687069;\n"
+"\n"
+"	\n"
+"	font: 700 11pt \"Candara\";\n"
+"}\n"
+"\n"
+"QHeaderView::section {\n"
+"	height: 28px;\n"
+"	background-color: \"transparent\";\n"
+"	margin: 2px;\n"
+"	color: #ced9cf;\n"
+"}\n"
+"\n"
+"QTableView {\n"
+"	font: 700 11pt \"Candara\";\n"
+"}\n"
+"QTableView::item {\n"
+"	font: 700 11pt \"Candara\";\n"
+"	color: #ced9cf;\n"
+"	margin: 2px;\n"
+"}\n"
+"\n"
+"QComboBox {\n"
+"	font: 700 11pt \"Candara\";\n"
+"	border: 1px solid #687069;\n"
+"	background-color: #f2b818;\n"
+"	color: \"#bf4392\";\n"
+"	border-radius: 10px;\n"
+"	border-bottom-left-radius: 1px;\n"
+"    border-bottom-right-radius: 1px;\n"
+"}\n"
+"\n"
+"QComboBox:drop-down {\n"
+"	border-left: 1px solid \"white\";\n"
+"	borde"
+                        "r-bottom-right-radius: 4px;\n"
+"	border-top-right-radius: 4px;\n"
+"}\n"
+"\n"
+"\n"
+"                  \n"
+"")
+        self.item_photo_list_table_widget.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
+        self.item_photo_list_table_widget.setSelectionMode(QAbstractItemView.SelectionMode.NoSelection)
+        self.item_photo_list_table_widget.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectItems)
+        self.item_photo_list_table_widget.setShowGrid(True)
+        self.item_photo_list_table_widget.setGridStyle(Qt.PenStyle.DashDotLine)
+        self.item_photo_list_table_widget.setSortingEnabled(False)
+        self.item_photo_list_table_widget.setCornerButtonEnabled(False)
+        self.item_photo_list_table_widget.setColumnCount(3)
+        self.item_photo_list_table_widget.horizontalHeader().setVisible(True)
+        self.item_photo_list_table_widget.horizontalHeader().setMinimumSectionSize(26)
+        self.item_photo_list_table_widget.horizontalHeader().setStretchLastSection(False)
+        self.item_photo_list_table_widget.verticalHeader().setStretchLastSection(False)
+
+        self.verticalLayout_19.addWidget(self.item_photo_list_table_widget)
+
 
         self.verticalLayout_17.addWidget(self.frame_8)
 
@@ -534,10 +679,49 @@ class Ui_MainWindow(object):
         self.frame_9.setFrameShadow(QFrame.Shadow.Raised)
         self.verticalLayout_18 = QVBoxLayout(self.frame_9)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
-        self.pushButton = QPushButton(self.frame_9)
-        self.pushButton.setObjectName(u"pushButton")
+        self.verticalLayout_18.setContentsMargins(-1, 0, -1, 0)
+        self.textEdit = QTextEdit(self.frame_9)
+        self.textEdit.setObjectName(u"textEdit")
+        sizePolicy2 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy2.setHorizontalStretch(0)
+        sizePolicy2.setVerticalStretch(0)
+        sizePolicy2.setHeightForWidth(self.textEdit.sizePolicy().hasHeightForWidth())
+        self.textEdit.setSizePolicy(sizePolicy2)
+        self.textEdit.setMaximumSize(QSize(16777215, 150))
+        self.textEdit.setStyleSheet(u"color: #ced9cf;\n"
+"border: 1px solid gray;\n"
+"border-radius: 10px;\n"
+"font: 700 11pt \"Candara\";")
 
-        self.verticalLayout_18.addWidget(self.pushButton)
+        self.verticalLayout_18.addWidget(self.textEdit)
+
+        self.verticalSpacer_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+
+        self.verticalLayout_18.addItem(self.verticalSpacer_2)
+
+        self.toolButton_2 = QToolButton(self.frame_9)
+        self.toolButton_2.setObjectName(u"toolButton_2")
+        self.toolButton_2.setStyleSheet(u"QToolButton {\n"
+"	background-color: \"gray\";\n"
+"	border-radius: 10px;\n"
+"	width: 100px;\n"
+"	height: 50px;\n"
+"	color: #ced9cf;\n"
+"	background-color: #687069;\n"
+"	\n"
+"	font: 700 11pt \"Candara\";\n"
+"}\n"
+"QToolButton:hover {\n"
+"color: \"#bf4392\";\n"
+"background-color: #f2b818;\n"
+"}")
+        icon8 = QIcon()
+        icon8.addFile(u":/main/assets/item_send_colorized.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.toolButton_2.setIcon(icon8)
+        self.toolButton_2.setIconSize(QSize(32, 32))
+        self.toolButton_2.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
+
+        self.verticalLayout_18.addWidget(self.toolButton_2, 0, Qt.AlignmentFlag.AlignHCenter)
 
 
         self.verticalLayout_17.addWidget(self.frame_9)
@@ -545,7 +729,9 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_4.addWidget(self.frame_2)
 
-        self.tabWidget.addTab(self.item_add_page, "")
+        icon9 = QIcon()
+        icon9.addFile(u":/main/assets/item_add_colorized.png", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        self.tabWidget.addTab(self.item_add_page, icon9, "")
         self.item_remove_page = QWidget()
         self.item_remove_page.setObjectName(u"item_remove_page")
         self.tabWidget.addTab(self.item_remove_page, "")
@@ -635,7 +821,9 @@ class Ui_MainWindow(object):
         self.user_type_text.setText("")
         self.item_name.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn ismi", None))
         self.item_shelf_box.setPlaceholderText(QCoreApplication.translate("MainWindow", u"RAF ADI", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.item_add_btn.setText(QCoreApplication.translate("MainWindow", u"RESIM EKLE", None))
+        self.textEdit.setPlaceholderText(QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn bilgileri .....", None))
+        self.toolButton_2.setText(QCoreApplication.translate("MainWindow", u"G\u00f6nder..", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.item_add_page), QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn Ekleme", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.item_remove_page), QCoreApplication.translate("MainWindow", u"\u00dcr\u00fcn Silme", None))
         self.app_icon.setText("")

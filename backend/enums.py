@@ -12,3 +12,4 @@ class DatabaseRegisterCode(IntEnum):
     BAD_HASH_VALUE = 3
     SQL_ERROR = 4
     NOT_INITIALIZED_DATABASE = 5
+    DATA_ALREADY_EXISTS = 6

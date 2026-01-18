@@ -8,16 +8,20 @@ from datetime import timezone
 
 from fastapi import (
     FastAPI,
-    Depends
+    Depends,
+    Header,
+    Request,
+    Response
     )
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.exceptions import HTTPException
 from argon2 import PasswordHasher
 from pydantic import Secret
 from backend.db import Database, DatabaseRegisterCode, DatabaseUserRegisterModel
-from backend.models import UserDataModel, UserLoginDataModel, UserRegistrationResponseModel
-from backend.models import LoginModel
+from backend.models import ShelfList, UserDataModel, UserLoginDataModel, UserRegistrationResponseModel
+from backend.models import LoginModel,TokenData
 from backend.util import read_user_photo
+from backend.util import put_action_to_http_header
 from modules.vixgon_log import create_logger
 from backend.hash import compare_hash
 logger = create_logger()
@@ -27,17 +31,24 @@ database = Database("main.db")
 database.init_db()
 jwt_secret_key = "0b1211543e2971991cc26974b53e7a5b9adf00576d8d82c9de38e691b1b3110e"
 
-def validate_user_token(token_data):
+def validate_user_token(header: Request):
+    token_data = header
+    if isinstance(header,Request):
+        token_data = header.headers.get("Authorization")
+        if token_data is None or len(token_data.split(" ")) < 2:
+            raise HTTPException(status_code = 401,detail = "No token",headers = {"WWW-Authenticate":"Bearer"})
+        token_data = token_data.split(" ")[1]
+    print(token_data,token_data.__class__)
     try:
         decoded_jwt = jwt.decode(token_data,jwt_secret_key,algorithms=["HS256"])
         username = decoded_jwt.get("sub")
-    except Exception as e:
+    except Exception as e: # fix here
         logger.critical("Validation error %s" % (str(e)))
         raise HTTPException(status_code = 401,detail = "Expired token",headers = {"WWW-Authenticate":"Bearer"})
-    return token_data
+    return TokenData(token=token_data)
 def create_token(payload: dict,remember_me = False) -> str:
     payload = payload.copy()
-    payload.update({"exp":datetime.now(timezone.utc) + timedelta(minutes =1)})
+    payload.update({"exp":datetime.now(timezone.utc) + timedelta(minutes =1000000)})
     try:
         data = jwt.encode(payload,jwt_secret_key,algorithm="HS256")
     except jwt.PyJWTError as jwt_error:
@@ -100,3 +111,11 @@ async def login_test(user_input: LoginModel) -> UserLoginDataModel:
 @backend_api.post("/vixgon/api/login_with_token/{token}")
 async def login_with_token(token: Annotated[str,Depends(validate_user_token)]) -> UserLoginDataModel:
     return database.get_username_from_token(token)
+
+@backend_api.get("/vixgon/api/get_shelfs")
+async def get_shelfs(headers: Response,token = Depends(validate_user_token)) -> ShelfList:
+    headers.headers["action"] = "get-shelf"
+    return database.get_shelfs()
+@backend_api.post("/vixgon/header/test")
+async def header_test(text: str,header_creds = Depends(put_action_to_http_header)):
+    return {"data":text}

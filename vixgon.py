@@ -12,16 +12,15 @@ import base64
 import hashlib
 import requests
 
-from PySide6.QtWidgets import QDialog,QApplication, QVBoxLayout
+from PySide6.QtWidgets import QComboBox, QDialog,QApplication, QVBoxLayout,QHeaderView,QTableWidgetItem
 from PySide6.QtGui import QPixmap,QBrush
-from PySide6.QtCore import QObject, Qt,QRect, Signal
+from PySide6.QtCore import QFile, QObject, Qt,QRect, Signal
 from PySide6.QtGui import QPen,QBrush,QPixmap,QIcon
-from PySide6.QtWidgets import (QMainWindow,QApplication,QLabel)
-
+from PySide6.QtWidgets import (QMainWindow,QApplication,QLabel,QFileDialog)
 from requests import status_codes
 from backend import Database, UserLoginDataModel
 from backend.models import UserDataModel
-from models.login_ui import QPainter, Ui_Dialog
+from models.login_ui import QPainter, QWidget, Ui_Dialog
 from backend.enums import UserType
 from models.vixgon_main_ui import Ui_MainWindow
 from modules.request import Requests
@@ -50,9 +49,26 @@ class VixgonMainApp(QMainWindow,Ui_MainWindow):
         self.request = Requests("http://127.0.0.1:8000",self.session)
         self.about_btn.clicked.connect(lambda:self.request.post("/vixgon/api/get_user/alperen"))
         self.user_actions.clicked.connect(lambda:self.tabWidget.setCurrentIndex(0))
+        self.item_add_btn.clicked.connect(self.push_photo_list)
         self.data = data
+    def push_photo_list(self,data):
+        file_dialog = QFileDialog()
+        file_dialog.setFileMode(QFileDialog.FileMode.ExistingFiles)
+        result = file_dialog.exec()
+        if result == 1: # if only file
+            self.item_photo_list_table_widget.setRowCount(self.item_photo_list_table_widget.rowCount() + 1)
+            self.item_photo_list_table_widget.setItem(self.item_photo_list_table_widget.rowCount() - 1,0,QTableWidgetItem(str(self.item_photo_list_table_widget.rowCount())))
+            self.item_photo_list_table_widget.setItem(self.item_photo_list_table_widget.rowCount() - 1,1,QTableWidgetItem(file_dialog.selectedFiles()[0]))
     def setup_ui(self):
         self.user_actions.setIcon(QPixmap(f":/main/assets/gender_{self.data.gender}.png"))
+        self.item_shelf_box.view().window().setWindowFlags(Qt.Popup | Qt.FramelessWindowHint | Qt.NoDropShadowWindowHint)
+        self.item_shelf_box.view().window().setAttribute(Qt.WA_TranslucentBackground)
+        self.item_shelf_box.addItems(["alperen","alperen1"])
+        self.item_photo_list_table_widget.setCornerButtonEnabled(False)
+        self.item_photo_list_table_widget.verticalHeader().hide()
+        self.item_photo_list_table_widget.setHorizontalHeaderLabels(["No","Ürün patikası","Ürün resmi","RAF ADI"])
+        self.item_photo_list_table_widget.verticalScrollBar().hide()
+        self.item_photo_list_table_widget.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
 class VixgonLogin(Ui_Dialog,QDialog):
     def __init__(self,parent = None):
         super(VixgonLogin,self).__init__()
@@ -116,7 +132,7 @@ class VixgonLogin(Ui_Dialog,QDialog):
     def post_login_data_with_token(self):
         data = self.get_db_data()
         print("Token is ",data)
-        self.request.post("/vixgon/api/login_with_token/{token}?token_data=%s" % (data.token))
+        self.request.post("/vixgon/api/login_with_token/{token}?token_data=%s" % (data.token)) # change this method put token to header
     def show_widgets(self):
         self.password_input.show()
         self.username_input.show()

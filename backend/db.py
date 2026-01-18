@@ -1,11 +1,14 @@
+from inspect import CORO_CREATED
 import os
-import secrets
 import sys
+import time
+import secrets
 import sqlite3
 
 from fastapi import HTTPException
 from requests import session
 
+from backend.models import ShelfList
 from backend.util import read_user_photo
 from backend.util import get_user_photo
 
@@ -78,7 +81,7 @@ class Database:
             CREATE TABLE IF NOT EXISTS shelves (
                 shelf VARCHAR(10) NOT NULL,
                 created_by VARCHAR(25) NOT NULL,
-                creation_time INTEGER,
+                creation_time REAL,
                 id INTEGER PRIMARY KEY AUTOINCREMENT
             )
             """)
@@ -171,6 +174,22 @@ class Database:
             user_surname = user_data.surname,
             user_photo = user_data.user_photo_data,
             gender = user_data.gender)
+    @error(return_value = 0)
+    def get_shelf_count(self,shelf_name: str) -> int:
+        return self.database.execute("SELECT COUNT(*) FROM shelves WHERE shelf = ?;",(shelf_name,)).fetchone()[0]
+    def get_shelfs(self) -> ShelfList:
+        result = ShelfList()
+        try:
+            data =  self.database.execute("SELECT * FROM shelves;").fetchall()
+            for i in range(0,len(data)):
+                result.shelfs.append({
+                    "shelf_name":data[i][0],
+                    "created_by_who":data[i][1],
+                    "time_epoch":data[i][2]
+                    })
+        except Exception as shelf_fetch_error:
+            logger.critical("Cannot get shelf %s" % (str(shelf_fetch_error)))
+        return result
     def save_user_session_token(self,username: str,token: str) -> bool:
         if self.get_username_count(username) == 0:
             logger.warning("You cannot save non-exist user's token")
@@ -181,5 +200,24 @@ class Database:
             logger.info("User %s session token saved %s" % (username,token))
         except sqlite3.Error as sql_error:
             logger.critical("Cannot save %s username token %s" % (username,sql_error))
+            return False
+        return True
+    def push_shelf(self,shelf_name: str,*,created_by_who = None) -> bool:
+        if self.get_shelf_count(shelf_name) != 0:
+            logger.warning("Shelf %s is already created " % (shelf_name))
+            return False
+        if created_by_who is None or not isinstance(created_by_who,str):
+            logger.warning("Bad parameter created by must be str not %s" % (created_by_who.__class__.__name__))
+            return False
+        if len(created_by_who) > 10 or len(shelf_name) > 25:
+            logger.warning("Shelf/username len must be equal or less then 10/25")
+            return False
+        current_time_epoch = time.time()
+        try:
+            self.cursor.execute("INSERT INTO shelves(shelf,created_by,creation_time) VALUES(?,?,?);",(shelf_name,created_by_who,current_time_epoch))
+            self.database.commit()
+            logger.info("New shelf created %s by %s " % (shelf_name,created_by_who))
+        except sqlite3.Error as sql_error:
+            logger.critical("Cannot execute sql error %s" % (str(sql_error)))
             return False
         return True

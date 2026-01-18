@@ -1,7 +1,7 @@
 import os
 import base64
 from modules.vixgon_log import create_logger
-
+from fastapi import Request, Response
 logger = create_logger()
 
 def get_user_photo(username: str) -> str:
@@ -30,3 +30,9 @@ def read_user_photo(username: str) -> bytes:
     except Exception as err:
         logger.critical("Cannot read %s error is %s" % (photo_path,str(err)))
     return data.decode()
+def sample_test(alperen: str):
+    return alperen
+
+def put_action_to_http_header(request: Request,response: Response) -> Response:
+    response.headers["action"] = request.url.path[1:].replace("/","-")
+    return response

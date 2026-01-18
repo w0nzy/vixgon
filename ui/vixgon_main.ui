@@ -22,12 +22,7 @@
 	background-color: #222422;
 }
 
-QLineEdit {
-	border-radius: 5px;
-	color: #ced9cf;
-	background-color: &quot;yellow&quot;;
-	font: 700 11pt &quot;Candara&quot;;
-}
+
 QLabel {
 	font: 700 11pt &quot;Candara&quot;;
 }
@@ -49,11 +44,7 @@ QLineEdit#item_search_lineedit {
 }
 
 
-QComboBox {
-	height: 30px;
-	border-radius: 10px;
-    background-color: &quot;red&quot;;
-}
+
 
 QTabBar:tab {
 
@@ -69,6 +60,19 @@ QTabBar:tab {
 
 QTabBar::tab:selected {
 	background-color: #f2b818;
+	color: &quot;#bf4392&quot;;
+}
+
+QFileDialog {
+	background-color: none;
+}
+
+
+
+
+QTableWidgetItem {
+	font: 700 11pt &quot;Candara&quot;;
+	color:  #ced9cf;
 }</string>
   </property>
   <property name="iconSize">
@@ -794,6 +798,12 @@ border: none;</string>
                    <property name="currentIndex">
                     <number>0</number>
                    </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>16</width>
+                     <height>16</height>
+                    </size>
+                   </property>
                    <property name="elideMode">
                     <enum>Qt::TextElideMode::ElideNone</enum>
                    </property>
@@ -804,9 +814,16 @@ border: none;</string>
                     <bool>false</bool>
                    </property>
                    <property name="movable">
-                    <bool>false</bool>
+                    <bool>true</bool>
+                   </property>
+                   <property name="tabBarAutoHide">
+                    <bool>true</bool>
                    </property>
                    <widget class="QWidget" name="item_add_page">
+                    <attribute name="icon">
+                     <iconset resource="../res.qrc">
+                      <normaloff>:/main/assets/item_add_colorized.png</normaloff>:/main/assets/item_add_colorized.png</iconset>
+                    </attribute>
                     <attribute name="title">
                      <string>Ürün Ekleme</string>
                     </attribute>
@@ -840,6 +857,12 @@ border: none;</string>
                        <layout class="QVBoxLayout" name="verticalLayout_17">
                         <item>
                          <widget class="QFrame" name="frame_5">
+                          <property name="maximumSize">
+                           <size>
+                            <width>16777215</width>
+                            <height>100</height>
+                           </size>
+                          </property>
                           <property name="frameShape">
                            <enum>QFrame::Shape::StyledPanel</enum>
                           </property>
@@ -849,12 +872,6 @@ border: none;</string>
                           <layout class="QHBoxLayout" name="horizontalLayout_5">
                            <item>
                             <widget class="QLineEdit" name="item_name">
-                             <property name="maximumSize">
-                              <size>
-                               <width>400</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
                              <property name="styleSheet">
                               <string notr="true">QLineEdit#item_name{
 	border-radius: 5px;
@@ -878,14 +895,50 @@ border: none;</string>
                            </item>
                            <item>
                             <widget class="QComboBox" name="item_shelf_box">
+                             <property name="minimumSize">
+                              <size>
+                               <width>200</width>
+                               <height>0</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>400</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
                              <property name="styleSheet">
-                              <string notr="true">
-	border-radius: 5px;
-	color: #ced9cf;
-	background-color: #687069;
-
+                              <string notr="true">QComboBox {
+	height: 30px;
+	background-color:  #687069;
 	font: 700 11pt &quot;Candara&quot;;
-</string>
+	color:  #ced9cf;
+	border: 1px solid &quot;gray&quot;;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+QComboBox:drop-down {
+	border: 1px solid &quot;white&quot;;
+	background-image: url(:/main/assets/arrow_down_colorized.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 4px;
+	background-color: &quot;red&quot;;
+	width: 20px;
+	border-top-right-radius: 5px;
+	border-top-right-radius: 10px;
+	background-color: #f2b818;
+	color: &quot;#bf4392&quot;;
+}
+
+ QComboBox QAbstractItemView {
+					background-color: #9b9e91;
+                    border-bottom-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                   color:  #ced9cf;
+                  }</string>
                              </property>
                              <property name="placeholderText">
                               <string>RAF ADI</string>
@@ -906,6 +959,162 @@ border: none;</string>
                           <property name="frameShadow">
                            <enum>QFrame::Shadow::Raised</enum>
                           </property>
+                          <layout class="QVBoxLayout" name="verticalLayout_19">
+                           <item alignment="Qt::AlignmentFlag::AlignHCenter|Qt::AlignmentFlag::AlignTop">
+                            <widget class="QToolButton" name="item_add_btn">
+                             <property name="styleSheet">
+                              <string notr="true">QToolButton {
+	background-color: &quot;gray&quot;;
+	border-radius: 10px;
+	width: 100px;
+	height: 70px;
+	color: #ced9cf;
+	background-color: #687069;
+	
+	font: 700 11pt &quot;Candara&quot;;
+}
+QToolButton:hover {
+color: &quot;#bf4392&quot;;
+background-color: #f2b818;
+}</string>
+                             </property>
+                             <property name="text">
+                              <string>RESIM EKLE</string>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="../res.qrc">
+                               <normaloff>:/main/assets/item_photo_add_colorized.png</normaloff>:/main/assets/item_photo_add_colorized.png</iconset>
+                             </property>
+                             <property name="iconSize">
+                              <size>
+                               <width>32</width>
+                               <height>32</height>
+                              </size>
+                             </property>
+                             <property name="checkable">
+                              <bool>false</bool>
+                             </property>
+                             <property name="toolButtonStyle">
+                              <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
+                             </property>
+                             <property name="autoRaise">
+                              <bool>false</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QTableWidget" name="item_photo_list_table_widget">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">/*
+
+border-radius: 5px;
+	color: #ced9cf;
+	height: 30px;
+	background-color: #687069;
+	
+	font: 700 11pt &quot;Candara&quot;;
+
+*/
+
+QTableWidget {
+
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+QHeaderView {
+	margin: 2px;
+	height: 5px;
+	border-bottom: 1px solid  #687069;
+
+	
+	font: 700 11pt &quot;Candara&quot;;
+}
+
+QHeaderView::section {
+	height: 28px;
+	background-color: &quot;transparent&quot;;
+	margin: 2px;
+	color: #ced9cf;
+}
+
+QTableView {
+	font: 700 11pt &quot;Candara&quot;;
+}
+QTableView::item {
+	font: 700 11pt &quot;Candara&quot;;
+	color: #ced9cf;
+	margin: 2px;
+}
+
+QComboBox {
+	font: 700 11pt &quot;Candara&quot;;
+	border: 1px solid #687069;
+	background-color: #f2b818;
+	color: &quot;#bf4392&quot;;
+	border-radius: 10px;
+	border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+QComboBox:drop-down {
+	border-left: 1px solid &quot;white&quot;;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+
+                  
+</string>
+                             </property>
+                             <property name="editTriggers">
+                              <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+                             </property>
+                             <property name="selectionMode">
+                              <enum>QAbstractItemView::SelectionMode::NoSelection</enum>
+                             </property>
+                             <property name="selectionBehavior">
+                              <enum>QAbstractItemView::SelectionBehavior::SelectItems</enum>
+                             </property>
+                             <property name="showGrid">
+                              <bool>true</bool>
+                             </property>
+                             <property name="gridStyle">
+                              <enum>Qt::PenStyle::DashDotLine</enum>
+                             </property>
+                             <property name="sortingEnabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="cornerButtonEnabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="columnCount">
+                              <number>3</number>
+                             </property>
+                             <attribute name="horizontalHeaderVisible">
+                              <bool>true</bool>
+                             </attribute>
+                             <attribute name="horizontalHeaderMinimumSectionSize">
+                              <number>26</number>
+                             </attribute>
+                             <attribute name="horizontalHeaderStretchLastSection">
+                              <bool>false</bool>
+                             </attribute>
+                             <attribute name="verticalHeaderStretchLastSection">
+                              <bool>false</bool>
+                             </attribute>
+                             <column/>
+                             <column/>
+                             <column/>
+                            </widget>
+                           </item>
+                          </layout>
                          </widget>
                         </item>
                         <item>
@@ -917,10 +1126,83 @@ border: none;</string>
                            <enum>QFrame::Shadow::Raised</enum>
                           </property>
                           <layout class="QVBoxLayout" name="verticalLayout_18">
+                           <property name="topMargin">
+                            <number>0</number>
+                           </property>
+                           <property name="bottomMargin">
+                            <number>0</number>
+                           </property>
                            <item>
-                            <widget class="QPushButton" name="pushButton">
+                            <widget class="QTextEdit" name="textEdit">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>150</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">color: #ced9cf;
+border: 1px solid gray;
+border-radius: 10px;
+font: 700 11pt &quot;Candara&quot;;</string>
+                             </property>
+                             <property name="placeholderText">
+                              <string>Ürün bilgileri .....</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <spacer name="verticalSpacer_2">
+                             <property name="orientation">
+                              <enum>Qt::Orientation::Vertical</enum>
+                             </property>
+                             <property name="sizeHint" stdset="0">
+                              <size>
+                               <width>20</width>
+                               <height>40</height>
+                              </size>
+                             </property>
+                            </spacer>
+                           </item>
+                           <item alignment="Qt::AlignmentFlag::AlignHCenter">
+                            <widget class="QToolButton" name="toolButton_2">
+                             <property name="styleSheet">
+                              <string notr="true">QToolButton {
+	background-color: &quot;gray&quot;;
+	border-radius: 10px;
+	width: 100px;
+	height: 50px;
+	color: #ced9cf;
+	background-color: #687069;
+	
+	font: 700 11pt &quot;Candara&quot;;
+}
+QToolButton:hover {
+color: &quot;#bf4392&quot;;
+background-color: #f2b818;
+}</string>
+                             </property>
                              <property name="text">
-                              <string>PushButton</string>
+                              <string>Gönder..</string>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="../res.qrc">
+                               <normaloff>:/main/assets/item_send_colorized.png</normaloff>:/main/assets/item_send_colorized.png</iconset>
+                             </property>
+                             <property name="iconSize">
+                              <size>
+                               <width>32</width>
+                               <height>32</height>
+                              </size>
+                             </property>
+                             <property name="toolButtonStyle">
+                              <enum>Qt::ToolButtonStyle::ToolButtonTextUnderIcon</enum>
                              </property>
                             </widget>
                            </item>
