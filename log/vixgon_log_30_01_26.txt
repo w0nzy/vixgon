@@ -1,0 +1,415 @@
+2026-01-30 20:01:26,094 - INFO - root - Database initialized - 102
+2026-01-30 20:02:09,429 - INFO - root - Database initialized - 102
+2026-01-30 20:04:59,981 - CRITICAL - root - Validation error Not enough segments - 46
+2026-01-30 20:06:10,890 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:06:10,890 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:06:10,900 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:06:10,900 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:06:10,966 - INFO - root - User alperen logged in - 103
+2026-01-30 20:06:10,967 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NzkyNzcwfQ.oOkghTFV0SELzuPzup9WOyANxe9tclXHVjQ_z_FxiIU  - 57
+2026-01-30 20:06:10,967 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:06:10,974 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NzkyNzcwfQ.oOkghTFV0SELzuPzup9WOyANxe9tclXHVjQ_z_FxiIU - 200
+2026-01-30 20:06:10,974 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:06:10,975 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:07:43,817 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:07:43,829 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:07:43,829 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:08:44,796 - INFO - root - Username alpceren count is 0 - 113
+2026-01-30 20:08:44,796 - WARNING - root - Wrong password or username alpceren:alperen - 108
+2026-01-30 20:14:11,146 - INFO - root - Database initialized - 102
+2026-01-30 20:14:33,966 - INFO - root - Database initialized - 102
+2026-01-30 20:14:36,289 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:14:36,289 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:14:36,290 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:14:51,713 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:14:51,714 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:14:51,714 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:14:53,353 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:14:53,354 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:14:53,354 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:16:21,548 - CRITICAL - root - Validation error Signature verification failed - 46
+2026-01-30 20:16:27,923 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:16:27,924 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:16:27,924 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:16:29,928 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:16:29,928 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:16:29,929 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:17:09,731 - INFO - root - Database initialized - 102
+2026-01-30 20:17:10,369 - INFO - root - Database initialized :) - 25
+2026-01-30 20:17:10,372 - INFO - root - Database is closing - 100
+2026-01-30 20:17:10,372 - INFO - root - Database is closed  - 106
+2026-01-30 20:17:10,427 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:17:10,443 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:17:10,443 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:17:10,444 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:17:10,459 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:17:10,460 - WARNING - root - No action :/ - 59
+2026-01-30 20:17:27,059 - INFO - root - Database initialized - 102
+2026-01-30 20:17:27,236 - INFO - root - Database initialized :) - 25
+2026-01-30 20:17:27,237 - INFO - root - Database is closing - 100
+2026-01-30 20:17:27,237 - INFO - root - Database is closed  - 106
+2026-01-30 20:17:27,267 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:17:27,271 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:17:27,272 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:17:27,272 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:17:27,273 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:17:27,307 - WARNING - root - No action :/ - 59
+2026-01-30 20:19:25,181 - INFO - root - Database initialized - 102
+2026-01-30 20:19:25,357 - INFO - root - Database initialized :) - 25
+2026-01-30 20:19:25,358 - INFO - root - Database is closing - 100
+2026-01-30 20:19:25,358 - INFO - root - Database is closed  - 106
+2026-01-30 20:19:25,362 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:19:25,365 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:19:25,366 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:19:25,366 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:19:25,367 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:19:25,368 - WARNING - root - No action :/ - 59
+2026-01-30 20:19:31,053 - INFO - root - Database initialized - 102
+2026-01-30 20:19:31,230 - INFO - root - Database initialized :) - 25
+2026-01-30 20:19:31,230 - INFO - root - Database is closing - 100
+2026-01-30 20:19:31,231 - INFO - root - Database is closed  - 106
+2026-01-30 20:19:31,235 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:19:31,238 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:19:31,239 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:19:31,239 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:19:31,240 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:19:31,241 - WARNING - root - No action :/ - 59
+2026-01-30 20:21:51,193 - INFO - root - Database initialized - 102
+2026-01-30 20:21:51,366 - INFO - root - Database initialized :) - 25
+2026-01-30 20:21:51,367 - INFO - root - Database is closing - 100
+2026-01-30 20:21:51,367 - INFO - root - Database is closed  - 106
+2026-01-30 20:21:51,371 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:21:51,374 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:21:51,375 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:21:51,375 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:21:51,376 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:21:51,377 - WARNING - root - No action :/ - 59
+2026-01-30 20:24:18,418 - INFO - root - Database initialized - 102
+2026-01-30 20:24:18,599 - INFO - root - Database initialized :) - 25
+2026-01-30 20:24:18,600 - INFO - root - Database is closing - 100
+2026-01-30 20:24:18,600 - INFO - root - Database is closed  - 106
+2026-01-30 20:24:18,605 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:24:18,608 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:24:18,609 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:24:18,609 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:24:18,610 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:24:18,611 - WARNING - root - No action :/ - 59
+2026-01-30 20:27:46,250 - INFO - root - Database initialized - 102
+2026-01-30 20:31:15,843 - INFO - root - Database initialized - 102
+2026-01-30 20:31:16,020 - INFO - root - Database initialized :) - 25
+2026-01-30 20:31:16,021 - INFO - root - Database is closing - 100
+2026-01-30 20:31:16,021 - INFO - root - Database is closed  - 106
+2026-01-30 20:31:16,026 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:31:16,029 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:31:16,029 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:31:16,030 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:31:16,031 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:31:16,032 - WARNING - root - No action :/ - 59
+2026-01-30 20:31:24,445 - INFO - root - Database initialized - 102
+2026-01-30 20:31:24,617 - INFO - root - Database initialized :) - 25
+2026-01-30 20:31:24,617 - INFO - root - Database is closing - 100
+2026-01-30 20:31:24,618 - INFO - root - Database is closed  - 106
+2026-01-30 20:31:24,622 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:31:24,625 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:31:24,626 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:31:24,626 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:31:24,627 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:31:24,628 - WARNING - root - No action :/ - 59
+2026-01-30 20:35:20,970 - INFO - root - Database initialized - 102
+2026-01-30 20:35:21,141 - INFO - root - Database initialized :) - 25
+2026-01-30 20:35:21,142 - INFO - root - Database is closing - 100
+2026-01-30 20:35:21,142 - INFO - root - Database is closed  - 106
+2026-01-30 20:35:21,146 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:35:21,150 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:35:21,150 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:35:21,151 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:35:21,152 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:35:21,152 - WARNING - root - No action :/ - 59
+2026-01-30 20:35:27,303 - INFO - root - Database initialized - 102
+2026-01-30 20:35:27,481 - INFO - root - Database initialized :) - 25
+2026-01-30 20:35:27,482 - INFO - root - Database is closing - 100
+2026-01-30 20:35:27,482 - INFO - root - Database is closed  - 106
+2026-01-30 20:35:27,487 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:35:27,490 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:35:27,491 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:35:27,491 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:35:27,492 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:35:27,493 - WARNING - root - No action :/ - 59
+2026-01-30 20:35:38,803 - INFO - root - Database initialized - 102
+2026-01-30 20:35:38,977 - INFO - root - Database initialized :) - 25
+2026-01-30 20:35:38,978 - INFO - root - Database is closing - 100
+2026-01-30 20:35:38,978 - INFO - root - Database is closed  - 106
+2026-01-30 20:35:38,983 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:35:38,987 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:35:38,987 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:35:38,987 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:35:38,988 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:35:38,989 - WARNING - root - No action :/ - 59
+2026-01-30 20:36:40,640 - INFO - root - Database initialized - 102
+2026-01-30 20:39:14,400 - INFO - root - Database initialized - 102
+2026-01-30 20:39:14,590 - INFO - root - Database initialized :) - 25
+2026-01-30 20:39:14,591 - INFO - root - Database is closing - 100
+2026-01-30 20:39:14,591 - INFO - root - Database is closed  - 106
+2026-01-30 20:39:14,596 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:39:14,618 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:39:14,618 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:39:14,619 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:39:14,620 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:39:14,620 - WARNING - root - No action :/ - 59
+2026-01-30 20:39:15,791 - WARNING - root - Removing local database - 113
+2026-01-30 20:39:15,795 - INFO - root - Database removed - 116
+2026-01-30 20:39:22,619 - INFO - root - Database initialized - 102
+2026-01-30 20:41:00,881 - INFO - root - Database initialized - 102
+2026-01-30 20:41:30,526 - INFO - root - Database initialized - 102
+2026-01-30 20:48:20,071 - INFO - root - Database initialized - 102
+2026-01-30 20:52:16,553 - INFO - root - Database initialized - 102
+2026-01-30 20:52:28,310 - INFO - root - Database initialized - 102
+2026-01-30 20:52:53,596 - INFO - root - Database initialized - 102
+2026-01-30 20:53:01,215 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:53:01,219 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:01,219 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:01,220 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:01,220 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:01,287 - INFO - root - User alperen logged in - 97
+2026-01-30 20:53:01,288 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NTgxfQ.WxU5R_vdht5rk00yt0OGQHdL9X3bWzwI3ysGoW7_3rk  - 57
+2026-01-30 20:53:01,288 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:01,293 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NTgxfQ.WxU5R_vdht5rk00yt0OGQHdL9X3bWzwI3ysGoW7_3rk - 200
+2026-01-30 20:53:01,294 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:01,294 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:01,295 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:53:01,296 - WARNING - root - No action :/ - 59
+2026-01-30 20:53:01,296 - INFO - root - Database initialized :) - 25
+2026-01-30 20:53:01,307 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NTgxfQ.WxU5R_vdht5rk00yt0OGQHdL9X3bWzwI3ysGoW7_3rk - 49
+2026-01-30 20:53:01,311 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\a615c7ffa07547db859d2031f74faba5.png  - 76
+2026-01-30 20:53:01,311 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:53:01,312 - INFO - root - Database is closing - 100
+2026-01-30 20:53:01,312 - INFO - root - Database is closed  - 106
+2026-01-30 20:53:05,192 - INFO - root - Database initialized - 102
+2026-01-30 20:53:05,364 - INFO - root - Database initialized :) - 25
+2026-01-30 20:53:05,366 - INFO - root - Database is closing - 100
+2026-01-30 20:53:05,367 - INFO - root - Database is closed  - 106
+2026-01-30 20:53:05,371 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:53:05,375 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:05,376 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:05,376 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:05,377 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:53:05,378 - WARNING - root - No action :/ - 59
+2026-01-30 20:53:09,657 - INFO - root - Database initialized - 102
+2026-01-30 20:53:09,830 - INFO - root - Database initialized :) - 25
+2026-01-30 20:53:09,831 - INFO - root - Database is closing - 100
+2026-01-30 20:53:09,831 - INFO - root - Database is closed  - 106
+2026-01-30 20:53:09,835 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:53:09,838 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:09,839 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:09,839 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:09,840 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:53:09,841 - WARNING - root - No action :/ - 59
+2026-01-30 20:53:11,326 - WARNING - root - Removing local database - 113
+2026-01-30 20:53:11,327 - INFO - root - Database removed - 116
+2026-01-30 20:53:37,184 - INFO - root - Database initialized - 102
+2026-01-30 20:53:44,235 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:53:44,237 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:44,238 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:44,238 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:44,238 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:44,315 - INFO - root - User alperen logged in - 97
+2026-01-30 20:53:44,316 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjI0fQ.pXNyDHyBwlomrDUiG7JSvH6phhne_Hdf4wg8N-dx9V4  - 57
+2026-01-30 20:53:44,316 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:44,322 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjI0fQ.pXNyDHyBwlomrDUiG7JSvH6phhne_Hdf4wg8N-dx9V4 - 200
+2026-01-30 20:53:44,323 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:44,323 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:44,324 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:53:44,325 - WARNING - root - No action :/ - 59
+2026-01-30 20:53:44,325 - INFO - root - Database initialized :) - 25
+2026-01-30 20:53:44,333 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjI0fQ.pXNyDHyBwlomrDUiG7JSvH6phhne_Hdf4wg8N-dx9V4 - 49
+2026-01-30 20:53:44,338 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\0197a0a068234e1e956248e6d54b1791.png  - 76
+2026-01-30 20:53:44,339 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:53:44,339 - INFO - root - Database is closing - 100
+2026-01-30 20:53:44,340 - INFO - root - Database is closed  - 106
+2026-01-30 20:53:49,157 - INFO - root - Database initialized - 102
+2026-01-30 20:53:49,332 - INFO - root - Database initialized :) - 25
+2026-01-30 20:53:49,334 - INFO - root - Database is closing - 100
+2026-01-30 20:53:49,334 - INFO - root - Database is closed  - 106
+2026-01-30 20:53:49,339 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:53:49,342 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:53:49,343 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:53:49,343 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:53:49,344 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:53:49,345 - WARNING - root - No action :/ - 59
+2026-01-30 20:53:50,644 - WARNING - root - Removing local database - 113
+2026-01-30 20:53:50,646 - INFO - root - Database removed - 116
+2026-01-30 20:54:19,379 - INFO - root - Database initialized - 102
+2026-01-30 20:54:26,713 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:54:26,715 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:54:26,716 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:54:26,716 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:54:26,716 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:54:26,784 - INFO - root - User alperen logged in - 97
+2026-01-30 20:54:26,784 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjY2fQ.KH6GeSi_qOP_WEwCyzXfzIm-4xfZMuF-dgha4A7WXP4  - 57
+2026-01-30 20:54:26,785 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:54:26,790 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjY2fQ.KH6GeSi_qOP_WEwCyzXfzIm-4xfZMuF-dgha4A7WXP4 - 200
+2026-01-30 20:54:26,791 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:54:26,791 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:54:26,792 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:54:26,793 - WARNING - root - No action :/ - 59
+2026-01-30 20:54:26,793 - INFO - root - Database initialized :) - 25
+2026-01-30 20:54:26,802 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NjY2fQ.KH6GeSi_qOP_WEwCyzXfzIm-4xfZMuF-dgha4A7WXP4 - 49
+2026-01-30 20:54:26,806 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\7ed657881b1b452cad48167458da3406.png  - 76
+2026-01-30 20:54:26,806 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:54:26,807 - INFO - root - Database is closing - 100
+2026-01-30 20:54:26,808 - INFO - root - Database is closed  - 106
+2026-01-30 20:54:28,703 - WARNING - root - Removing local database - 113
+2026-01-30 20:54:28,704 - INFO - root - Database removed - 116
+2026-01-30 20:55:14,998 - INFO - root - Database initialized - 102
+2026-01-30 20:55:23,704 - INFO - root - Database initialized - 102
+2026-01-30 20:55:31,233 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:55:31,235 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:31,236 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:31,236 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:55:31,236 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:55:31,302 - INFO - root - User alperen logged in - 97
+2026-01-30 20:55:31,303 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzMxfQ.e0T52-L5Nrtnl6gHYAGV4hKIc6lP0NOwFl9tq7xsg_Q  - 57
+2026-01-30 20:55:31,303 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:31,309 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzMxfQ.e0T52-L5Nrtnl6gHYAGV4hKIc6lP0NOwFl9tq7xsg_Q - 200
+2026-01-30 20:55:31,309 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:55:31,310 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:55:31,311 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:55:31,312 - WARNING - root - No action :/ - 59
+2026-01-30 20:55:31,312 - INFO - root - Database initialized :) - 25
+2026-01-30 20:55:31,319 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzMxfQ.e0T52-L5Nrtnl6gHYAGV4hKIc6lP0NOwFl9tq7xsg_Q - 49
+2026-01-30 20:55:31,324 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\990c637a929c4d52ade55507de31a7dc.png  - 76
+2026-01-30 20:55:31,325 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:55:31,325 - INFO - root - Database is closing - 100
+2026-01-30 20:55:31,326 - INFO - root - Database is closed  - 106
+2026-01-30 20:55:32,894 - WARNING - root - Removing local database - 113
+2026-01-30 20:55:32,895 - INFO - root - Database removed - 116
+2026-01-30 20:55:44,771 - INFO - root - Database initialized - 102
+2026-01-30 20:55:53,670 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:55:53,686 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:53,686 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:53,687 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:55:53,687 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:55:53,753 - INFO - root - User alperen logged in - 97
+2026-01-30 20:55:53,754 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzUzfQ.Awlw18fGwnQ2pcWeu_0FjqX5h8LL9HntOrQI-PBGUQ4  - 57
+2026-01-30 20:55:53,754 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:53,760 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzUzfQ.Awlw18fGwnQ2pcWeu_0FjqX5h8LL9HntOrQI-PBGUQ4 - 200
+2026-01-30 20:55:53,760 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:55:53,760 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:55:53,761 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:55:53,762 - WARNING - root - No action :/ - 59
+2026-01-30 20:55:53,762 - INFO - root - Database initialized :) - 25
+2026-01-30 20:55:53,771 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1NzUzfQ.Awlw18fGwnQ2pcWeu_0FjqX5h8LL9HntOrQI-PBGUQ4 - 49
+2026-01-30 20:55:53,776 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\8643f36ebe7945d6b62857ec7b99ce5f.png  - 76
+2026-01-30 20:55:53,777 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:55:53,777 - INFO - root - Database is closing - 100
+2026-01-30 20:55:53,778 - INFO - root - Database is closed  - 106
+2026-01-30 20:55:59,378 - INFO - root - Database initialized - 102
+2026-01-30 20:55:59,549 - INFO - root - Database initialized :) - 25
+2026-01-30 20:55:59,552 - INFO - root - Database is closing - 100
+2026-01-30 20:55:59,552 - INFO - root - Database is closed  - 106
+2026-01-30 20:55:59,556 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:55:59,559 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:55:59,560 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:55:59,560 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:55:59,561 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:55:59,562 - WARNING - root - No action :/ - 59
+2026-01-30 20:56:00,670 - WARNING - root - Removing local database - 113
+2026-01-30 20:56:00,671 - INFO - root - Database removed - 116
+2026-01-30 20:56:20,672 - INFO - root - Database initialized - 102
+2026-01-30 20:56:28,877 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:56:28,880 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:28,880 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:28,881 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:56:28,881 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:56:28,947 - INFO - root - User alperen logged in - 97
+2026-01-30 20:56:28,947 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1Nzg4fQ.k-Dj2vGX8zI1yadnGpyYYr2S7vB4jkhdjc1XUD84z1Y  - 57
+2026-01-30 20:56:28,947 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:28,953 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1Nzg4fQ.k-Dj2vGX8zI1yadnGpyYYr2S7vB4jkhdjc1XUD84z1Y - 200
+2026-01-30 20:56:28,953 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:56:28,954 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:56:28,955 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:56:28,955 - WARNING - root - No action :/ - 59
+2026-01-30 20:56:28,956 - INFO - root - Database initialized :) - 25
+2026-01-30 20:56:28,965 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1Nzg4fQ.k-Dj2vGX8zI1yadnGpyYYr2S7vB4jkhdjc1XUD84z1Y - 49
+2026-01-30 20:56:28,969 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\6ed4b44e55ae4963beba8b81476905bd.png  - 76
+2026-01-30 20:56:28,969 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:56:28,970 - INFO - root - Database is closing - 100
+2026-01-30 20:56:28,970 - INFO - root - Database is closed  - 106
+2026-01-30 20:56:32,983 - INFO - root - Database initialized - 102
+2026-01-30 20:56:33,179 - INFO - root - Database initialized :) - 25
+2026-01-30 20:56:33,182 - INFO - root - Database is closing - 100
+2026-01-30 20:56:33,182 - INFO - root - Database is closed  - 106
+2026-01-30 20:56:33,186 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:56:33,189 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:33,190 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:56:33,190 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:56:33,191 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:56:33,192 - WARNING - root - No action :/ - 59
+2026-01-30 20:56:34,413 - WARNING - root - Removing local database - 113
+2026-01-30 20:56:34,414 - INFO - root - Database removed - 116
+2026-01-30 20:56:38,300 - INFO - root - Database initialized - 102
+2026-01-30 20:56:41,517 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:56:41,520 - INFO - root - Username dasdasdasd count is 0 - 113
+2026-01-30 20:56:41,521 - WARNING - root - Wrong password or username dasdasdasd:adasdasdasd - 102
+2026-01-30 20:56:41,522 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 134 - 544
+2026-01-30 20:56:41,522 - WARNING - root - No action :/ - 59
+2026-01-30 20:56:54,896 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-01-30 20:56:54,899 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:54,900 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:56:54,900 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:56:54,900 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:56:54,967 - INFO - root - User alperen logged in - 97
+2026-01-30 20:56:54,968 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1ODE0fQ.2zU90bRGenNb_1khSLGHjIFiKwM2sPeQHX_gMLnq0xg  - 57
+2026-01-30 20:56:54,968 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:56:54,968 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:56:54,969 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:56:54,970 - WARNING - root - No action :/ - 59
+2026-01-30 20:57:08,126 - INFO - root - Database initialized - 102
+2026-01-30 20:57:11,704 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:57:12,704 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff404440>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:14,104 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (2): 127.0.0.1:80 - 241
+2026-01-30 20:57:15,117 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff415590>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:15,624 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (3): 127.0.0.1:80 - 241
+2026-01-30 20:57:16,634 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff415950>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:17,517 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (4): 127.0.0.1:80 - 241
+2026-01-30 20:57:18,524 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff32f820>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:19,300 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (5): 127.0.0.1:80 - 241
+2026-01-30 20:57:20,290 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff32fa80>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:21,014 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (6): 127.0.0.1:80 - 241
+2026-01-30 20:57:22,024 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff3d2330>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:23,287 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (7): 127.0.0.1:80 - 241
+2026-01-30 20:57:24,290 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff2dbce0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:25,599 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (8): 127.0.0.1:80 - 241
+2026-01-30 20:57:26,602 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff480050>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:32,590 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (9): 127.0.0.1:80 - 241
+2026-01-30 20:57:33,603 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27fff480380>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-30 20:57:37,376 - INFO - root - Database initialized - 102
+2026-01-30 20:57:38,812 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (10): 127.0.0.1:80 - 241
+2026-01-30 20:57:38,823 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:57:38,824 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:57:38,824 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:57:38,825 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:57:38,891 - INFO - root - User alperen logged in - 97
+2026-01-30 20:57:38,891 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1ODU4fQ.QIKsJQJwerAHH9HESmL7vnLCALtZNKOq7nmwavNth74  - 57
+2026-01-30 20:57:38,892 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:57:38,899 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1ODU4fQ.QIKsJQJwerAHH9HESmL7vnLCALtZNKOq7nmwavNth74 - 200
+2026-01-30 20:57:38,899 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:57:38,899 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:57:38,901 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-30 20:57:38,901 - WARNING - root - No action :/ - 59
+2026-01-30 20:57:38,902 - INFO - root - Database initialized :) - 25
+2026-01-30 20:57:38,910 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5Nzk1ODU4fQ.QIKsJQJwerAHH9HESmL7vnLCALtZNKOq7nmwavNth74 - 49
+2026-01-30 20:57:38,915 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\95b3155bf1c14050ac697c2a4cfd239b.png  - 76
+2026-01-30 20:57:38,915 - INFO - root - Data is can decodable format type str - 78
+2026-01-30 20:57:38,916 - INFO - root - Database is closing - 100
+2026-01-30 20:57:38,916 - INFO - root - Database is closed  - 106
+2026-01-30 20:57:46,039 - INFO - root - Database initialized - 102
+2026-01-30 20:57:46,215 - INFO - root - Database initialized :) - 25
+2026-01-30 20:57:46,217 - INFO - root - Database is closing - 100
+2026-01-30 20:57:46,217 - INFO - root - Database is closed  - 106
+2026-01-30 20:57:46,221 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-30 20:57:46,231 - INFO - root - Username alperen count is 1 - 113
+2026-01-30 20:57:46,231 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-30 20:57:46,232 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-30 20:57:46,233 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-01-30 20:57:46,233 - WARNING - root - No action :/ - 59

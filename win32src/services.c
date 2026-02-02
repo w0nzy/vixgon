@@ -7,7 +7,7 @@ typedef struct {
     DWORD BufferSize;
     DWORD ServicesCount;
     ENUM_SERVICE_STATUSW* Buffer;
-    void* hServiceHandle;
+    SC_HANDLE hServiceHandle;
 } services_container_t;
 
 SC_HANDLE CreateServiceInstance() {
@@ -70,7 +70,53 @@ __declspec(dllexport) void GetRunningServices(services_container_t* container) {
     }
     container->hServiceHandle = hServiceHandle;
 }
+__declspec(dllexport) void CreateVixgonService(LPCWSTR serviceName,LPCWSTR displayName,LPCWSTR binPath) {
+    if (serviceName == NULL || binPath == NULL) {
+        printf("Invalid parameters\n");
+        return;
+    }
+    SC_HANDLE hServiceHandle = CreateServiceInstance();
+    if (hServiceHandle == NULL) { return; }
+    if (CreateServiceW(
+        hServiceHandle,
+        serviceName,
+        displayName,
+        SC_MANAGER_CREATE_SERVICE,
+        SERVICE_WIN32_SHARE_PROCESS,
+        SERVICE_AUTO_START,
+        SERVICE_ERROR_IGNORE,
+        binPath,
+        NULL,NULL,NULL,NULL,NULL) == NULL) { 
+        print_error(GetLastError());
+        return;
+    }
+    wprintf(L"Service %ls created\n",serviceName);
+    CloseServiceHandle(hServiceHandle);
+}
 
+__declspec(dllexport) BOOL DeleteVixgonService(LPCWSTR serviceName) {
+    if (serviceName == NULL) {
+        printf("Bad service name :/\n");
+        return FALSE;
+    }
+    SC_HANDLE hService = CreateServiceInstance();
+    if (hService == NULL) { return FALSE; }
+    SC_HANDLE hSubService = OpenServiceW(
+        hService,
+        serviceName,
+        SC_MANAGER_ALL_ACCESS
+    );
+    if (hSubService == NULL) {
+        print_error(GetLastError());
+        CloseServiceHandle(hService);
+        return FALSE;
+    }
+    BOOL result = DeleteService(hSubService);
+    CloseServiceHandle(hSubService);
+    CloseServiceHandle(hService);
+    print_error(GetLastError());
+    return result;
+}
 __declspec(dllexport) void DestroyBuffer(services_container_t* container) {
     if (container == NULL || container->Buffer == NULL) {
         printf("Bad container or buffer\n");

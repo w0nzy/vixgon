@@ -15,12 +15,12 @@ from backend.util import get_user_photo
 sys.path.append(os.path.dirname(__file__))
 
 from argon2 import PasswordHasher
-from backend.enums import UserType
+
 from backend.enums import DatabaseRegisterCode
 from modules.vixgon_log import create_logger
 from backend.hash import hash_pwd
 from backend.models import DatabaseUserRegisterModel, UserLoginDataModel,UserDataModel
-
+from .util import read_item_photo
 from modules.error_handling import error
 
 logger = create_logger()
@@ -97,6 +97,18 @@ class Database:
                 username VARCHAR(25) NOT NULL,
                 session_token VARCHAR(32) NOT NULL
             )""")
+
+            self.database.execute("""
+                CREATE TABLE IF NOT EXISTS items (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    item_name VARCHAR(255) NOT NULL,
+                    item_barcode VARCHAR(25) NOT NULL,
+                    item_shelf VARCHAR(10) NOT NULL,
+                    item_description BLOB NOT NULL,
+                    create_time REAL NOT NULL,
+                    created_by_who VARCHAR(25) NOT NULL,
+                    item_count INTEGER)
+            """)
             self.database.commit()
             self.opt = True
             logger.info("Database initialized")
@@ -202,6 +214,42 @@ class Database:
             logger.critical("Cannot save %s username token %s" % (username,sql_error))
             return False
         return True
+    @error(return_value = False)
+    def create_item(self,item_name: str = "",item_shelf: str = "",item_description: str = "",item_barcode: str = "",created_by: str = "") -> bool:
+        if self.get_shelf_count(item_shelf) == 0:
+            logger.warning("No shelf: %s" % (item_shelf))
+            return False
+        if self.get_username_count(created_by) == 0:
+            logger.warning("No username: %s" % (created_by))
+            return False
+        if self.get_item_count(item_barcode) != 0:
+            logger.warning("Item %s already exists" % (item_barcode))
+            return False
+        if len(item_name) < 0 or len(item_shelf) < 0 or len(item_description) < 0:
+            logger.warning("Item name and shelf length must be greater then 0")
+            return False
+        create_time = time.time()
+
+        self.database.execute("INSERT INTO items(item_name,item_barcode,item_shelf,item_description,create_time,created_by_who,item_count) VALUES(?,?,?,?,?,?,?)",(item_name,item_barcode,item_shelf,item_description,create_time,created_by,0,))
+        self.database.commit()
+        logger.info("Item %s pushed successfully" % (item_name))
+        return True
+    @error(return_value = 0)
+    def add_item(self,item_barcode: str,count: int) -> bool:
+        if len(item_barcode) < 0 or len(item_barcode) > 25:
+            logger.warning("Bad item barcode length")
+            return False
+        if count < 0:
+            logger.warning("Bad item count length")
+            return False
+        if self.get_item_count(item_barcode) == 0:
+            logger.warning("Bad item %s" %(item_barcode))
+            return False
+        self.database.execute("UPDATE items SET item_count = item_count + ? WHERE item_barcode = ?;",(count,item_barcode))
+        self.database.commit()
+        logger.info("Item %s pushed successfully" % (item_barcode))
+        return True
+
     def push_shelf(self,shelf_name: str,*,created_by_who = None) -> bool:
         if self.get_shelf_count(shelf_name) != 0:
             logger.warning("Shelf %s is already created " % (shelf_name))
@@ -221,3 +269,27 @@ class Database:
             logger.critical("Cannot execute sql error %s" % (str(sql_error)))
             return False
         return True
+    def get_item_count(self,item_barcode: str) -> int:
+        try:
+            return self.database.execute("SELECT COUNT(*) FROM items WHERE item_barcode = ?;",(item_barcode,)).fetchone()[0]
+        except sqlite3.Error as sql_error:
+            logger.critical("Cannot get item count error %s" % (str(sql_error)))
+            return 0
+    @error(return_value = {})
+    def get_item(self,item_barcode: str,get_photos = False) -> dict:
+        if self.get_item_count(item_barcode) == 0:
+            raise ValueError("Item %s not exist" % (item_barcode))
+        data = self.database.execute("SELECT * FROM items WHERE item_barcode = ?",(item_barcode,)).fetchone()
+        return_data = {
+            "item_name":data[1],
+            "item_barcode":data[2],
+            "item_shelf":data[3],
+            "item_description":data[4],
+            "creation_time":data[5],
+            "created_by":data[6],
+            "count":data[7]
+        }
+        if os.path.exists(os.path.join(os.path.dirname(__file__),"items",item_barcode)) and get_photos:# and base dir no dry
+            return_data.update(
+                {"item_photos":[read_item_photo(os.path.join(os.path.join(os.path.dirname(__file__),"items",item_barcode,x))) for x in os.listdir(os.path.join(os.path.join(os.path.dirname(__file__),"items",item_barcode)))]})
+        return return_data

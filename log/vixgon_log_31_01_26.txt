@@ -1,0 +1,17 @@
+2026-01-31 19:48:01,578 - INFO - root - Database initialized - 102
+2026-01-31 19:48:04,850 - INFO - root - Database initialized - 102
+2026-01-31 19:50:37,026 - INFO - root - Username alperen count is 1 - 113
+2026-01-31 19:50:37,027 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-31 19:50:37,027 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-31 19:50:39,570 - INFO - root - Username alperen count is 1 - 113
+2026-01-31 19:50:39,571 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-31 19:50:39,571 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-31 19:50:44,980 - INFO - root - Username alperen count is 1 - 113
+2026-01-31 19:50:44,981 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-31 19:50:44,981 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-31 19:50:47,336 - INFO - root - Username alperen count is 1 - 113
+2026-01-31 19:50:47,336 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-31 19:50:47,336 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-31 19:51:32,562 - INFO - root - Username alperen count is 1 - 113
+2026-01-31 19:51:32,563 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-31 19:51:32,563 - INFO - root - Data converted successfully to b64 format - 13

@@ -7,21 +7,29 @@ typedef struct {
 
 static ErrorTable table[] = {
     {
-        .errcode = 0x5,
+        .errcode = ERROR_ACCESS_DENIED,
         .message = "Bad privilage run as administrator"
     },
     {
-        .errcode = 0x6,
+        .errcode = ERROR_INVALID_HANDLE,
         .message = "Bad SC_HANDLE value please check handle NULL or NOT"
     },
     {
-        .errcode = 0x57,
+        .errcode = ERROR_INVALID_PARAMETER,
         .message = "Bad parameter given check parameters "
     },
     {
-        .errcode = 0x429,
+        .errcode = ERROR_DATABASE_DOES_NOT_EXIST,
         .message = "Invalid database its not exists"
-    }  
+    },
+    {
+        .errcode = ERROR_DUPLICATE_SERVICE_NAME,
+        .message = "Duplicated service name "
+    },
+    {
+        .errcode = ERROR_SERVICE_EXISTS,
+        .message = "Service already exists"
+    }
 };
 
 int table_size = sizeof(table) / sizeof(table[0]);

@@ -1,0 +1,106 @@
+2026-01-26 21:01:50,246 - INFO - root - Database initialized - 102
+2026-01-26 21:01:54,958 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:01:55,099 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:01:55,270 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:01:55,456 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:01:55,974 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a9581a0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:01:56,087 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a969810>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:01:56,275 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a96a5d0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:01:56,447 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a8d7bb0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:02:00,962 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:02:01,951 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a9d43e0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:02:02,535 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:02:03,534 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a9231d0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:02:36,197 - INFO - root - Database initialized - 102
+2026-01-26 21:02:41,185 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:02:42,180 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_test (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21a3a93d040>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:02:50,585 - INFO - root - Database initialized - 102
+2026-01-26 21:02:53,316 - INFO - root - Database initialized - 102
+2026-01-26 21:02:55,060 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:02:55,065 - INFO - root - Username das count is 0 - 113
+2026-01-26 21:02:55,065 - WARNING - root - Wrong password or username das:dasda - 108
+2026-01-26 21:02:55,081 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 134 - 544
+2026-01-26 21:02:55,081 - WARNING - root - No action :/ - 60
+2026-01-26 21:02:57,165 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:02:57,167 - INFO - root - Username das count is 0 - 113
+2026-01-26 21:02:57,167 - WARNING - root - Wrong password or username das:dasda - 108
+2026-01-26 21:02:57,168 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 134 - 544
+2026-01-26 21:02:57,169 - WARNING - root - No action :/ - 60
+2026-01-26 21:03:04,152 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:03:04,154 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:03:04,155 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:03:04,165 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:03:04,165 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:03:04,232 - INFO - root - User alperen logged in - 103
+2026-01-26 21:03:04,233 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUwNTg0fQ.D2Ev-KgOm3xMEisBjDchu8EMp1aRObGwxF4oJbWj2Wo  - 57
+2026-01-26 21:03:04,234 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:03:04,234 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:03:04,235 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-26 21:03:04,236 - WARNING - root - No action :/ - 60
+2026-01-26 21:03:30,754 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-26 21:03:31,759 - CRITICAL - root - Cannot reach server http://127.0.0.1:8000/vixgon/api/get_user/alperen -> HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /vixgon/api/get_user/alperen (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=8000) at 0x21a3a93d7b0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:14:29,211 - INFO - root - Database initialized - 102
+2026-01-26 21:14:36,054 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-01-26 21:14:36,072 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:14:36,072 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:14:36,082 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:14:36,082 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:14:36,153 - INFO - root - User alperen logged in - 103
+2026-01-26 21:14:36,153 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUxMjc2fQ.c2iFxs8gJbKQekr6QoCSgxjlZHa89Ch0u6rZfQkFEwc  - 57
+2026-01-26 21:14:36,154 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:14:36,154 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:14:36,155 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-01-26 21:14:36,156 - WARNING - root - No action :/ - 60
+2026-01-26 21:20:35,147 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-26 21:20:36,155 - CRITICAL - root - Cannot reach server http://127.0.0.1:8000/vixgon/api/get_user/alperen -> HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /vixgon/api/get_user/alperen (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=8000) at 0x1790119e210>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:20:36,159 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:8000 - 241
+2026-01-26 21:20:37,162 - CRITICAL - root - Cannot reach server http://127.0.0.1:8000/vixgon/api/get_user/alperen -> HTTPConnectionPool(host='127.0.0.1', port=8000): Max retries exceeded with url: /vixgon/api/get_user/alperen (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=8000) at 0x1790119e990>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-01-26 21:44:29,719 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:44:29,720 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:44:29,721 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:44:29,721 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:44:29,799 - INFO - root - User alperen logged in - 103
+2026-01-26 21:44:29,800 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzMDY5fQ.ho46hqZbl-f81caEt0xW6T0jHACkRy4w8Q2nGPF4F4g  - 57
+2026-01-26 21:44:29,801 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:44:29,801 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:50:05,059 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:50:05,060 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:50:05,060 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:50:05,061 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:50:05,130 - INFO - root - User alperen logged in - 103
+2026-01-26 21:50:05,131 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNDA1fQ.KnrZnoea9SYAvR621Ivybu3w_1zJhFIrh8VsKeN5F0A  - 57
+2026-01-26 21:50:05,131 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:50:05,138 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNDA1fQ.KnrZnoea9SYAvR621Ivybu3w_1zJhFIrh8VsKeN5F0A - 200
+2026-01-26 21:50:05,138 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:50:05,139 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:52:05,649 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:05,650 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:05,650 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:52:05,650 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:52:05,721 - INFO - root - User alperen logged in - 103
+2026-01-26 21:52:05,721 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNTI1fQ.a3ELrQNNsxE0F1UkyhB0pLG50OFCV9OKtt7FRVgahow  - 57
+2026-01-26 21:52:05,721 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:05,728 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNTI1fQ.a3ELrQNNsxE0F1UkyhB0pLG50OFCV9OKtt7FRVgahow - 200
+2026-01-26 21:52:05,728 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:52:05,728 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:52:49,703 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:49,703 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:49,704 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:52:49,704 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:52:49,771 - INFO - root - User alperen logged in - 103
+2026-01-26 21:52:49,772 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNTY5fQ.-QFgnzT8H_c1pNc-FGgEjF59cqwFSv3NyoCY1diRH5s  - 57
+2026-01-26 21:52:49,772 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:52:49,778 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNTY5fQ.-QFgnzT8H_c1pNc-FGgEjF59cqwFSv3NyoCY1diRH5s - 200
+2026-01-26 21:52:49,778 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:52:49,779 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:54:14,334 - INFO - root - Database initialized - 102
+2026-01-26 21:54:17,460 - INFO - root - Username fdsfsd count is 0 - 113
+2026-01-26 21:54:17,460 - WARNING - root - Wrong password or username fdsfsd:fsdfsdfs - 108
+2026-01-26 21:54:25,890 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:54:25,890 - INFO - root - Username alperen count is 1 - 113
+2026-01-26 21:54:25,891 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:54:25,891 - INFO - root - Data converted successfully to b64 format - 13
+2026-01-26 21:54:25,958 - INFO - root - User alperen logged in - 103
+2026-01-26 21:54:25,958 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5NDUzNjY1fQ.QXeezb2eWW7GPP16dNfmIqgtl-oAzFwgk7NZm9ISff0  - 57
+2026-01-26 21:54:25,959 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-01-26 21:54:25,959 - INFO - root - Data converted successfully to b64 format - 13

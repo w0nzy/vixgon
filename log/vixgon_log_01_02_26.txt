@@ -1,0 +1,2045 @@
+2026-02-01 09:30:07,936 - INFO - root - Database initialized - 102
+2026-02-01 09:30:08,601 - INFO - root - Database initialized :) - 25
+2026-02-01 09:30:08,604 - INFO - root - Database is closing - 100
+2026-02-01 09:30:08,604 - INFO - root - Database is closed  - 106
+2026-02-01 09:30:08,623 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:30:09,639 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x14a85934440>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:35:17,129 - INFO - root - Database initialized - 102
+2026-02-01 09:35:17,465 - INFO - root - Database initialized :) - 25
+2026-02-01 09:35:17,467 - INFO - root - Database is closing - 100
+2026-02-01 09:35:17,468 - INFO - root - Database is closed  - 106
+2026-02-01 09:35:17,486 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:35:18,511 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x19249e60830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:36:03,759 - INFO - root - Database initialized - 102
+2026-02-01 09:36:03,952 - INFO - root - Database initialized :) - 25
+2026-02-01 09:36:03,953 - INFO - root - Database is closing - 100
+2026-02-01 09:36:03,953 - INFO - root - Database is closed  - 106
+2026-02-01 09:36:03,960 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:36:04,963 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x210d11bc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:37:33,840 - INFO - root - Database initialized - 102
+2026-02-01 09:37:34,011 - INFO - root - Database initialized :) - 25
+2026-02-01 09:37:34,012 - INFO - root - Database is closing - 100
+2026-02-01 09:37:34,012 - INFO - root - Database is closed  - 106
+2026-02-01 09:37:34,017 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:37:35,020 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x11b99800830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:38:16,886 - INFO - root - Database initialized - 102
+2026-02-01 09:38:17,060 - INFO - root - Database initialized :) - 25
+2026-02-01 09:38:17,061 - INFO - root - Database is closing - 100
+2026-02-01 09:38:17,061 - INFO - root - Database is closed  - 106
+2026-02-01 09:38:17,065 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:38:18,070 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x15351710830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:39:25,102 - INFO - root - Database initialized - 102
+2026-02-01 09:39:25,281 - INFO - root - Database initialized :) - 25
+2026-02-01 09:39:25,282 - INFO - root - Database is closing - 100
+2026-02-01 09:39:25,282 - INFO - root - Database is closed  - 106
+2026-02-01 09:39:25,286 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:39:26,283 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x155e75c0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:40:47,274 - INFO - root - Database initialized - 102
+2026-02-01 09:40:47,449 - INFO - root - Database initialized :) - 25
+2026-02-01 09:40:47,450 - INFO - root - Database is closing - 100
+2026-02-01 09:40:47,450 - INFO - root - Database is closed  - 106
+2026-02-01 09:40:47,454 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:40:48,460 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x22057460830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:41:33,023 - INFO - root - Database initialized - 102
+2026-02-01 09:41:33,204 - INFO - root - Database initialized :) - 25
+2026-02-01 09:41:33,205 - INFO - root - Database is closing - 100
+2026-02-01 09:41:33,205 - INFO - root - Database is closed  - 106
+2026-02-01 09:41:33,210 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:41:34,221 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2d694eb0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:41:42,755 - INFO - root - Database initialized - 102
+2026-02-01 09:41:42,934 - INFO - root - Database initialized :) - 25
+2026-02-01 09:41:42,935 - INFO - root - Database is closing - 100
+2026-02-01 09:41:42,935 - INFO - root - Database is closed  - 106
+2026-02-01 09:41:42,940 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:41:43,945 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1fb19bc0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:42:38,915 - INFO - root - Database initialized - 102
+2026-02-01 09:42:39,101 - INFO - root - Database initialized :) - 25
+2026-02-01 09:42:39,101 - INFO - root - Database is closing - 100
+2026-02-01 09:42:39,102 - INFO - root - Database is closed  - 106
+2026-02-01 09:42:39,106 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:42:40,107 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1f48bbb0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:42:55,905 - INFO - root - Database initialized - 102
+2026-02-01 09:42:56,088 - INFO - root - Database initialized :) - 25
+2026-02-01 09:42:56,089 - INFO - root - Database is closing - 100
+2026-02-01 09:42:56,089 - INFO - root - Database is closed  - 106
+2026-02-01 09:42:56,093 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:42:57,104 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1b2e1cbc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:44:07,195 - INFO - root - Database initialized - 102
+2026-02-01 09:44:07,381 - INFO - root - Database initialized :) - 25
+2026-02-01 09:44:07,382 - INFO - root - Database is closing - 100
+2026-02-01 09:44:07,382 - INFO - root - Database is closed  - 106
+2026-02-01 09:44:07,387 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:44:08,383 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x19db27e0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:44:40,177 - INFO - root - Database initialized - 102
+2026-02-01 09:44:40,357 - INFO - root - Database initialized :) - 25
+2026-02-01 09:44:40,358 - INFO - root - Database is closing - 100
+2026-02-01 09:44:40,358 - INFO - root - Database is closed  - 106
+2026-02-01 09:44:40,362 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:44:41,372 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x171908cc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:45:00,812 - INFO - root - Database initialized - 102
+2026-02-01 09:45:00,986 - INFO - root - Database initialized :) - 25
+2026-02-01 09:45:00,987 - INFO - root - Database is closing - 100
+2026-02-01 09:45:00,987 - INFO - root - Database is closed  - 106
+2026-02-01 09:45:00,991 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:45:01,999 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x223961b0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:45:42,422 - INFO - root - Database initialized - 102
+2026-02-01 09:45:42,593 - INFO - root - Database initialized :) - 25
+2026-02-01 09:45:42,594 - INFO - root - Database is closing - 100
+2026-02-01 09:45:42,594 - INFO - root - Database is closed  - 106
+2026-02-01 09:45:42,599 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:45:43,602 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x209d7510830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:46:01,715 - INFO - root - Database initialized - 102
+2026-02-01 09:46:01,891 - INFO - root - Database initialized :) - 25
+2026-02-01 09:46:01,892 - INFO - root - Database is closing - 100
+2026-02-01 09:46:01,892 - INFO - root - Database is closed  - 106
+2026-02-01 09:46:01,896 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:46:02,897 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x28dba670830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:46:22,946 - INFO - root - Database initialized - 102
+2026-02-01 09:46:23,126 - INFO - root - Database initialized :) - 25
+2026-02-01 09:46:23,126 - INFO - root - Database is closing - 100
+2026-02-01 09:46:23,127 - INFO - root - Database is closed  - 106
+2026-02-01 09:46:23,131 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:46:24,144 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1f63d9e0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:46:47,935 - INFO - root - Database initialized - 102
+2026-02-01 09:46:48,113 - INFO - root - Database initialized :) - 25
+2026-02-01 09:46:48,113 - INFO - root - Database is closing - 100
+2026-02-01 09:46:48,114 - INFO - root - Database is closed  - 106
+2026-02-01 09:46:48,118 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:46:49,116 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x142b2f30830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:47:25,163 - INFO - root - Database initialized - 102
+2026-02-01 09:47:25,339 - INFO - root - Database initialized :) - 25
+2026-02-01 09:47:25,340 - INFO - root - Database is closing - 100
+2026-02-01 09:47:25,341 - INFO - root - Database is closed  - 106
+2026-02-01 09:47:25,345 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:47:26,345 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2c3d31c0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:47:43,071 - INFO - root - Database initialized - 102
+2026-02-01 09:47:43,246 - INFO - root - Database initialized :) - 25
+2026-02-01 09:47:43,246 - INFO - root - Database is closing - 100
+2026-02-01 09:47:43,247 - INFO - root - Database is closed  - 106
+2026-02-01 09:47:43,251 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:47:44,253 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27191e70830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:47:53,883 - INFO - root - Database initialized - 102
+2026-02-01 09:47:54,059 - INFO - root - Database initialized :) - 25
+2026-02-01 09:47:54,060 - INFO - root - Database is closing - 100
+2026-02-01 09:47:54,060 - INFO - root - Database is closed  - 106
+2026-02-01 09:47:54,065 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:47:55,067 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2ccaa700830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:48:03,579 - INFO - root - Database initialized - 102
+2026-02-01 09:48:03,759 - INFO - root - Database initialized :) - 25
+2026-02-01 09:48:03,760 - INFO - root - Database is closing - 100
+2026-02-01 09:48:03,760 - INFO - root - Database is closed  - 106
+2026-02-01 09:48:03,764 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:48:04,755 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x21340a0c830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:48:40,570 - INFO - root - Database initialized - 102
+2026-02-01 09:48:40,744 - INFO - root - Database initialized :) - 25
+2026-02-01 09:48:40,745 - INFO - root - Database is closing - 100
+2026-02-01 09:48:40,746 - INFO - root - Database is closed  - 106
+2026-02-01 09:48:40,750 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:48:41,760 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x27f4a290830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:48:56,631 - INFO - root - Database initialized - 102
+2026-02-01 09:48:56,812 - INFO - root - Database initialized :) - 25
+2026-02-01 09:48:56,813 - INFO - root - Database is closing - 100
+2026-02-01 09:48:56,813 - INFO - root - Database is closed  - 106
+2026-02-01 09:48:56,818 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:48:57,827 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2aa8158c830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:49:14,798 - INFO - root - Database initialized - 102
+2026-02-01 09:49:14,977 - INFO - root - Database initialized :) - 25
+2026-02-01 09:49:14,978 - INFO - root - Database is closing - 100
+2026-02-01 09:49:14,978 - INFO - root - Database is closed  - 106
+2026-02-01 09:49:14,983 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:49:15,983 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x266cb170830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:49:47,708 - INFO - root - Database initialized - 102
+2026-02-01 09:49:47,892 - INFO - root - Database initialized :) - 25
+2026-02-01 09:49:47,893 - INFO - root - Database is closing - 100
+2026-02-01 09:49:47,893 - INFO - root - Database is closed  - 106
+2026-02-01 09:49:47,898 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:49:48,901 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x25a7f3c0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:49:58,035 - INFO - root - Database initialized - 102
+2026-02-01 09:49:58,217 - INFO - root - Database initialized :) - 25
+2026-02-01 09:49:58,218 - INFO - root - Database is closing - 100
+2026-02-01 09:49:58,218 - INFO - root - Database is closed  - 106
+2026-02-01 09:49:58,222 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:49:59,223 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x22b9193c830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:50:15,768 - INFO - root - Database initialized - 102
+2026-02-01 09:50:15,939 - INFO - root - Database initialized :) - 25
+2026-02-01 09:50:15,940 - INFO - root - Database is closing - 100
+2026-02-01 09:50:15,940 - INFO - root - Database is closed  - 106
+2026-02-01 09:50:15,944 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:50:16,944 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x24be71dc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:50:25,216 - INFO - root - Database initialized - 102
+2026-02-01 09:50:25,393 - INFO - root - Database initialized :) - 25
+2026-02-01 09:50:25,394 - INFO - root - Database is closing - 100
+2026-02-01 09:50:25,394 - INFO - root - Database is closed  - 106
+2026-02-01 09:50:25,398 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:50:26,413 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1dc553bc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:51:05,581 - INFO - root - Database initialized - 102
+2026-02-01 09:51:05,753 - INFO - root - Database initialized :) - 25
+2026-02-01 09:51:05,754 - INFO - root - Database is closing - 100
+2026-02-01 09:51:05,754 - INFO - root - Database is closed  - 106
+2026-02-01 09:51:05,759 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:51:06,751 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1d1929c0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:51:20,483 - INFO - root - Database initialized - 102
+2026-02-01 09:51:20,670 - INFO - root - Database initialized :) - 25
+2026-02-01 09:51:20,671 - INFO - root - Database is closing - 100
+2026-02-01 09:51:20,671 - INFO - root - Database is closed  - 106
+2026-02-01 09:51:20,675 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:51:21,677 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x26cf98bc830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:51:48,306 - INFO - root - Database initialized - 102
+2026-02-01 09:51:48,484 - INFO - root - Database initialized :) - 25
+2026-02-01 09:51:48,485 - INFO - root - Database is closing - 100
+2026-02-01 09:51:48,485 - INFO - root - Database is closed  - 106
+2026-02-01 09:51:48,490 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:51:49,498 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x23f29e10830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:53:09,125 - INFO - root - Database initialized - 102
+2026-02-01 09:53:09,300 - INFO - root - Database initialized :) - 25
+2026-02-01 09:53:09,301 - INFO - root - Database is closing - 100
+2026-02-01 09:53:09,301 - INFO - root - Database is closed  - 106
+2026-02-01 09:53:09,306 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:53:10,307 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1529a230ad0>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:53:59,736 - INFO - root - Database initialized - 102
+2026-02-01 09:53:59,913 - INFO - root - Database initialized :) - 25
+2026-02-01 09:53:59,913 - INFO - root - Database is closing - 100
+2026-02-01 09:53:59,914 - INFO - root - Database is closed  - 106
+2026-02-01 09:53:59,918 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:54:00,920 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2413a7a0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 09:55:08,743 - INFO - root - Database initialized - 102
+2026-02-01 09:55:08,915 - INFO - root - Database initialized :) - 25
+2026-02-01 09:55:08,916 - INFO - root - Database is closing - 100
+2026-02-01 09:55:08,916 - INFO - root - Database is closed  - 106
+2026-02-01 09:55:08,920 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 09:55:09,921 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1af4f8c0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:05:51,056 - INFO - root - Database initialized - 102
+2026-02-01 10:05:51,230 - INFO - root - Database initialized :) - 25
+2026-02-01 10:05:51,231 - INFO - root - Database is closing - 100
+2026-02-01 10:05:51,231 - INFO - root - Database is closed  - 106
+2026-02-01 10:05:51,235 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:05:52,251 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x143b8b7c830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:06:58,486 - INFO - root - Database initialized - 102
+2026-02-01 10:06:58,666 - INFO - root - Database initialized :) - 25
+2026-02-01 10:06:58,667 - INFO - root - Database is closing - 100
+2026-02-01 10:06:58,667 - INFO - root - Database is closed  - 106
+2026-02-01 10:06:58,672 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:06:59,675 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x236c5d60830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:07:24,425 - INFO - root - Database initialized - 102
+2026-02-01 10:07:24,604 - INFO - root - Database initialized :) - 25
+2026-02-01 10:07:24,605 - INFO - root - Database is closing - 100
+2026-02-01 10:07:24,605 - INFO - root - Database is closed  - 106
+2026-02-01 10:07:24,609 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:07:25,620 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2540700c830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:08:53,591 - INFO - root - Database initialized - 102
+2026-02-01 10:08:53,772 - INFO - root - Database initialized :) - 25
+2026-02-01 10:08:53,773 - INFO - root - Database is closing - 100
+2026-02-01 10:08:53,773 - INFO - root - Database is closed  - 106
+2026-02-01 10:08:53,777 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:08:54,781 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x24c02430830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:09:15,163 - INFO - root - Database initialized - 102
+2026-02-01 10:09:15,350 - INFO - root - Database initialized :) - 25
+2026-02-01 10:09:15,351 - INFO - root - Database is closing - 100
+2026-02-01 10:09:15,351 - INFO - root - Database is closed  - 106
+2026-02-01 10:09:15,355 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:09:16,360 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1db0eb10830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:09:39,951 - INFO - root - Database initialized - 102
+2026-02-01 10:09:40,138 - INFO - root - Database initialized :) - 25
+2026-02-01 10:09:40,139 - INFO - root - Database is closing - 100
+2026-02-01 10:09:40,139 - INFO - root - Database is closed  - 106
+2026-02-01 10:09:40,143 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:09:41,159 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x19f97490830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:10:39,767 - INFO - root - Database initialized - 102
+2026-02-01 10:10:39,950 - INFO - root - Database initialized :) - 25
+2026-02-01 10:10:39,950 - INFO - root - Database is closing - 100
+2026-02-01 10:10:39,951 - INFO - root - Database is closed  - 106
+2026-02-01 10:10:39,955 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:10:40,968 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1d4def40830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:11:06,540 - INFO - root - Database initialized - 102
+2026-02-01 10:11:06,716 - INFO - root - Database initialized :) - 25
+2026-02-01 10:11:06,717 - INFO - root - Database is closing - 100
+2026-02-01 10:11:06,718 - INFO - root - Database is closed  - 106
+2026-02-01 10:11:06,722 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:11:07,737 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x297748f0830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:11:20,754 - INFO - root - Database initialized - 102
+2026-02-01 10:11:20,927 - INFO - root - Database initialized :) - 25
+2026-02-01 10:11:20,928 - INFO - root - Database is closing - 100
+2026-02-01 10:11:20,928 - INFO - root - Database is closed  - 106
+2026-02-01 10:11:20,932 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:11:21,947 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x274117ac830>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 28
+2026-02-01 10:11:48,961 - INFO - root - Database initialized - 102
+2026-02-01 10:12:00,490 - INFO - root - Database initialized - 102
+2026-02-01 10:12:00,664 - INFO - root - Database initialized :) - 25
+2026-02-01 10:12:00,665 - INFO - root - Database is closing - 100
+2026-02-01 10:12:00,665 - INFO - root - Database is closed  - 106
+2026-02-01 10:12:00,670 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:12:00,689 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:12:00,700 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:12:00,700 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:12:00,705 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 10:12:00,705 - WARNING - root - No action :/ - 59
+2026-02-01 10:25:26,915 - INFO - root - Database initialized - 102
+2026-02-01 10:25:27,092 - INFO - root - Database initialized :) - 25
+2026-02-01 10:25:27,093 - INFO - root - Database is closing - 100
+2026-02-01 10:25:27,093 - INFO - root - Database is closed  - 106
+2026-02-01 10:25:27,097 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:25:27,101 - CRITICAL - root - Validation error Invalid header padding - 46
+2026-02-01 10:25:27,102 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 401 26 - 544
+2026-02-01 10:25:27,104 - WARNING - root - No action :/ - 59
+2026-02-01 10:28:07,577 - INFO - root - Database initialized - 102
+2026-02-01 10:28:07,752 - INFO - root - Database initialized :) - 25
+2026-02-01 10:28:07,753 - INFO - root - Database is closing - 100
+2026-02-01 10:28:07,753 - INFO - root - Database is closed  - 106
+2026-02-01 10:28:07,758 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:28:07,761 - CRITICAL - root - Validation error Invalid header padding - 46
+2026-02-01 10:28:07,762 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 401 26 - 544
+2026-02-01 10:28:07,763 - WARNING - root - Removing local database - 113
+2026-02-01 10:28:07,764 - ERROR - root - Cannot remove app path [WinError 32] Dosya baþka bir iþlem tarafýndan kullanýldýðýndan bu iþlem dosyaya eriþemiyor: 'C:\\Users\\Ömer Çavuþ\\AppData\\Local\\vixgon\\local.db'  - 118
+2026-02-01 10:28:28,574 - INFO - root - Database initialized - 102
+2026-02-01 10:28:28,752 - INFO - root - Database initialized :) - 25
+2026-02-01 10:28:28,752 - INFO - root - Database is closing - 100
+2026-02-01 10:28:28,753 - INFO - root - Database is closed  - 106
+2026-02-01 10:28:28,757 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:28:28,760 - CRITICAL - root - Validation error Invalid header padding - 46
+2026-02-01 10:28:28,761 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 401 26 - 544
+2026-02-01 10:28:28,762 - WARNING - root - Removing local database - 113
+2026-02-01 10:28:28,763 - INFO - root - Database removed - 116
+2026-02-01 10:28:34,956 - INFO - root - Database initialized - 102
+2026-02-01 10:28:41,712 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:28:41,717 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:28:41,717 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:28:41,718 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:28:41,719 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:28:41,791 - INFO - root - User alperen logged in - 97
+2026-02-01 10:28:41,791 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTIxfQ.0TZjeEiaidqNVDvzJqMdzayuCsssce8uuqzR96y-9Wk  - 57
+2026-02-01 10:28:41,792 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:28:41,798 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTIxfQ.0TZjeEiaidqNVDvzJqMdzayuCsssce8uuqzR96y-9Wk - 200
+2026-02-01 10:28:41,798 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:28:41,798 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:28:41,800 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-02-01 10:28:41,800 - WARNING - root - No action :/ - 62
+2026-02-01 10:28:41,801 - INFO - root - Database initialized :) - 25
+2026-02-01 10:28:41,811 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTIxfQ.0TZjeEiaidqNVDvzJqMdzayuCsssce8uuqzR96y-9Wk - 49
+2026-02-01 10:28:41,815 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\48f4ae4a80f047c7b6717120f50c771f.png  - 76
+2026-02-01 10:28:41,815 - INFO - root - Data is can decodable format type str - 78
+2026-02-01 10:28:41,816 - INFO - root - Database is closing - 100
+2026-02-01 10:28:41,816 - INFO - root - Database is closed  - 106
+2026-02-01 10:28:45,103 - INFO - root - Database initialized - 102
+2026-02-01 10:28:45,277 - INFO - root - Database initialized :) - 25
+2026-02-01 10:28:45,278 - INFO - root - Database is closing - 100
+2026-02-01 10:28:45,279 - INFO - root - Database is closed  - 106
+2026-02-01 10:28:45,283 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:28:45,285 - CRITICAL - root - Validation error Invalid header padding - 46
+2026-02-01 10:28:45,287 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 401 26 - 544
+2026-02-01 10:28:45,287 - WARNING - root - Removing local database - 113
+2026-02-01 10:28:45,288 - INFO - root - Database removed - 116
+2026-02-01 10:28:58,731 - INFO - root - Database initialized - 102
+2026-02-01 10:29:06,776 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:29:06,778 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:29:06,779 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:29:06,779 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:29:06,779 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:29:06,856 - INFO - root - User alperen logged in - 97
+2026-02-01 10:29:06,857 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTQ2fQ.t4fh5LSs2JXq11SqULjI8bJiOyyiLChqRHXB19jhWs4  - 57
+2026-02-01 10:29:06,857 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:29:06,863 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTQ2fQ.t4fh5LSs2JXq11SqULjI8bJiOyyiLChqRHXB19jhWs4 - 200
+2026-02-01 10:29:06,863 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:29:06,863 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:29:06,864 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-02-01 10:29:06,865 - WARNING - root - No action :/ - 62
+2026-02-01 10:29:06,865 - INFO - root - Database initialized :) - 25
+2026-02-01 10:29:06,873 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTMwOTQ2fQ.t4fh5LSs2JXq11SqULjI8bJiOyyiLChqRHXB19jhWs4 - 49
+2026-02-01 10:29:06,878 - INFO - root - Saving user photo :) C:\Users\Ömer Çavuþ\AppData\Local\vixgon\user_photo\f671a5b875c0446e90392056f619c8d4.png  - 76
+2026-02-01 10:29:06,879 - INFO - root - Data is can decodable format type str - 78
+2026-02-01 10:29:06,879 - INFO - root - Database is closing - 100
+2026-02-01 10:29:06,880 - INFO - root - Database is closed  - 106
+2026-02-01 10:29:11,612 - INFO - root - Database initialized - 102
+2026-02-01 10:29:11,786 - INFO - root - Database initialized :) - 25
+2026-02-01 10:29:11,788 - INFO - root - Database is closing - 100
+2026-02-01 10:29:11,788 - INFO - root - Database is closed  - 106
+2026-02-01 10:29:11,792 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:29:11,795 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:29:11,796 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:29:11,796 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:29:11,797 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 10:29:11,798 - WARNING - root - No action :/ - 62
+2026-02-01 10:31:17,887 - INFO - root - Database initialized - 102
+2026-02-01 10:31:18,061 - INFO - root - Database initialized :) - 25
+2026-02-01 10:31:18,061 - INFO - root - Database is closing - 100
+2026-02-01 10:31:18,062 - INFO - root - Database is closed  - 106
+2026-02-01 10:31:18,067 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 10:31:18,071 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 10:31:18,071 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 10:31:18,071 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 10:31:18,072 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 10:31:18,073 - WARNING - root - No action :/ - 62
+2026-02-01 10:44:42,319 - INFO - root - Database initialized - 102
+2026-02-01 10:45:25,278 - INFO - root - Database initialized - 102
+2026-02-01 11:33:12,974 - INFO - root - Database initialized - 102
+2026-02-01 11:34:41,111 - INFO - root - Database initialized - 102
+2026-02-01 11:37:42,735 - INFO - root - Database initialized - 102
+2026-02-01 11:37:59,007 - INFO - root - Database initialized - 102
+2026-02-01 11:38:19,568 - INFO - root - Database initialized - 102
+2026-02-01 11:41:25,878 - INFO - root - Database initialized - 102
+2026-02-01 11:42:45,781 - INFO - root - Database initialized - 102
+2026-02-01 11:42:55,614 - INFO - root - Database initialized - 102
+2026-02-01 11:42:55,796 - INFO - root - Database initialized :) - 25
+2026-02-01 11:42:55,797 - INFO - root - Database is closing - 100
+2026-02-01 11:42:55,797 - INFO - root - Database is closed  - 106
+2026-02-01 11:43:31,241 - INFO - root - Database initialized - 102
+2026-02-01 11:43:31,415 - INFO - root - Database initialized :) - 25
+2026-02-01 11:43:31,415 - INFO - root - Database is closing - 100
+2026-02-01 11:43:31,416 - INFO - root - Database is closed  - 106
+2026-02-01 11:43:31,421 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:43:31,425 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:43:31,426 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:43:31,426 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:43:31,427 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:43:31,428 - WARNING - root - No action :/ - 72
+2026-02-01 11:51:13,480 - INFO - root - Database initialized - 102
+2026-02-01 11:51:13,667 - INFO - root - Database initialized :) - 25
+2026-02-01 11:51:13,669 - INFO - root - Database is closing - 100
+2026-02-01 11:51:13,669 - INFO - root - Database is closed  - 106
+2026-02-01 11:51:13,673 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:51:13,677 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:51:13,677 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:51:13,678 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:51:13,679 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:51:13,680 - WARNING - root - No action :/ - 70
+2026-02-01 11:51:37,423 - INFO - root - Database initialized - 102
+2026-02-01 11:51:37,603 - INFO - root - Database initialized :) - 25
+2026-02-01 11:51:37,604 - INFO - root - Database is closing - 100
+2026-02-01 11:51:37,604 - INFO - root - Database is closed  - 106
+2026-02-01 11:51:37,608 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:51:37,611 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:51:37,612 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:51:37,612 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:51:37,613 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:51:37,614 - WARNING - root - No action :/ - 70
+2026-02-01 11:51:57,778 - INFO - root - Database initialized - 102
+2026-02-01 11:51:57,961 - INFO - root - Database initialized :) - 25
+2026-02-01 11:51:57,963 - INFO - root - Database is closing - 100
+2026-02-01 11:51:57,963 - INFO - root - Database is closed  - 106
+2026-02-01 11:51:57,967 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:51:57,970 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:51:57,971 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:51:57,971 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:51:57,972 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:51:57,973 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:44,642 - INFO - root - Database initialized - 102
+2026-02-01 11:54:44,822 - INFO - root - Database initialized :) - 25
+2026-02-01 11:54:44,823 - INFO - root - Database is closing - 100
+2026-02-01 11:54:44,823 - INFO - root - Database is closed  - 106
+2026-02-01 11:54:44,827 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:54:44,830 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:54:44,830 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:54:44,831 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:54:44,832 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:54:44,832 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:46,239 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:54:46,242 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:54:46,243 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:51,503 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 11:54:51,507 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:54:51,508 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:52,295 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:54:52,297 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:53,138 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:54:53,138 - WARNING - root - No action :/ - 70
+2026-02-01 11:54:54,167 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:54:54,168 - WARNING - root - No action :/ - 70
+2026-02-01 11:55:14,838 - INFO - root - Database initialized - 102
+2026-02-01 11:55:15,023 - INFO - root - Database initialized :) - 25
+2026-02-01 11:55:15,024 - INFO - root - Database is closing - 100
+2026-02-01 11:55:15,024 - INFO - root - Database is closed  - 106
+2026-02-01 11:55:15,028 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:55:15,031 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:55:15,032 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:55:15,032 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:55:15,033 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:55:15,034 - WARNING - root - No action :/ - 70
+2026-02-01 11:55:16,430 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:55:16,433 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:55:16,436 - WARNING - root - No action :/ - 70
+2026-02-01 11:55:18,289 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:55:18,292 - WARNING - root - No action :/ - 70
+2026-02-01 11:56:32,903 - INFO - root - Database initialized - 102
+2026-02-01 11:56:33,082 - INFO - root - Database initialized :) - 25
+2026-02-01 11:56:33,083 - INFO - root - Database is closing - 100
+2026-02-01 11:56:33,084 - INFO - root - Database is closed  - 106
+2026-02-01 11:56:33,088 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:56:33,091 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:56:33,091 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:56:33,092 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:56:33,093 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:56:33,094 - WARNING - root - No action :/ - 70
+2026-02-01 11:56:34,220 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:56:34,223 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:56:34,230 - WARNING - root - No action :/ - 70
+2026-02-01 11:56:37,265 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:56:37,270 - WARNING - root - No action :/ - 70
+2026-02-01 11:57:13,178 - INFO - root - Database initialized - 102
+2026-02-01 11:57:13,357 - INFO - root - Database initialized :) - 25
+2026-02-01 11:57:13,358 - INFO - root - Database is closing - 100
+2026-02-01 11:57:13,358 - INFO - root - Database is closed  - 106
+2026-02-01 11:57:13,362 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:57:13,365 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 11:57:13,366 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 11:57:13,366 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 11:57:13,367 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 11:57:13,368 - WARNING - root - No action :/ - 71
+2026-02-01 11:57:14,820 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 11:57:14,824 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/get_shelfs HTTP/1.1" 405 31 - 544
+2026-02-01 11:57:14,827 - WARNING - root - No action :/ - 71
+2026-02-01 11:59:03,292 - INFO - root - Database initialized - 102
+2026-02-01 11:59:03,473 - INFO - root - Database initialized :) - 25
+2026-02-01 11:59:03,473 - INFO - root - Database is closing - 100
+2026-02-01 11:59:03,474 - INFO - root - Database is closed  - 106
+2026-02-01 11:59:03,475 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:00:11,080 - INFO - root - Database initialized - 102
+2026-02-01 12:00:11,258 - INFO - root - Database initialized :) - 25
+2026-02-01 12:00:11,259 - INFO - root - Database is closing - 100
+2026-02-01 12:00:11,259 - INFO - root - Database is closed  - 106
+2026-02-01 12:00:11,260 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:00:45,705 - INFO - root - Database initialized - 102
+2026-02-01 12:00:45,884 - INFO - root - Database initialized :) - 25
+2026-02-01 12:00:45,885 - INFO - root - Database is closing - 100
+2026-02-01 12:00:45,885 - INFO - root - Database is closed  - 106
+2026-02-01 12:00:45,887 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:01:32,316 - INFO - root - Database initialized - 102
+2026-02-01 12:01:32,492 - INFO - root - Database initialized :) - 25
+2026-02-01 12:01:32,493 - INFO - root - Database is closing - 100
+2026-02-01 12:01:32,494 - INFO - root - Database is closed  - 106
+2026-02-01 12:01:32,495 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:02:09,236 - INFO - root - Database initialized - 102
+2026-02-01 12:02:09,413 - INFO - root - Database initialized :) - 25
+2026-02-01 12:02:09,414 - INFO - root - Database is closing - 100
+2026-02-01 12:02:09,414 - INFO - root - Database is closed  - 106
+2026-02-01 12:02:09,416 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:05:43,127 - INFO - root - Database initialized - 102
+2026-02-01 12:05:43,309 - INFO - root - Database initialized :) - 25
+2026-02-01 12:05:43,309 - INFO - root - Database is closing - 100
+2026-02-01 12:05:43,310 - INFO - root - Database is closed  - 106
+2026-02-01 12:05:43,311 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:07:36,295 - INFO - root - Database initialized - 102
+2026-02-01 12:07:36,471 - INFO - root - Database initialized :) - 25
+2026-02-01 12:07:36,472 - INFO - root - Database is closing - 100
+2026-02-01 12:07:36,473 - INFO - root - Database is closed  - 106
+2026-02-01 12:07:36,474 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:08:15,892 - INFO - root - Database initialized - 102
+2026-02-01 12:08:16,067 - INFO - root - Database initialized :) - 25
+2026-02-01 12:08:16,068 - INFO - root - Database is closing - 100
+2026-02-01 12:08:16,069 - INFO - root - Database is closed  - 106
+2026-02-01 12:08:16,070 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:08:36,307 - INFO - root - Database initialized - 102
+2026-02-01 12:08:36,490 - INFO - root - Database initialized :) - 25
+2026-02-01 12:08:36,491 - INFO - root - Database is closing - 100
+2026-02-01 12:08:36,491 - INFO - root - Database is closed  - 106
+2026-02-01 12:08:36,493 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:08:58,718 - INFO - root - Database initialized - 102
+2026-02-01 12:08:58,893 - INFO - root - Database initialized :) - 25
+2026-02-01 12:08:58,894 - INFO - root - Database is closing - 100
+2026-02-01 12:08:58,894 - INFO - root - Database is closed  - 106
+2026-02-01 12:08:58,896 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 12:10:17,096 - INFO - root - Database initialized - 102
+2026-02-01 12:10:17,277 - INFO - root - Database initialized :) - 25
+2026-02-01 12:10:17,277 - INFO - root - Database is closing - 100
+2026-02-01 12:10:17,278 - INFO - root - Database is closed  - 106
+2026-02-01 12:10:17,279 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> Workerw.post_() takes 1 positional argument but 2 were given - 34
+2026-02-01 14:16:02,929 - INFO - root - Database initialized - 102
+2026-02-01 14:16:19,722 - INFO - root - Database initialized - 102
+2026-02-01 14:16:27,766 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:16:27,776 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_testhttp://127.0.0.1:80/vixgon/api/login_test HTTP/1.1" 404 22 - 544
+2026-02-01 14:16:27,776 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> 'NoneType' object has no attribute 'status_code' - 34
+2026-02-01 14:17:02,716 - INFO - root - Database initialized - 102
+2026-02-01 14:17:11,399 - INFO - root - Database initialized - 102
+2026-02-01 14:17:17,789 - INFO - root - Database initialized - 102
+2026-02-01 14:17:24,251 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:17:24,258 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:17:24,258 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:17:24,267 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:17:24,267 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:17:24,310 - INFO - root - User alperen logged in - 97
+2026-02-01 14:17:24,310 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTQ0NjQ0fQ.bDIVru162y3bdR3CfHHHbsoQthYcWN7j77nXgiUvw-g  - 57
+2026-02-01 14:17:24,311 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:17:24,311 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:17:24,313 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-02-01 14:17:24,313 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_test -> 'NoneType' object has no attribute 'status_code' - 34
+2026-02-01 14:18:03,632 - INFO - root - Database initialized - 102
+2026-02-01 14:18:07,701 - INFO - root - Database initialized - 102
+2026-02-01 14:18:08,789 - INFO - root - Database initialized - 102
+2026-02-01 14:18:13,880 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:18:13,885 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:18:13,885 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:18:13,886 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:18:13,886 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:18:13,927 - INFO - root - User alperen logged in - 97
+2026-02-01 14:18:13,927 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTQ0NjkzfQ.VNdFutpO7rg50WBJGzy2gip7vlfA9oS_vcijAOSLM2g  - 57
+2026-02-01 14:18:13,928 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:18:13,928 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:18:13,929 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-02-01 14:18:13,932 - WARNING - root - No action :/ - 71
+2026-02-01 14:18:20,595 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:18:20,603 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:18:24,475 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:19:20,561 - INFO - root - Database initialized - 102
+2026-02-01 14:19:24,704 - INFO - root - Database initialized - 102
+2026-02-01 14:19:30,704 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:19:30,709 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:19:30,709 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:19:30,709 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:19:30,710 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:19:30,750 - INFO - root - User alperen logged in - 97
+2026-02-01 14:19:30,751 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTQ0NzcwfQ.ugQvr_etsDaoCIK9cm1rcMD6p3H0piNvU4XELeD-HwQ  - 57
+2026-02-01 14:19:30,752 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:19:30,756 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTQ0NzcwfQ.ugQvr_etsDaoCIK9cm1rcMD6p3H0piNvU4XELeD-HwQ - 200
+2026-02-01 14:19:30,757 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:19:30,757 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:19:30,758 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_test HTTP/1.1" 200 18875 - 544
+2026-02-01 14:19:30,758 - WARNING - root - No action :/ - 71
+2026-02-01 14:19:30,759 - INFO - root - Database initialized :) - 25
+2026-02-01 14:19:30,763 - INFO - root - New local user created alperen:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTQ0NzcwfQ.ugQvr_etsDaoCIK9cm1rcMD6p3H0piNvU4XELeD-HwQ - 49
+2026-02-01 14:19:30,765 - INFO - root - Saving user photo :) C:\Users\alper\AppData\Local\vixgon\user_photo\a74650e4e4584ef28f27e3c3cb0fc823.png  - 76
+2026-02-01 14:19:30,765 - INFO - root - Data is can decodable format type str - 78
+2026-02-01 14:19:30,766 - INFO - root - Database is closing - 100
+2026-02-01 14:19:30,766 - INFO - root - Database is closed  - 106
+2026-02-01 14:19:34,380 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:19:34,396 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:20:49,056 - INFO - root - Database initialized - 102
+2026-02-01 14:21:19,614 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 14:21:19,630 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:21:31,055 - INFO - root - Database initialized - 102
+2026-02-01 14:21:31,201 - INFO - root - Database initialized :) - 25
+2026-02-01 14:21:31,202 - INFO - root - Database is closing - 100
+2026-02-01 14:21:31,203 - INFO - root - Database is closed  - 106
+2026-02-01 14:21:31,205 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:21:31,208 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:21:31,209 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:21:31,209 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:21:31,210 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:21:31,210 - WARNING - root - No action :/ - 71
+2026-02-01 14:21:37,261 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:21:37,263 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:22:08,506 - INFO - root - Database initialized - 102
+2026-02-01 14:22:37,777 - INFO - root - Database initialized - 102
+2026-02-01 14:22:45,503 - INFO - root - Database initialized - 102
+2026-02-01 14:22:45,652 - INFO - root - Database initialized :) - 25
+2026-02-01 14:22:45,653 - INFO - root - Database is closing - 100
+2026-02-01 14:22:45,653 - INFO - root - Database is closed  - 106
+2026-02-01 14:22:45,656 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:22:45,663 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:22:45,664 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:22:45,664 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:22:45,665 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:22:45,665 - WARNING - root - No action :/ - 71
+2026-02-01 14:22:49,626 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:22:49,637 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 401 21 - 544
+2026-02-01 14:23:51,726 - INFO - root - Database initialized - 102
+2026-02-01 14:23:56,062 - INFO - root - Database initialized - 102
+2026-02-01 14:23:56,209 - INFO - root - Database initialized :) - 25
+2026-02-01 14:23:56,209 - INFO - root - Database is closing - 100
+2026-02-01 14:23:56,210 - INFO - root - Database is closed  - 106
+2026-02-01 14:23:56,212 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:23:56,220 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:23:56,221 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:23:56,221 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:23:56,222 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:23:56,222 - WARNING - root - No action :/ - 71
+2026-02-01 14:24:06,344 - INFO - root - Database initialized - 102
+2026-02-01 14:24:27,978 - INFO - root - Database initialized - 102
+2026-02-01 14:25:37,414 - INFO - root - Database initialized - 102
+2026-02-01 14:25:58,262 - INFO - root - Database initialized - 102
+2026-02-01 14:25:59,733 - INFO - root - Database initialized - 102
+2026-02-01 14:25:59,885 - INFO - root - Database initialized :) - 25
+2026-02-01 14:25:59,886 - INFO - root - Database is closing - 100
+2026-02-01 14:25:59,886 - INFO - root - Database is closed  - 106
+2026-02-01 14:25:59,889 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:25:59,896 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:25:59,897 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:25:59,897 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:25:59,898 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:25:59,898 - WARNING - root - No action :/ - 71
+2026-02-01 14:27:04,299 - INFO - root - Database initialized - 102
+2026-02-01 14:27:05,873 - INFO - root - Database initialized - 102
+2026-02-01 14:27:06,017 - INFO - root - Database initialized :) - 25
+2026-02-01 14:27:06,018 - INFO - root - Database is closing - 100
+2026-02-01 14:27:06,018 - INFO - root - Database is closed  - 106
+2026-02-01 14:27:06,021 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:27:06,028 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:27:06,029 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:27:06,029 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:27:06,030 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:27:06,030 - WARNING - root - No action :/ - 71
+2026-02-01 14:27:30,354 - INFO - root - Database initialized - 102
+2026-02-01 14:27:41,189 - INFO - root - Database initialized - 102
+2026-02-01 14:27:41,343 - INFO - root - Database initialized :) - 25
+2026-02-01 14:27:41,344 - INFO - root - Database is closing - 100
+2026-02-01 14:27:41,344 - INFO - root - Database is closed  - 106
+2026-02-01 14:27:41,347 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:27:41,353 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:27:41,355 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:27:41,355 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:27:41,356 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:27:41,356 - WARNING - root - No action :/ - 71
+2026-02-01 14:28:42,888 - INFO - root - Database initialized - 102
+2026-02-01 14:28:44,008 - INFO - root - Database initialized - 102
+2026-02-01 14:28:44,153 - INFO - root - Database initialized :) - 25
+2026-02-01 14:28:44,153 - INFO - root - Database is closing - 100
+2026-02-01 14:28:44,154 - INFO - root - Database is closed  - 106
+2026-02-01 14:28:44,156 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:28:44,164 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:28:44,164 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:28:44,164 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:28:44,165 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:28:44,166 - WARNING - root - No action :/ - 71
+2026-02-01 14:29:11,873 - INFO - root - Database initialized - 102
+2026-02-01 14:29:12,983 - INFO - root - Database initialized - 102
+2026-02-01 14:29:13,129 - INFO - root - Database initialized :) - 25
+2026-02-01 14:29:13,130 - INFO - root - Database is closing - 100
+2026-02-01 14:29:13,130 - INFO - root - Database is closed  - 106
+2026-02-01 14:29:13,133 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:29:13,140 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:29:13,141 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:29:13,141 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:29:13,142 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:29:13,142 - WARNING - root - No action :/ - 71
+2026-02-01 14:30:28,116 - INFO - root - Database initialized - 102
+2026-02-01 14:30:33,845 - INFO - root - Database initialized - 102
+2026-02-01 14:31:06,729 - INFO - root - Database initialized - 102
+2026-02-01 14:31:08,474 - INFO - root - Database initialized - 102
+2026-02-01 14:31:29,389 - INFO - root - Database initialized - 102
+2026-02-01 14:31:39,917 - INFO - root - Database initialized - 102
+2026-02-01 14:32:06,690 - INFO - root - Database initialized - 102
+2026-02-01 14:32:40,917 - INFO - root - Database initialized - 102
+2026-02-01 14:32:42,102 - INFO - root - Database initialized - 102
+2026-02-01 14:32:42,255 - INFO - root - Database initialized :) - 25
+2026-02-01 14:32:42,255 - INFO - root - Database is closing - 100
+2026-02-01 14:32:42,256 - INFO - root - Database is closed  - 106
+2026-02-01 14:32:42,258 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:32:42,266 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:32:42,266 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:32:42,267 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:32:42,267 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:32:42,267 - WARNING - root - No action :/ - 71
+2026-02-01 14:33:03,367 - INFO - root - Database initialized - 102
+2026-02-01 14:33:04,336 - INFO - root - Database initialized - 102
+2026-02-01 14:33:04,487 - INFO - root - Database initialized :) - 25
+2026-02-01 14:33:04,488 - INFO - root - Database is closing - 100
+2026-02-01 14:33:04,488 - INFO - root - Database is closed  - 106
+2026-02-01 14:33:04,491 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:33:04,498 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:33:04,499 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:33:04,499 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:33:04,500 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:33:04,500 - WARNING - root - No action :/ - 71
+2026-02-01 14:33:25,832 - INFO - root - Database initialized - 102
+2026-02-01 14:33:27,377 - INFO - root - Database initialized - 102
+2026-02-01 14:33:27,526 - INFO - root - Database initialized :) - 25
+2026-02-01 14:33:27,527 - INFO - root - Database is closing - 100
+2026-02-01 14:33:27,527 - INFO - root - Database is closed  - 106
+2026-02-01 14:33:27,529 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:33:27,537 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:33:27,537 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:33:27,537 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:33:27,538 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:33:27,539 - WARNING - root - No action :/ - 71
+2026-02-01 14:33:50,588 - INFO - root - Database initialized - 102
+2026-02-01 14:33:51,961 - INFO - root - Database initialized - 102
+2026-02-01 14:34:05,387 - INFO - root - Database initialized - 102
+2026-02-01 14:34:11,055 - INFO - root - Database initialized - 102
+2026-02-01 14:34:12,254 - INFO - root - Database initialized - 102
+2026-02-01 14:34:12,401 - INFO - root - Database initialized :) - 25
+2026-02-01 14:34:12,401 - INFO - root - Database is closing - 100
+2026-02-01 14:34:12,402 - INFO - root - Database is closed  - 106
+2026-02-01 14:34:12,404 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:34:12,420 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:34:12,422 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:34:12,422 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:34:12,423 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:34:12,423 - WARNING - root - No action :/ - 71
+2026-02-01 14:34:42,029 - INFO - root - Database initialized - 102
+2026-02-01 14:35:13,289 - INFO - root - Database initialized - 102
+2026-02-01 14:35:14,125 - INFO - root - Database initialized - 102
+2026-02-01 14:35:14,273 - INFO - root - Database initialized :) - 25
+2026-02-01 14:35:14,273 - INFO - root - Database is closing - 100
+2026-02-01 14:35:14,274 - INFO - root - Database is closed  - 106
+2026-02-01 14:35:14,276 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:35:14,284 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:35:14,284 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:35:14,284 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:35:14,285 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:35:14,286 - WARNING - root - No action :/ - 71
+2026-02-01 14:36:09,366 - INFO - root - Database initialized - 102
+2026-02-01 14:36:17,139 - INFO - root - Database initialized - 102
+2026-02-01 14:36:40,392 - INFO - root - Database initialized - 102
+2026-02-01 14:36:41,365 - INFO - root - Database initialized - 102
+2026-02-01 14:36:47,393 - INFO - root - Database initialized - 102
+2026-02-01 14:36:48,340 - INFO - root - Database initialized - 102
+2026-02-01 14:37:58,882 - INFO - root - Database initialized - 102
+2026-02-01 14:37:59,983 - INFO - root - Database initialized - 102
+2026-02-01 14:38:00,140 - INFO - root - Database initialized :) - 25
+2026-02-01 14:38:00,141 - INFO - root - Database is closing - 100
+2026-02-01 14:38:00,141 - INFO - root - Database is closed  - 106
+2026-02-01 14:38:00,144 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:38:00,151 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:38:00,152 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:38:00,152 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:38:00,153 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:38:00,153 - WARNING - root - No action :/ - 73
+2026-02-01 14:38:13,985 - INFO - root - Database initialized - 102
+2026-02-01 14:38:15,112 - INFO - root - Database initialized - 102
+2026-02-01 14:38:15,258 - INFO - root - Database initialized :) - 25
+2026-02-01 14:38:15,258 - INFO - root - Database is closing - 100
+2026-02-01 14:38:15,259 - INFO - root - Database is closed  - 106
+2026-02-01 14:38:15,261 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:38:15,269 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:38:15,270 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:38:15,270 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:38:15,271 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:38:15,271 - WARNING - root - No action :/ - 73
+2026-02-01 14:38:35,905 - INFO - root - Database initialized - 102
+2026-02-01 14:39:14,801 - INFO - root - Database initialized - 102
+2026-02-01 14:40:15,092 - INFO - root - Database initialized - 102
+2026-02-01 14:40:34,114 - INFO - root - Database initialized - 102
+2026-02-01 14:40:35,983 - INFO - root - Database initialized - 102
+2026-02-01 14:40:54,148 - INFO - root - Database initialized - 102
+2026-02-01 14:40:55,066 - INFO - root - Database initialized - 102
+2026-02-01 14:40:55,212 - INFO - root - Database initialized :) - 25
+2026-02-01 14:40:55,212 - INFO - root - Database is closing - 100
+2026-02-01 14:40:55,212 - INFO - root - Database is closed  - 106
+2026-02-01 14:40:55,215 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:40:55,223 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:40:55,223 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:40:55,223 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:40:55,224 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:40:55,225 - WARNING - root - No action :/ - 73
+2026-02-01 14:40:56,476 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:40:56,481 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:40:56,483 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:40:58,122 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:40:58,122 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:41:39,571 - INFO - root - Database initialized - 102
+2026-02-01 14:41:41,090 - INFO - root - Database initialized - 102
+2026-02-01 14:41:41,244 - INFO - root - Database initialized :) - 25
+2026-02-01 14:41:41,245 - INFO - root - Database is closing - 100
+2026-02-01 14:41:41,245 - INFO - root - Database is closed  - 106
+2026-02-01 14:41:41,248 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:41:41,256 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:41:41,256 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:41:41,256 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:41:41,257 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:41:41,258 - WARNING - root - No action :/ - 73
+2026-02-01 14:41:42,551 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:41:42,555 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:41:42,555 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:41:43,331 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:41:43,331 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:41:43,630 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:41:43,631 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:41:44,221 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:41:44,222 - CRITICAL - root - Execution failed for handle_combobox_items register error is 15 validation errors for ShelfList
+shelfs.0
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'ABCDEF001...ch': 1768154773.5149972}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.1
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF1D3', ...ch': 1768155131.9004915}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.2
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF5F', ...och': 1768155131.905911}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.3
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF566', ...ch': 1768155131.9120064}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.4
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF511', ...ch': 1768155131.9168043}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.5
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF356', ...ch': 1768155131.9227042}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.6
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF16', ...ch': 1768155131.9286995}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.7
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF482', ...ch': 1768155131.9345431}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.8
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF0BB', ...ch': 1768155131.9395907}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.9
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAFF36', ...ch': 1768155131.9454834}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.10
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF510', ...och': 1768155131.950355}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.11
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF591', ...ch': 1768155131.9562957}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.12
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF631', ...ch': 1768155131.9614112}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.13
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF630', ...ch': 1768155131.9675279}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+shelfs.14
+  Input should be a valid string [type=string_type, input_value={'shelf_name': 'RAF09C', ...och': 1768155131.972385}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type - 84
+2026-02-01 14:42:39,859 - INFO - root - Database initialized - 102
+2026-02-01 14:42:41,209 - INFO - root - Database initialized - 102
+2026-02-01 14:42:41,355 - INFO - root - Database initialized :) - 25
+2026-02-01 14:42:41,356 - INFO - root - Database is closing - 100
+2026-02-01 14:42:41,356 - INFO - root - Database is closed  - 106
+2026-02-01 14:42:41,359 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:42:41,366 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:42:41,367 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:42:41,367 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:42:41,368 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:42:41,368 - WARNING - root - No action :/ - 73
+2026-02-01 14:42:42,338 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:42:42,352 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:42:42,353 - CRITICAL - root - Execution failed for handle_combobox_items register error is list() takes no keyword arguments - 84
+2026-02-01 14:42:47,510 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 14:42:47,513 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:42:47,513 - CRITICAL - root - Execution failed for handle_combobox_items register error is list() takes no keyword arguments - 84
+2026-02-01 14:43:49,006 - INFO - root - Database initialized - 102
+2026-02-01 14:44:05,122 - INFO - root - Database initialized - 102
+2026-02-01 14:44:06,623 - INFO - root - Database initialized - 102
+2026-02-01 14:44:06,773 - INFO - root - Database initialized :) - 25
+2026-02-01 14:44:06,773 - INFO - root - Database is closing - 100
+2026-02-01 14:44:06,774 - INFO - root - Database is closed  - 106
+2026-02-01 14:44:06,776 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:44:06,784 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:44:06,784 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:44:06,784 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:44:06,785 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:44:06,786 - WARNING - root - No action :/ - 73
+2026-02-01 14:44:07,885 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:44:07,889 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:44:07,889 - CRITICAL - root - Execution failed for handle_combobox_items register error is <lambda>() got an unexpected keyword argument 'shelfs' - 84
+2026-02-01 14:44:12,760 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:44:12,760 - CRITICAL - root - Execution failed for handle_combobox_items register error is <lambda>() got an unexpected keyword argument 'shelfs' - 84
+2026-02-01 14:44:21,534 - INFO - root - Database initialized - 102
+2026-02-01 14:44:32,243 - INFO - root - Database initialized - 102
+2026-02-01 14:44:33,400 - INFO - root - Database initialized - 102
+2026-02-01 14:44:33,545 - INFO - root - Database initialized :) - 25
+2026-02-01 14:44:33,546 - INFO - root - Database is closing - 100
+2026-02-01 14:44:33,546 - INFO - root - Database is closed  - 106
+2026-02-01 14:44:33,548 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:44:33,556 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:44:33,556 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:44:33,556 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:44:33,557 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:44:33,558 - WARNING - root - No action :/ - 73
+2026-02-01 14:44:34,947 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:44:34,959 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:45:39,040 - INFO - root - Database initialized - 102
+2026-02-01 14:45:40,793 - INFO - root - Database initialized - 102
+2026-02-01 14:45:44,862 - INFO - root - Database initialized - 102
+2026-02-01 14:45:46,461 - INFO - root - Database initialized - 102
+2026-02-01 14:45:46,616 - INFO - root - Database initialized :) - 25
+2026-02-01 14:45:46,617 - INFO - root - Database is closing - 100
+2026-02-01 14:45:46,617 - INFO - root - Database is closed  - 106
+2026-02-01 14:45:46,620 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:45:46,628 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:45:46,629 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:45:46,629 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:45:46,629 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:45:46,630 - WARNING - root - No action :/ - 73
+2026-02-01 14:45:48,754 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:45:48,767 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:45:57,663 - INFO - root - Database initialized - 102
+2026-02-01 14:46:01,300 - INFO - root - Database initialized - 102
+2026-02-01 14:46:01,449 - INFO - root - Database initialized :) - 25
+2026-02-01 14:46:01,450 - INFO - root - Database is closing - 100
+2026-02-01 14:46:01,450 - INFO - root - Database is closed  - 106
+2026-02-01 14:46:01,453 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:01,460 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:46:01,460 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:46:01,460 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:46:01,461 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:46:01,461 - WARNING - root - No action :/ - 73
+2026-02-01 14:46:02,354 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:02,358 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:21,611 - INFO - root - Database initialized - 102
+2026-02-01 14:46:32,781 - INFO - root - Database initialized - 102
+2026-02-01 14:46:32,926 - INFO - root - Database initialized :) - 25
+2026-02-01 14:46:32,927 - INFO - root - Database is closing - 100
+2026-02-01 14:46:32,927 - INFO - root - Database is closed  - 106
+2026-02-01 14:46:32,930 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:32,937 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:46:32,938 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:46:32,938 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:46:32,938 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:46:32,939 - WARNING - root - No action :/ - 73
+2026-02-01 14:46:33,995 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:33,999 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:35,086 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:36,895 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:43,991 - INFO - root - Database initialized - 102
+2026-02-01 14:46:44,137 - INFO - root - Database initialized :) - 25
+2026-02-01 14:46:44,138 - INFO - root - Database is closing - 100
+2026-02-01 14:46:44,138 - INFO - root - Database is closed  - 106
+2026-02-01 14:46:44,141 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:44,143 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:46:44,144 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:46:44,144 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:46:44,144 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:46:44,145 - WARNING - root - No action :/ - 73
+2026-02-01 14:46:45,026 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:46:45,038 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:51,807 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 14:46:51,819 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:55,211 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:46:57,394 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:47:38,037 - INFO - root - Database initialized - 102
+2026-02-01 14:47:38,189 - INFO - root - Database initialized :) - 25
+2026-02-01 14:47:38,190 - INFO - root - Database is closing - 100
+2026-02-01 14:47:38,190 - INFO - root - Database is closed  - 106
+2026-02-01 14:47:38,192 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:47:38,195 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:47:38,195 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:47:38,195 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:47:38,196 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:47:38,196 - WARNING - root - No action :/ - 73
+2026-02-01 14:47:39,269 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:47:39,271 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:47:48,605 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 14:47:48,608 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:47:51,006 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:48:59,778 - INFO - root - Database initialized - 102
+2026-02-01 14:48:59,924 - INFO - root - Database initialized :) - 25
+2026-02-01 14:48:59,924 - INFO - root - Database is closing - 100
+2026-02-01 14:48:59,925 - INFO - root - Database is closed  - 106
+2026-02-01 14:48:59,927 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:48:59,929 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:48:59,930 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:48:59,930 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:48:59,931 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:48:59,931 - WARNING - root - No action :/ - 73
+2026-02-01 14:49:01,202 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:49:01,205 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:49:03,222 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:50:03,370 - INFO - root - Database initialized - 102
+2026-02-01 14:50:18,491 - INFO - root - Database initialized - 102
+2026-02-01 14:50:19,486 - INFO - root - Database initialized - 102
+2026-02-01 14:50:27,782 - INFO - root - Database initialized - 102
+2026-02-01 14:50:29,543 - INFO - root - Database initialized - 102
+2026-02-01 14:50:29,689 - INFO - root - Database initialized :) - 25
+2026-02-01 14:50:29,690 - INFO - root - Database is closing - 100
+2026-02-01 14:50:29,690 - INFO - root - Database is closed  - 106
+2026-02-01 14:50:29,692 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:50:29,699 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:50:29,700 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:50:29,700 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:50:29,701 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:50:29,701 - WARNING - root - No action :/ - 73
+2026-02-01 14:50:29,799 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:50:29,802 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:51:15,058 - INFO - root - Database initialized - 102
+2026-02-01 14:51:15,203 - INFO - root - Database initialized :) - 25
+2026-02-01 14:51:15,204 - INFO - root - Database is closing - 100
+2026-02-01 14:51:15,204 - INFO - root - Database is closed  - 106
+2026-02-01 14:51:15,207 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:51:15,209 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:51:15,209 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:51:15,210 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:51:15,210 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:51:15,211 - WARNING - root - No action :/ - 73
+2026-02-01 14:51:15,309 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:51:15,322 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:51:19,761 - INFO - root - Database initialized - 102
+2026-02-01 14:51:19,906 - INFO - root - Database initialized :) - 25
+2026-02-01 14:51:19,907 - INFO - root - Database is closing - 100
+2026-02-01 14:51:19,907 - INFO - root - Database is closed  - 106
+2026-02-01 14:51:19,909 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:51:19,923 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:51:19,923 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:51:19,923 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:51:19,924 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:51:19,925 - WARNING - root - No action :/ - 73
+2026-02-01 14:51:20,022 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:51:20,035 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:52:25,055 - INFO - root - Database initialized - 102
+2026-02-01 14:52:33,843 - INFO - root - Database initialized - 102
+2026-02-01 14:52:49,145 - INFO - root - Database initialized - 102
+2026-02-01 14:53:03,772 - INFO - root - Database initialized - 102
+2026-02-01 14:53:05,809 - INFO - root - Database initialized - 102
+2026-02-01 14:53:05,954 - INFO - root - Database initialized :) - 25
+2026-02-01 14:53:05,954 - INFO - root - Database is closing - 100
+2026-02-01 14:53:05,955 - INFO - root - Database is closed  - 106
+2026-02-01 14:53:05,957 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:53:05,965 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:53:05,965 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:53:05,965 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:53:05,966 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:53:05,966 - WARNING - root - No action :/ - 73
+2026-02-01 14:53:06,062 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:53:06,066 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:53:10,758 - INFO - root - Database initialized - 102
+2026-02-01 14:53:12,177 - INFO - root - Database initialized - 102
+2026-02-01 14:53:12,323 - INFO - root - Database initialized :) - 25
+2026-02-01 14:53:12,323 - INFO - root - Database is closing - 100
+2026-02-01 14:53:12,323 - INFO - root - Database is closed  - 106
+2026-02-01 14:53:12,326 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:53:12,334 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:53:12,334 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:53:12,334 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:53:12,335 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:53:12,335 - WARNING - root - No action :/ - 73
+2026-02-01 14:53:12,437 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:53:12,442 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:53:34,213 - INFO - root - Database initialized - 102
+2026-02-01 14:53:39,914 - INFO - root - Database initialized - 102
+2026-02-01 14:54:03,054 - INFO - root - Database initialized - 102
+2026-02-01 14:54:04,321 - INFO - root - Database initialized - 102
+2026-02-01 14:54:04,475 - INFO - root - Database initialized :) - 25
+2026-02-01 14:54:04,476 - INFO - root - Database is closing - 100
+2026-02-01 14:54:04,476 - INFO - root - Database is closed  - 106
+2026-02-01 14:54:04,478 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:04,486 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:54:04,486 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:54:04,486 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:54:04,487 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:54:04,487 - WARNING - root - No action :/ - 73
+2026-02-01 14:54:04,585 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:04,590 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:54:20,760 - INFO - root - Database initialized - 102
+2026-02-01 14:54:21,951 - INFO - root - Database initialized - 102
+2026-02-01 14:54:22,108 - INFO - root - Database initialized :) - 25
+2026-02-01 14:54:22,108 - INFO - root - Database is closing - 100
+2026-02-01 14:54:22,108 - INFO - root - Database is closed  - 106
+2026-02-01 14:54:22,111 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:22,118 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:54:22,118 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:54:22,119 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:54:22,119 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:54:22,119 - WARNING - root - No action :/ - 73
+2026-02-01 14:54:22,219 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:22,222 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 14:54:41,616 - INFO - root - Database initialized - 102
+2026-02-01 14:54:41,760 - INFO - root - Database initialized :) - 25
+2026-02-01 14:54:41,760 - INFO - root - Database is closing - 100
+2026-02-01 14:54:41,760 - INFO - root - Database is closed  - 106
+2026-02-01 14:54:41,763 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:41,765 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 14:54:41,766 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 14:54:41,766 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 14:54:41,766 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 14:54:41,766 - WARNING - root - No action :/ - 73
+2026-02-01 14:54:41,864 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 14:54:41,867 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:00:14,344 - INFO - root - Database initialized - 102
+2026-02-01 15:13:11,749 - INFO - root - Database initialized - 102
+2026-02-01 15:13:11,909 - INFO - root - Database initialized :) - 25
+2026-02-01 15:13:11,910 - INFO - root - Database is closing - 100
+2026-02-01 15:13:11,910 - INFO - root - Database is closed  - 106
+2026-02-01 15:13:11,914 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:13:11,934 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:13:11,935 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:13:11,935 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:13:11,936 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:13:11,936 - WARNING - root - No action :/ - 73
+2026-02-01 15:13:12,045 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:13:12,050 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:13:47,254 - INFO - root - Database initialized - 102
+2026-02-01 15:13:47,402 - INFO - root - Database initialized :) - 25
+2026-02-01 15:13:47,403 - INFO - root - Database is closing - 100
+2026-02-01 15:13:47,403 - INFO - root - Database is closed  - 106
+2026-02-01 15:13:47,406 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:13:47,408 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:13:47,408 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:13:47,409 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:13:47,409 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:13:47,409 - WARNING - root - No action :/ - 73
+2026-02-01 15:13:47,506 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:13:47,509 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:14:56,400 - INFO - root - Database initialized - 102
+2026-02-01 15:15:09,404 - INFO - root - Database initialized - 102
+2026-02-01 15:15:09,550 - INFO - root - Database initialized :) - 25
+2026-02-01 15:15:09,551 - INFO - root - Database is closing - 100
+2026-02-01 15:15:09,551 - INFO - root - Database is closed  - 106
+2026-02-01 15:15:09,553 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:15:09,561 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:15:09,562 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:15:09,562 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:15:09,562 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:15:09,562 - WARNING - root - No action :/ - 73
+2026-02-01 15:15:09,660 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:15:09,664 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:16:22,562 - INFO - root - Database initialized - 102
+2026-02-01 15:16:24,272 - INFO - root - Database initialized - 102
+2026-02-01 15:16:24,417 - INFO - root - Database initialized :) - 25
+2026-02-01 15:16:24,418 - INFO - root - Database is closing - 100
+2026-02-01 15:16:24,418 - INFO - root - Database is closed  - 106
+2026-02-01 15:16:24,420 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:16:24,428 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:16:24,428 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:16:24,428 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:16:24,429 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:16:24,429 - WARNING - root - No action :/ - 73
+2026-02-01 15:16:24,530 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:16:24,534 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:16:36,282 - INFO - root - Database initialized - 102
+2026-02-01 15:16:40,697 - INFO - root - Database initialized - 102
+2026-02-01 15:16:40,847 - INFO - root - Database initialized :) - 25
+2026-02-01 15:16:40,847 - INFO - root - Database is closing - 100
+2026-02-01 15:16:40,847 - INFO - root - Database is closed  - 106
+2026-02-01 15:16:40,849 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:16:40,857 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:16:40,857 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:16:40,858 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:16:40,858 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:16:40,859 - WARNING - root - No action :/ - 73
+2026-02-01 15:16:40,959 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:16:40,964 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:18:02,752 - INFO - root - Database initialized - 102
+2026-02-01 15:18:06,432 - INFO - root - Database initialized - 102
+2026-02-01 15:18:28,819 - INFO - root - Database initialized - 102
+2026-02-01 15:18:52,080 - INFO - root - Database initialized - 102
+2026-02-01 15:18:54,545 - INFO - root - Database initialized - 102
+2026-02-01 15:18:54,689 - INFO - root - Database initialized :) - 25
+2026-02-01 15:18:54,689 - INFO - root - Database is closing - 100
+2026-02-01 15:18:54,690 - INFO - root - Database is closed  - 106
+2026-02-01 15:18:54,692 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:18:54,699 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:18:54,700 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:18:54,700 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:18:54,701 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:18:54,701 - WARNING - root - No action :/ - 73
+2026-02-01 15:19:30,886 - INFO - root - Database initialized - 102
+2026-02-01 15:19:31,033 - INFO - root - Database initialized :) - 25
+2026-02-01 15:19:31,034 - INFO - root - Database is closing - 100
+2026-02-01 15:19:31,034 - INFO - root - Database is closed  - 106
+2026-02-01 15:19:31,036 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:19:31,039 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:19:31,039 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:19:31,039 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:19:31,040 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:19:31,040 - WARNING - root - No action :/ - 73
+2026-02-01 15:19:35,165 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:19:35,168 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:19:48,890 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 15:19:48,901 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:20:14,186 - INFO - root - Database initialized - 102
+2026-02-01 15:20:14,333 - INFO - root - Database initialized :) - 25
+2026-02-01 15:20:14,333 - INFO - root - Database is closing - 100
+2026-02-01 15:20:14,334 - INFO - root - Database is closed  - 106
+2026-02-01 15:20:14,336 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:20:14,338 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:20:14,339 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:20:14,339 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:20:14,339 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:20:14,340 - WARNING - root - No action :/ - 73
+2026-02-01 15:20:16,751 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:20:16,754 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:20:23,332 - INFO - root - Database initialized - 102
+2026-02-01 15:20:23,478 - INFO - root - Database initialized :) - 25
+2026-02-01 15:20:23,479 - INFO - root - Database is closing - 100
+2026-02-01 15:20:23,479 - INFO - root - Database is closed  - 106
+2026-02-01 15:20:23,481 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:20:23,484 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:20:23,484 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:20:23,484 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:20:23,484 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:20:23,485 - WARNING - root - No action :/ - 73
+2026-02-01 15:21:43,047 - INFO - root - Database initialized - 102
+2026-02-01 15:22:18,598 - INFO - root - Database initialized - 102
+2026-02-01 15:22:18,747 - INFO - root - Database initialized :) - 25
+2026-02-01 15:22:18,748 - INFO - root - Database is closing - 100
+2026-02-01 15:22:18,748 - INFO - root - Database is closed  - 106
+2026-02-01 15:22:18,750 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:22:18,758 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:22:18,758 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:22:18,758 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:22:18,759 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:22:18,759 - WARNING - root - No action :/ - 73
+2026-02-01 15:22:20,563 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:22:20,575 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:33:48,619 - INFO - root - Database initialized - 102
+2026-02-01 15:33:52,432 - INFO - root - Database initialized - 102
+2026-02-01 15:33:52,578 - INFO - root - Database initialized :) - 25
+2026-02-01 15:33:52,578 - INFO - root - Database is closing - 100
+2026-02-01 15:33:52,578 - INFO - root - Database is closed  - 106
+2026-02-01 15:33:52,581 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:33:52,588 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:33:52,588 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:33:52,588 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:33:52,589 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:33:52,589 - WARNING - root - No action :/ - 73
+2026-02-01 15:34:50,521 - INFO - root - Database initialized - 102
+2026-02-01 15:34:50,670 - INFO - root - Database initialized :) - 25
+2026-02-01 15:34:50,671 - INFO - root - Database is closing - 100
+2026-02-01 15:34:50,671 - INFO - root - Database is closed  - 106
+2026-02-01 15:34:50,673 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:34:50,676 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:34:50,676 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:34:50,676 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:34:50,677 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:34:50,677 - WARNING - root - No action :/ - 73
+2026-02-01 15:34:55,163 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:34:55,175 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:35:17,037 - INFO - root - Database initialized - 102
+2026-02-01 15:35:17,998 - INFO - root - Database initialized - 102
+2026-02-01 15:35:18,146 - INFO - root - Database initialized :) - 25
+2026-02-01 15:35:18,147 - INFO - root - Database is closing - 100
+2026-02-01 15:35:18,147 - INFO - root - Database is closed  - 106
+2026-02-01 15:35:18,149 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:35:18,157 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:35:18,157 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:35:18,157 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:35:18,158 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:35:18,158 - WARNING - root - No action :/ - 73
+2026-02-01 15:35:32,315 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:35:32,319 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:54:55,588 - INFO - root - Database initialized - 102
+2026-02-01 15:55:12,522 - INFO - root - Database initialized - 102
+2026-02-01 15:56:10,443 - INFO - root - Database initialized - 102
+2026-02-01 15:56:19,032 - INFO - root - Database initialized - 102
+2026-02-01 15:56:19,845 - INFO - root - Database initialized - 102
+2026-02-01 15:56:19,992 - INFO - root - Database initialized :) - 25
+2026-02-01 15:56:19,992 - INFO - root - Database is closing - 100
+2026-02-01 15:56:19,992 - INFO - root - Database is closed  - 106
+2026-02-01 15:56:19,995 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:56:20,002 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 15:56:20,003 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 15:56:20,003 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 15:56:20,003 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 15:56:20,004 - WARNING - root - No action :/ - 73
+2026-02-01 15:56:21,758 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 15:56:21,771 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 15:56:34,445 - INFO - root - Database initialized - 102
+2026-02-01 15:57:47,599 - INFO - root - Database initialized - 102
+2026-02-01 15:58:02,198 - INFO - root - Database initialized - 102
+2026-02-01 15:58:08,670 - INFO - root - Database initialized - 102
+2026-02-01 16:00:14,636 - INFO - root - Database initialized - 102
+2026-02-01 16:00:34,089 - INFO - root - Database initialized - 102
+2026-02-01 16:00:35,024 - INFO - root - Database initialized - 102
+2026-02-01 16:00:35,171 - INFO - root - Database initialized :) - 25
+2026-02-01 16:00:35,172 - INFO - root - Database is closing - 100
+2026-02-01 16:00:35,172 - INFO - root - Database is closed  - 106
+2026-02-01 16:00:35,174 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:00:35,182 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:00:35,182 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:00:35,182 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:00:35,183 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:00:35,183 - WARNING - root - No action :/ - 73
+2026-02-01 16:00:36,510 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:00:36,514 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:01:19,533 - INFO - root - Database initialized - 102
+2026-02-01 16:01:20,619 - INFO - root - Database initialized - 102
+2026-02-01 16:01:20,764 - INFO - root - Database initialized :) - 25
+2026-02-01 16:01:20,765 - INFO - root - Database is closing - 100
+2026-02-01 16:01:20,765 - INFO - root - Database is closed  - 106
+2026-02-01 16:01:20,767 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:01:20,775 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:01:20,775 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:01:20,775 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:01:20,776 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:01:20,776 - WARNING - root - No action :/ - 73
+2026-02-01 16:01:21,863 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:01:21,868 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:01:45,003 - INFO - root - Database initialized - 102
+2026-02-01 16:01:46,987 - INFO - root - Database initialized - 102
+2026-02-01 16:01:47,134 - INFO - root - Database initialized :) - 25
+2026-02-01 16:01:47,135 - INFO - root - Database is closing - 100
+2026-02-01 16:01:47,135 - INFO - root - Database is closed  - 106
+2026-02-01 16:01:47,137 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:01:47,145 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:01:47,145 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:01:47,145 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:01:47,146 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:01:47,146 - WARNING - root - No action :/ - 73
+2026-02-01 16:01:48,130 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:01:48,143 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:02:07,445 - INFO - root - Database initialized - 102
+2026-02-01 16:02:08,280 - INFO - root - Database initialized - 102
+2026-02-01 16:02:08,427 - INFO - root - Database initialized :) - 25
+2026-02-01 16:02:08,428 - INFO - root - Database is closing - 100
+2026-02-01 16:02:08,428 - INFO - root - Database is closed  - 106
+2026-02-01 16:02:08,430 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:02:08,438 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:02:08,438 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:02:08,438 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:02:08,439 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:02:08,439 - WARNING - root - No action :/ - 73
+2026-02-01 16:02:09,489 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:02:09,492 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:02:25,381 - INFO - root - Database initialized - 102
+2026-02-01 16:02:26,729 - INFO - root - Database initialized - 102
+2026-02-01 16:02:26,876 - INFO - root - Database initialized :) - 25
+2026-02-01 16:02:26,877 - INFO - root - Database is closing - 100
+2026-02-01 16:02:26,877 - INFO - root - Database is closed  - 106
+2026-02-01 16:02:26,879 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:02:26,897 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:02:26,897 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:02:26,897 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:02:26,898 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:02:26,898 - WARNING - root - No action :/ - 73
+2026-02-01 16:02:27,910 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:02:27,923 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:04:47,276 - INFO - root - Database initialized - 102
+2026-02-01 16:05:40,036 - INFO - root - Database initialized - 102
+2026-02-01 16:06:09,210 - INFO - root - Database initialized - 102
+2026-02-01 16:06:16,689 - INFO - root - Database initialized - 102
+2026-02-01 16:06:23,369 - INFO - root - Database initialized - 102
+2026-02-01 16:06:32,220 - INFO - root - Database initialized - 102
+2026-02-01 16:06:32,368 - INFO - root - Database initialized :) - 25
+2026-02-01 16:06:32,368 - INFO - root - Database is closing - 100
+2026-02-01 16:06:32,368 - INFO - root - Database is closed  - 106
+2026-02-01 16:06:32,371 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:06:32,378 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:06:32,379 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:06:32,379 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:06:32,379 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:06:32,380 - WARNING - root - No action :/ - 73
+2026-02-01 16:06:33,711 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:06:33,714 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:06:45,297 - INFO - root - Database initialized - 102
+2026-02-01 16:07:42,289 - INFO - root - Database initialized - 102
+2026-02-01 16:08:10,162 - INFO - root - Database initialized - 102
+2026-02-01 16:08:41,632 - INFO - root - Database initialized - 102
+2026-02-01 16:09:40,619 - INFO - root - Database initialized - 102
+2026-02-01 16:09:41,585 - INFO - root - Database initialized - 102
+2026-02-01 16:10:56,634 - INFO - root - Database initialized - 102
+2026-02-01 16:11:05,514 - INFO - root - Database initialized - 102
+2026-02-01 16:11:29,899 - INFO - root - Database initialized - 102
+2026-02-01 16:11:32,950 - INFO - root - Database initialized - 102
+2026-02-01 16:11:33,096 - INFO - root - Database initialized :) - 25
+2026-02-01 16:11:33,096 - INFO - root - Database is closing - 100
+2026-02-01 16:11:33,096 - INFO - root - Database is closed  - 106
+2026-02-01 16:11:33,099 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:11:33,106 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:11:33,107 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:11:33,107 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:11:33,107 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:11:33,108 - WARNING - root - No action :/ - 73
+2026-02-01 16:11:34,213 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:11:34,227 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:11:55,861 - INFO - root - Database initialized - 102
+2026-02-01 16:11:56,690 - INFO - root - Database initialized - 102
+2026-02-01 16:11:56,839 - INFO - root - Database initialized :) - 25
+2026-02-01 16:11:56,839 - INFO - root - Database is closing - 100
+2026-02-01 16:11:56,839 - INFO - root - Database is closed  - 106
+2026-02-01 16:11:56,842 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:11:56,859 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:11:56,859 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:11:56,859 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:11:56,860 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:11:56,860 - WARNING - root - No action :/ - 73
+2026-02-01 16:11:58,039 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:11:58,042 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:14:55,358 - INFO - root - Database initialized - 102
+2026-02-01 16:14:55,510 - INFO - root - Database initialized :) - 25
+2026-02-01 16:14:55,510 - INFO - root - Database is closing - 100
+2026-02-01 16:14:55,510 - INFO - root - Database is closed  - 106
+2026-02-01 16:14:55,513 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:14:55,515 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:14:55,515 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:14:55,515 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:14:55,516 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:14:55,516 - WARNING - root - No action :/ - 73
+2026-02-01 16:16:26,194 - INFO - root - Database initialized - 102
+2026-02-01 16:16:49,470 - INFO - root - Database initialized - 102
+2026-02-01 16:19:50,624 - INFO - root - Database initialized - 102
+2026-02-01 16:20:10,664 - INFO - root - Database initialized - 102
+2026-02-01 16:20:11,944 - INFO - root - Database initialized - 102
+2026-02-01 16:21:06,762 - INFO - root - Database initialized - 102
+2026-02-01 16:21:07,446 - INFO - root - Database initialized - 102
+2026-02-01 16:21:39,540 - INFO - root - Database initialized - 102
+2026-02-01 16:21:55,717 - INFO - root - Database initialized - 102
+2026-02-01 16:22:00,793 - INFO - root - Database initialized - 102
+2026-02-01 16:22:09,090 - INFO - root - Database initialized - 102
+2026-02-01 16:22:11,843 - INFO - root - Database initialized - 102
+2026-02-01 16:22:25,311 - INFO - root - Database initialized - 102
+2026-02-01 16:22:27,242 - INFO - root - Database initialized - 102
+2026-02-01 16:22:43,452 - INFO - root - Database initialized - 102
+2026-02-01 16:22:45,325 - INFO - root - Database initialized - 102
+2026-02-01 16:22:52,048 - INFO - root - Database initialized - 102
+2026-02-01 16:22:53,381 - INFO - root - Database initialized - 102
+2026-02-01 16:22:53,529 - INFO - root - Database initialized :) - 25
+2026-02-01 16:22:53,530 - INFO - root - Database is closing - 100
+2026-02-01 16:22:53,530 - INFO - root - Database is closed  - 106
+2026-02-01 16:22:53,532 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:22:53,540 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:22:53,541 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:22:53,541 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:22:53,542 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:22:53,542 - WARNING - root - No action :/ - 73
+2026-02-01 16:22:54,920 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:22:54,922 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:23:05,293 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 16:23:05,295 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:05,295 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:06,088 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:06,089 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:06,547 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:06,547 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:06,715 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:06,715 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:06,867 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:06,867 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:08,161 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:23:08,161 - WARNING - root - No action :/ - 73
+2026-02-01 16:23:23,109 - INFO - root - Database initialized - 102
+2026-02-01 16:24:51,815 - INFO - root - Database initialized - 102
+2026-02-01 16:25:44,701 - INFO - root - Database initialized - 102
+2026-02-01 16:25:54,455 - INFO - root - Database initialized - 102
+2026-02-01 16:25:54,601 - INFO - root - Database initialized :) - 25
+2026-02-01 16:25:54,602 - INFO - root - Database is closing - 100
+2026-02-01 16:25:54,602 - INFO - root - Database is closed  - 106
+2026-02-01 16:25:54,605 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:25:54,623 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:25:54,623 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:25:54,623 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:25:54,624 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:25:54,624 - WARNING - root - No action :/ - 73
+2026-02-01 16:26:18,534 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:26:18,538 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:26:24,834 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 16:26:24,836 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 404 22 - 544
+2026-02-01 16:26:24,836 - WARNING - root - No action :/ - 73
+2026-02-01 16:28:04,655 - INFO - root - Database initialized - 102
+2026-02-01 16:28:21,093 - INFO - root - Database initialized - 102
+2026-02-01 16:29:13,102 - INFO - root - Database initialized - 102
+2026-02-01 16:29:20,428 - INFO - root - Database initialized - 102
+2026-02-01 16:29:24,807 - INFO - root - Database initialized - 102
+2026-02-01 16:29:24,952 - INFO - root - Database initialized :) - 25
+2026-02-01 16:29:24,953 - INFO - root - Database is closing - 100
+2026-02-01 16:29:24,953 - INFO - root - Database is closed  - 106
+2026-02-01 16:29:24,956 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:29:24,963 - INFO - root - Username alperen count is 1 - 113
+2026-02-01 16:29:24,963 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:29:24,963 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:29:24,964 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:29:24,964 - WARNING - root - No action :/ - 73
+2026-02-01 16:29:26,227 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:29:26,239 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:30:19,049 - INFO - root - Database initialized - 102
+2026-02-01 16:30:22,245 - INFO - root - Database initialized - 102
+2026-02-01 16:30:27,121 - INFO - root - Database initialized - 102
+2026-02-01 16:30:42,584 - INFO - root - Database initialized - 102
+2026-02-01 16:30:53,906 - INFO - root - Database initialized - 102
+2026-02-01 16:31:33,260 - INFO - root - Database initialized - 102
+2026-02-01 16:31:42,980 - INFO - root - Database initialized - 102
+2026-02-01 16:31:56,845 - INFO - root - Database initialized - 102
+2026-02-01 16:32:02,768 - INFO - root - Database initialized - 102
+2026-02-01 16:32:37,026 - INFO - root - Database initialized - 102
+2026-02-01 16:32:59,814 - INFO - root - Database initialized - 102
+2026-02-01 16:33:07,948 - INFO - root - Database initialized - 102
+2026-02-01 16:33:24,413 - INFO - root - Database initialized - 102
+2026-02-01 16:36:50,835 - INFO - root - Database initialized - 102
+2026-02-01 16:37:04,678 - INFO - root - Database initialized - 102
+2026-02-01 16:38:00,178 - INFO - root - Database initialized - 102
+2026-02-01 16:38:59,145 - INFO - root - Database initialized - 102
+2026-02-01 16:39:12,412 - INFO - root - Database initialized - 102
+2026-02-01 16:39:27,769 - INFO - root - Database initialized - 102
+2026-02-01 16:43:13,502 - CRITICAL - root - Cannot initialized data  - 114
+2026-02-01 16:43:39,153 - CRITICAL - root - Cannot initialized data  - 115
+2026-02-01 16:44:24,890 - CRITICAL - root - Cannot initialized data  - 116
+2026-02-01 16:44:42,929 - CRITICAL - root - Cannot initialized data  - 116
+2026-02-01 16:44:58,089 - INFO - root - Username string count is 0 - 125
+2026-02-01 16:44:58,089 - WARNING - root - Wrong password or username string:string - 100
+2026-02-01 16:45:24,119 - INFO - root - Database initialized - 113
+2026-02-01 16:45:54,157 - INFO - root - Database initialized - 113
+2026-02-01 16:45:54,320 - INFO - root - Database initialized :) - 25
+2026-02-01 16:45:54,321 - INFO - root - Database is closing - 100
+2026-02-01 16:45:54,321 - INFO - root - Database is closed  - 106
+2026-02-01 16:45:54,323 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:45:54,326 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 16:45:54,327 - INFO - root - Photo readed(C:\Users\alper\Documents\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 16:45:54,327 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 16:45:54,328 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 16:45:54,328 - WARNING - root - No action :/ - 73
+2026-02-01 16:45:55,670 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 16:45:55,673 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 16:47:04,928 - INFO - root - Database initialized - 113
+2026-02-01 16:47:23,066 - INFO - root - Database initialized - 113
+2026-02-01 19:57:47,903 - INFO - root - Database initialized - 113
+2026-02-01 19:57:48,267 - INFO - root - Database initialized :) - 25
+2026-02-01 19:57:48,268 - INFO - root - Database is closing - 100
+2026-02-01 19:57:48,268 - INFO - root - Database is closed  - 106
+2026-02-01 19:57:48,272 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 19:57:49,285 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x23d968b0980>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 34
+2026-02-01 19:57:55,483 - INFO - root - Database initialized - 113
+2026-02-01 19:57:55,656 - INFO - root - Database initialized :) - 25
+2026-02-01 19:57:55,656 - INFO - root - Database is closing - 100
+2026-02-01 19:57:55,656 - INFO - root - Database is closed  - 106
+2026-02-01 19:57:55,660 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 19:57:56,662 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x2039a5f0980>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 34
+2026-02-01 19:58:05,329 - INFO - root - Database initialized - 113
+2026-02-01 19:58:05,511 - INFO - root - Database initialized :) - 25
+2026-02-01 19:58:05,511 - INFO - root - Database is closing - 100
+2026-02-01 19:58:05,511 - INFO - root - Database is closed  - 106
+2026-02-01 19:58:05,516 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 19:58:06,532 - CRITICAL - root - Cannot reach server http://127.0.0.1:80/vixgon/api/login_with_token -> HTTPConnectionPool(host='127.0.0.1', port=80): Max retries exceeded with url: /vixgon/api/login_with_token (Caused by ConnectTimeoutError(<HTTPConnection(host='127.0.0.1', port=80) at 0x1fac74b0980>, 'Connection to 127.0.0.1 timed out. (connect timeout=1)')) - 34
+2026-02-01 19:59:34,162 - INFO - root - Database initialized - 113
+2026-02-01 19:59:39,038 - INFO - root - Database initialized - 113
+2026-02-01 19:59:39,228 - INFO - root - Database initialized :) - 25
+2026-02-01 19:59:39,229 - INFO - root - Database is closing - 100
+2026-02-01 19:59:39,229 - INFO - root - Database is closed  - 106
+2026-02-01 19:59:39,233 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 19:59:39,244 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 19:59:39,254 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 19:59:39,254 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 19:59:39,256 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 19:59:39,256 - WARNING - root - No action :/ - 73
+2026-02-01 19:59:40,809 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 19:59:40,814 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 19:59:55,769 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 19:59:55,785 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 500 21 - 544
+2026-02-01 19:59:55,958 - WARNING - root - No action :/ - 73
+2026-02-01 19:59:58,600 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 19:59:58,603 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 500 21 - 544
+2026-02-01 19:59:58,606 - WARNING - root - No action :/ - 73
+2026-02-01 20:00:41,451 - INFO - root - Database initialized - 113
+2026-02-01 20:00:44,049 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-01 20:00:44,069 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/create_item HTTP/1.1" 500 21 - 544
+2026-02-01 20:00:44,076 - WARNING - root - No action :/ - 73
+2026-02-01 20:01:21,705 - INFO - root - Database initialized - 113
+2026-02-01 20:01:28,638 - INFO - root - Database initialized - 113
+2026-02-01 20:01:28,821 - INFO - root - Database initialized :) - 25
+2026-02-01 20:01:28,822 - INFO - root - Database is closing - 100
+2026-02-01 20:01:28,822 - INFO - root - Database is closed  - 106
+2026-02-01 20:01:28,826 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 20:01:28,838 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 20:01:28,839 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 20:01:28,839 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 20:01:28,840 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-01 20:01:28,841 - WARNING - root - No action :/ - 73
+2026-02-01 20:01:35,518 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-01 20:01:35,523 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-01 20:03:33,332 - INFO - root - Database initialized - 113
+2026-02-01 20:03:43,035 - INFO - root - Database initialized - 113
+2026-02-01 20:07:55,917 - INFO - root - Database initialized - 113
+2026-02-01 20:08:19,519 - INFO - root - Database initialized - 113
+2026-02-01 20:08:48,645 - INFO - root - Database initialized - 113
+2026-02-01 20:09:27,502 - INFO - root - Database initialized - 113
+2026-02-01 20:09:55,597 - INFO - root - Database initialized - 113
+2026-02-01 20:10:19,759 - CRITICAL - root - Validation error Invalid token type. Token must be a <class 'bytes'> - 41
+2026-02-01 20:10:44,491 - CRITICAL - root - Validation error Invalid token type. Token must be a <class 'bytes'> - 41
+2026-02-01 20:11:03,063 - CRITICAL - root - Validation error Invalid token type. Token must be a <class 'bytes'> - 41
+2026-02-01 20:11:41,632 - CRITICAL - root - Validation error Invalid token type. Token must be a <class 'bytes'> - 41
+2026-02-01 20:12:07,206 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 20:12:07,206 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 20:12:07,206 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 20:12:07,207 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 20:12:07,283 - INFO - root - User alperen logged in - 91
+2026-02-01 20:12:07,283 - INFO - root - Token created eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTY1OTI3fQ.hZXmpZaZNTn3F_lPsfTjGQtla7l-feoTkwv5TiGlFeo  - 52
+2026-02-01 20:12:07,283 - INFO - root - Username alperen count is 1 - 124
+2026-02-01 20:12:07,290 - INFO - root - User alperen session token saved eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbHBlcmVuIiwiZXhwIjoxODI5OTY1OTI3fQ.hZXmpZaZNTn3F_lPsfTjGQtla7l-feoTkwv5TiGlFeo - 211
+2026-02-01 20:12:07,290 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-01 20:12:07,290 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-01 20:12:21,477 - CRITICAL - root - Validation error Invalid token type. Token must be a <class 'bytes'> - 41
+2026-02-01 20:12:49,128 - INFO - root - Database initialized - 113
+2026-02-01 20:13:40,194 - INFO - root - Database initialized - 113
+2026-02-01 20:14:00,759 - INFO - root - Database initialized - 113
+2026-02-01 20:14:17,434 - INFO - root - Database initialized - 113
+2026-02-01 20:14:28,347 - INFO - root - Database initialized - 113
+2026-02-01 20:14:36,331 - INFO - root - Database initialized - 113
+2026-02-01 20:14:52,094 - INFO - root - Database initialized - 113
+2026-02-01 20:15:37,772 - INFO - root - Database initialized - 113
+2026-02-01 20:16:21,826 - INFO - root - Database initialized - 113
+2026-02-01 20:16:34,299 - INFO - root - Database initialized - 113
+2026-02-01 20:16:43,807 - INFO - root - Database initialized - 113
+2026-02-01 20:17:04,802 - INFO - root - Database initialized - 113
+2026-02-01 20:17:28,769 - INFO - root - Database initialized - 113
+2026-02-01 20:17:51,522 - INFO - root - Database initialized - 113
+2026-02-01 20:18:23,274 - INFO - root - Database initialized - 113
+2026-02-01 20:18:48,473 - INFO - root - Database initialized - 113
+2026-02-01 20:19:00,872 - INFO - root - Database initialized - 113
+2026-02-01 20:19:29,921 - INFO - root - Database initialized - 113
+2026-02-01 20:19:44,242 - INFO - root - Database initialized - 113
+2026-02-01 20:19:55,824 - INFO - root - Database initialized - 113
+2026-02-01 20:20:08,828 - INFO - root - Database initialized - 113
+2026-02-01 20:20:26,193 - INFO - root - Database initialized - 113
+2026-02-01 20:20:31,605 - INFO - root - Database initialized - 113
+2026-02-01 20:21:04,653 - INFO - root - Database initialized - 113
+2026-02-01 20:21:40,611 - INFO - root - Database initialized - 113
+2026-02-01 20:22:28,206 - INFO - root - Database initialized - 113
+2026-02-01 20:22:39,342 - INFO - root - Database initialized - 113
+2026-02-01 20:22:43,875 - INFO - root - Database initialized - 113
+2026-02-01 20:30:34,969 - INFO - root - Database initialized - 113
+2026-02-01 20:31:01,167 - INFO - root - Database initialized - 113
+2026-02-01 20:34:45,203 - INFO - root - Database initialized - 113
+2026-02-01 20:35:20,196 - INFO - root - Database initialized - 113
+2026-02-01 20:35:36,931 - INFO - root - Database initialized - 113
+2026-02-01 20:35:47,174 - INFO - root - Database initialized - 113
+2026-02-01 20:46:39,050 - INFO - root - Database initialized - 113
+2026-02-01 20:51:31,256 - INFO - root - Database initialized - 113
+2026-02-01 20:52:05,661 - INFO - root - Database initialized - 113
+2026-02-01 20:52:10,683 - INFO - root - Database initialized - 113
+2026-02-01 20:52:30,678 - INFO - root - Database initialized - 113
+2026-02-01 20:53:22,828 - INFO - root - Database initialized - 113
+2026-02-01 20:53:55,810 - INFO - root - Database initialized - 113
+2026-02-01 20:54:50,343 - INFO - root - Database initialized - 114
+2026-02-01 20:55:39,124 - INFO - root - Database initialized - 114
+2026-02-01 20:56:04,589 - INFO - root - Database initialized - 114
+2026-02-01 20:58:11,434 - INFO - root - Database initialized - 114
+2026-02-01 21:12:07,626 - INFO - root - Database initialized - 114
+2026-02-01 21:13:07,232 - INFO - root - Database initialized - 114
+2026-02-01 21:13:58,197 - INFO - root - Database initialized - 114
+2026-02-01 21:14:24,242 - INFO - root - Database initialized - 114
+2026-02-01 21:14:31,454 - INFO - root - Database initialized - 114
+2026-02-01 21:18:05,157 - INFO - root - Database initialized - 114
+2026-02-01 21:18:56,088 - INFO - root - Username is empty  - 121
+2026-02-01 21:18:56,088 - WARNING - root - No username:  - 223
+2026-02-01 21:21:42,133 - INFO - root - Database initialized - 114
+2026-02-01 21:22:14,448 - INFO - root - Database initialized - 114
+2026-02-01 21:22:40,970 - INFO - root - Username string count is 0 - 125
+2026-02-01 21:22:40,970 - WARNING - root - No username: string - 223
+2026-02-01 21:22:58,186 - INFO - root - Username alperen count is 1 - 125
+2026-02-01 21:22:58,187 - ERROR - root - table items has 8 columns but 7 values were supplied - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 232, in create_item
+    self.database.execute("INSERT INTO items VALUES(?,?,?,?,?,?,?)",(item_name,item_barcode,item_shelf,item_description,create_time,created_by,0))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table items has 8 columns but 7 values were supplied
+2026-02-01 21:25:41,271 - INFO - root - Database initialized - 114
+2026-02-01 21:25:43,836 - INFO - root - Username alperen count is 1 - 125
+2026-02-01 21:25:43,836 - ERROR - root - table items has 8 columns but 7 values were supplied - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 232, in create_item
+    self.database.execute("INSERT INTO items VALUES(?,?,?,?,?,?,?)",(item_name,item_barcode,item_shelf,item_description,create_time,created_by,0))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table items has 8 columns but 7 values were supplied
+2026-02-01 21:26:41,042 - INFO - root - Database initialized - 114
+2026-02-01 21:26:42,538 - INFO - root - Username alperen count is 1 - 125
+2026-02-01 21:26:42,539 - ERROR - root - table items has 8 columns but 7 values were supplied - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 232, in create_item
+    self.database.execute("INSERT INTO items VALUES(?,?,?,?,?,?,?)",(item_name,item_barcode,item_shelf,item_description,create_time,created_by,0,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: table items has 8 columns but 7 values were supplied
+2026-02-01 21:27:45,435 - INFO - root - Database initialized - 114
+2026-02-01 21:28:00,163 - INFO - root - Database initialized - 114
+2026-02-01 21:28:06,535 - INFO - root - Database initialized - 114
+2026-02-01 21:28:08,030 - INFO - root - Username alperen count is 1 - 125
+2026-02-01 21:28:08,037 - INFO - root - Item Alperen pushed successfully - 234
+2026-02-01 21:30:39,370 - INFO - root - Database initialized - 114
+2026-02-01 21:31:45,204 - ERROR - root - NOT NULL constraint failed: items.item_name - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?)",(count,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: items.item_name
+2026-02-01 21:32:57,212 - INFO - root - Database initialized - 114
+2026-02-01 21:33:14,793 - INFO - root - Database initialized - 114
+2026-02-01 21:33:17,802 - ERROR - root - NOT NULL constraint failed: items.item_name - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?)",(count,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: items.item_name
+2026-02-01 21:34:50,296 - INFO - root - Database initialized - 114
+2026-02-01 21:34:56,053 - ERROR - root - NOT NULL constraint failed: items.item_name - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?)",(count,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: items.item_name
+2026-02-01 21:35:20,614 - INFO - root - Database initialized - 114
+2026-02-01 21:35:44,807 - INFO - root - Username alperen count is 1 - 125
+2026-02-01 21:35:44,813 - INFO - root - Item string pushed successfully - 234
+2026-02-01 21:36:23,297 - ERROR - root - NOT NULL constraint failed: items.item_name - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?)",(count,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: items.item_name
+2026-02-01 21:37:00,578 - INFO - root - Database initialized - 114
+2026-02-01 21:37:09,758 - INFO - root - Database initialized - 114
+2026-02-01 21:37:11,793 - ERROR - root - near "WHERE": syntax error - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?) WHERE = ?",(count,item_barcode,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "WHERE": syntax error
+2026-02-01 21:37:46,446 - INFO - root - Database initialized - 114
+2026-02-01 21:37:47,799 - ERROR - root - near "WHERE": syntax error - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    self.database.execute("INSERT INTO items(item_count) VALUES(?) WHERE = ?;",(count,item_barcode,))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "WHERE": syntax error
+2026-02-01 21:38:53,766 - INFO - root - Database initialized - 114
+2026-02-01 21:39:17,692 - INFO - root - Database initialized - 114
+2026-02-01 21:39:29,395 - ERROR - root - name 'execute' is not defined - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 247, in add_item
+    cursor = execute("SELECT * FROM items WHERE item_barcode = ?;",(item_barcode,))
+             ^^^^^^^
+NameError: name 'execute' is not defined
+2026-02-01 21:39:39,640 - INFO - root - Database initialized - 114
+2026-02-01 21:39:40,266 - ERROR - root - near "WHERE": syntax error - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 248, in add_item
+    cursor.execute("INSERT INTO items(item_count) VALUES(?) WHERE = ?;",(count,item_barcode,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "WHERE": syntax error
+2026-02-01 21:39:58,050 - INFO - root - Database initialized - 114
+2026-02-01 21:39:58,823 - ERROR - root - Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied. - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 248, in add_item
+    cursor.execute("INSERT INTO items(item_count) VALUES(?)",(count,item_barcode,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 1, and there are 2 supplied.
+2026-02-01 21:40:58,158 - INFO - root - Database initialized - 114
+2026-02-01 21:41:02,484 - INFO - root - Database initialized - 114
+2026-02-01 21:41:03,455 - ERROR - root - parameters are of unsupported type - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 248, in add_item
+    cursor.execute("INSERT INTO items(item_barcode) VALUES(?)",(count))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.ProgrammingError: parameters are of unsupported type
+2026-02-01 21:43:01,901 - INFO - root - Database initialized - 114
+2026-02-01 21:43:08,986 - INFO - root - Database initialized - 114
+2026-02-01 21:43:17,157 - INFO - root - Database initialized - 114
+2026-02-01 21:43:28,814 - INFO - root - Database initialized - 114
+2026-02-01 21:43:46,263 - INFO - root - Database initialized - 114
+2026-02-01 21:43:57,584 - INFO - root - Database initialized - 114
+2026-02-01 21:44:03,398 - INFO - root - Item string pushed successfully - 249

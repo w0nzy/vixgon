@@ -938,7 +938,16 @@ QComboBox:drop-down {
                     border-bottom-right-radius: 10px;
                     border-bottom-left-radius: 10px;
                    color:  #ced9cf;
-                  }</string>
+                  }
+QComboBox QAbstractItemView QScrollBar:vertical {
+	background-color: &quot;white&quot;;
+
+}
+
+QComboBox QAbstractItemView QScrollBar:slider {
+	background-color: none;
+
+}</string>
                              </property>
                              <property name="placeholderText">
                               <string>RAF ADI</string>

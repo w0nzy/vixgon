@@ -1,0 +1,237 @@
+2026-02-02 20:41:54,669 - INFO - root - Database initialized - 114
+2026-02-02 20:43:15,337 - INFO - root - Username dasdasd count is 0 - 125
+2026-02-02 20:43:21,277 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 20:43:21,290 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 28
+2026-02-02 20:43:21,290 - INFO - root - Data converted successfully to b64 format - 13
+2026-02-02 20:52:02,682 - INFO - root - Database initialized - 114
+2026-02-02 20:52:15,775 - INFO - root - Database initialized - 114
+2026-02-02 20:55:11,637 - INFO - root - Data decode successfully to b64 format - 24
+2026-02-02 20:55:32,226 - INFO - root - Database initialized - 114
+2026-02-02 20:55:36,860 - INFO - root - Database initialized - 114
+2026-02-02 20:55:42,860 - INFO - root - Data decode successfully to b64 format - 24
+2026-02-02 20:59:14,856 - INFO - root - Data decode successfully to b64 format - 24
+2026-02-02 21:00:53,488 - INFO - root - Data decode successfully to b64 format - 24
+2026-02-02 21:02:15,201 - INFO - root - Database initialized - 114
+2026-02-02 21:11:13,501 - INFO - root - Database initialized - 114
+2026-02-02 21:11:40,243 - INFO - root - Database initialized - 114
+2026-02-02 21:11:48,453 - INFO - root - Database initialized - 114
+2026-02-02 21:17:39,310 - INFO - root - Database initialized - 114
+2026-02-02 21:18:04,785 - INFO - root - Database initialized - 114
+2026-02-02 21:18:23,201 - INFO - root - Database initialized - 114
+2026-02-02 21:18:29,221 - INFO - root - Data decode successfully to b64 format - 26
+2026-02-02 21:21:49,553 - INFO - root - Database initialized - 114
+2026-02-02 21:22:53,592 - INFO - root - Database initialized - 114
+2026-02-02 21:23:00,599 - INFO - root - Database initialized - 114
+2026-02-02 21:23:12,214 - INFO - root - Database initialized - 114
+2026-02-02 21:24:19,847 - INFO - root - Database initialized - 114
+2026-02-02 21:24:44,222 - INFO - root - Database initialized - 114
+2026-02-02 21:25:00,263 - INFO - root - Database initialized - 114
+2026-02-02 21:25:09,221 - INFO - root - Database initialized - 114
+2026-02-02 21:26:04,673 - INFO - root - Database initialized - 114
+2026-02-02 21:26:11,035 - INFO - root - Database initialized - 114
+2026-02-02 21:26:14,256 - INFO - root - Database initialized - 114
+2026-02-02 21:26:32,775 - INFO - root - Database initialized - 114
+2026-02-02 21:26:49,698 - INFO - root - Database initialized - 114
+2026-02-02 21:28:16,210 - INFO - root - Database initialized - 114
+2026-02-02 21:28:42,421 - INFO - root - Database initialized - 114
+2026-02-02 21:28:55,070 - INFO - root - Database initialized - 114
+2026-02-02 21:29:03,147 - INFO - root - Database initialized - 114
+2026-02-02 21:29:07,396 - INFO - root - Closing database - 132
+2026-02-02 21:29:13,577 - INFO - root - Database initialized - 114
+2026-02-02 21:29:19,849 - INFO - root - Database initialized - 114
+2026-02-02 21:35:13,474 - INFO - root - Database initialized - 114
+2026-02-02 21:35:21,261 - INFO - root - Database initialized - 114
+2026-02-02 21:35:27,930 - INFO - root - Database initialized - 114
+2026-02-02 21:37:39,266 - INFO - root - Database initialized - 114
+2026-02-02 21:40:52,350 - INFO - root - Database initialized - 114
+2026-02-02 21:40:58,497 - INFO - root - Database initialized - 114
+2026-02-02 21:41:10,001 - INFO - root - Database initialized - 114
+2026-02-02 21:42:12,897 - INFO - root - Database initialized - 114
+2026-02-02 21:42:17,059 - INFO - root - Database initialized - 114
+2026-02-02 21:42:20,595 - ERROR - root - [WinError 3] Sistem belirtilen yolu bulamýyor: 'items\\string' - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 293, in get_item
+    return_data.update({"item_photos":[read_item_photo(x) for x in os.listdir(os.path.join("items",item_barcode))]})
+                                                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamýyor: 'items\\string'
+2026-02-02 21:42:31,369 - INFO - root - Database initialized - 114
+2026-02-02 21:42:34,728 - INFO - root - Database initialized - 114
+2026-02-02 21:42:39,425 - ERROR - root - [WinError 3] Sistem belirtilen yolu bulamýyor: 'items\\string' - 22
+Traceback (most recent call last):
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\modules\error_handling.py", line 20, in wrapper
+    result = function(*args, **kwargs)
+  File "C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\db.py", line 293, in get_item
+    return_data.update({"item_photos":[read_item_photo(x) for x in os.listdir(os.path.join("items",item_barcode))]})
+                                                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] Sistem belirtilen yolu bulamýyor: 'items\\string'
+2026-02-02 21:44:23,808 - INFO - root - Database initialized - 114
+2026-02-02 21:44:31,755 - INFO - root - Database initialized - 114
+2026-02-02 21:44:38,883 - INFO - root - Database initialized - 114
+2026-02-02 21:44:44,490 - CRITICAL - root - Cannot read 99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png error is name 'photo_path' is not defined - 55
+2026-02-02 21:45:06,973 - INFO - root - Database initialized - 114
+2026-02-02 21:45:11,738 - INFO - root - Database initialized - 114
+2026-02-02 21:45:29,081 - CRITICAL - root - Cannot read 99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png error is [Errno 2] No such file or directory: '99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png' - 55
+2026-02-02 21:46:05,510 - INFO - root - Database initialized - 114
+2026-02-02 21:46:38,567 - INFO - root - Database initialized - 114
+2026-02-02 21:46:42,197 - INFO - root - Database initialized - 114
+2026-02-02 21:46:48,720 - INFO - root - Database initialized - 114
+2026-02-02 21:46:50,881 - CRITICAL - root - Cannot read C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\items\99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png error is [Errno 2] No such file or directory: 'C:\\Users\\Ömer Çavuþ\\PycharmProjects\\vixgon\\backend\\items\\99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png' - 55
+2026-02-02 21:48:12,373 - INFO - root - Database initialized - 114
+2026-02-02 21:48:15,657 - INFO - root - Database initialized - 114
+2026-02-02 21:48:18,906 - INFO - root - Database initialized - 114
+2026-02-02 21:48:21,239 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\items\string\99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png) size 13987  - 52
+2026-02-02 21:48:21,239 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 21:52:04,396 - INFO - root - Database initialized - 114
+2026-02-02 21:52:13,092 - INFO - root - Database initialized - 114
+2026-02-02 21:53:18,110 - INFO - root - Database initialized - 114
+2026-02-02 21:53:28,780 - INFO - root - Database initialized - 114
+2026-02-02 21:54:41,914 - WARNING - root - Bad item count length - 243
+2026-02-02 21:55:02,488 - INFO - root - Item string pushed successfully - 250
+2026-02-02 21:55:49,205 - INFO - root - Database initialized - 114
+2026-02-02 21:55:58,661 - INFO - root - Database initialized - 114
+2026-02-02 21:56:02,573 - INFO - root - Item string pushed successfully - 250
+2026-02-02 21:56:13,479 - INFO - root - Item string pushed successfully - 250
+2026-02-02 21:56:28,427 - INFO - root - Item string pushed successfully - 250
+2026-02-02 21:59:47,473 - INFO - root - Database initialized - 114
+2026-02-02 22:00:49,085 - INFO - root - Database initialized - 114
+2026-02-02 22:01:02,951 - INFO - root - Database initialized - 114
+2026-02-02 22:01:44,488 - INFO - root - Database initialized - 114
+2026-02-02 22:01:51,217 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\items\string\99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png) size 13987  - 52
+2026-02-02 22:01:51,218 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:02:19,262 - INFO - root - Item string pushed successfully - 250
+2026-02-02 22:02:26,138 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\items\string\99edef8c8ee1576d5111a026d8267717425ba5f26b74455e23cbab49d60920f8.png) size 13987  - 52
+2026-02-02 22:02:26,139 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:03:54,605 - INFO - root - Database initialized - 114
+2026-02-02 22:03:55,123 - INFO - root - Database initialized :) - 25
+2026-02-02 22:03:55,126 - INFO - root - Database is closing - 100
+2026-02-02 22:03:55,126 - INFO - root - Database is closed  - 106
+2026-02-02 22:03:55,144 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:03:55,162 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:03:55,163 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:03:55,163 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:03:55,184 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:03:55,185 - WARNING - root - No action :/ - 73
+2026-02-02 22:03:57,586 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:03:57,590 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:03:57,591 - WARNING - root - No function registered for get-shelfs action - 77
+2026-02-02 22:04:00,999 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:04:01,000 - WARNING - root - No function registered for get-shelfs action - 77
+2026-02-02 22:04:36,719 - INFO - root - Database initialized - 114
+2026-02-02 22:04:38,767 - INFO - root - Database initialized - 114
+2026-02-02 22:04:38,959 - INFO - root - Database initialized :) - 25
+2026-02-02 22:04:38,960 - INFO - root - Database is closing - 100
+2026-02-02 22:04:38,960 - INFO - root - Database is closed  - 106
+2026-02-02 22:04:38,964 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:04:38,974 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:04:38,975 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:04:38,975 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:04:38,976 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:04:38,977 - WARNING - root - No action :/ - 73
+2026-02-02 22:04:40,137 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:04:40,141 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:05:45,479 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-02 22:05:45,503 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:06:37,804 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-02 22:06:37,807 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:06:38,247 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:06:38,411 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:06:38,562 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:07:46,873 - INFO - root - Database initialized - 114
+2026-02-02 22:11:21,288 - INFO - root - Database initialized - 114
+2026-02-02 22:11:30,051 - INFO - root - Database initialized - 114
+2026-02-02 22:11:39,129 - INFO - root - Database initialized - 114
+2026-02-02 22:13:45,431 - INFO - root - Database initialized - 114
+2026-02-02 22:14:10,609 - INFO - root - Database initialized - 114
+2026-02-02 22:14:21,302 - INFO - root - Database initialized - 114
+2026-02-02 22:14:39,034 - INFO - root - Database initialized - 114
+2026-02-02 22:14:39,251 - INFO - root - Database initialized :) - 25
+2026-02-02 22:14:39,252 - INFO - root - Database is closing - 100
+2026-02-02 22:14:39,252 - INFO - root - Database is closed  - 106
+2026-02-02 22:14:39,257 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:14:39,271 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:14:39,272 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:14:39,273 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:14:39,276 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:14:39,277 - WARNING - root - No action :/ - 73
+2026-02-02 22:21:52,675 - INFO - root - Database initialized - 114
+2026-02-02 22:22:10,369 - INFO - root - Database initialized - 114
+2026-02-02 22:22:10,632 - INFO - root - Database initialized :) - 25
+2026-02-02 22:22:10,633 - INFO - root - Database is closing - 100
+2026-02-02 22:22:10,633 - INFO - root - Database is closed  - 106
+2026-02-02 22:22:10,638 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:22:10,651 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:22:10,652 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:22:10,653 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:22:10,654 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:22:10,655 - WARNING - root - No action :/ - 73
+2026-02-02 22:22:31,409 - INFO - root - Database initialized - 114
+2026-02-02 22:22:36,014 - INFO - root - Database initialized - 114
+2026-02-02 22:22:36,205 - INFO - root - Database initialized :) - 25
+2026-02-02 22:22:36,206 - INFO - root - Database is closing - 100
+2026-02-02 22:22:36,206 - INFO - root - Database is closed  - 106
+2026-02-02 22:22:36,209 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:22:36,220 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:22:36,220 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:22:36,221 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:22:36,222 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:22:36,222 - WARNING - root - No action :/ - 73
+2026-02-02 22:22:37,670 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:22:37,696 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:24:38,660 - INFO - root - Database initialized - 114
+2026-02-02 22:24:39,090 - INFO - root - Database initialized - 114
+2026-02-02 22:24:39,278 - INFO - root - Database initialized :) - 25
+2026-02-02 22:24:39,279 - INFO - root - Database is closing - 100
+2026-02-02 22:24:39,279 - INFO - root - Database is closed  - 106
+2026-02-02 22:24:39,282 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:24:39,306 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:24:39,306 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:24:39,306 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:24:39,307 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:24:39,308 - WARNING - root - No action :/ - 73
+2026-02-02 22:24:40,517 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:24:40,521 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:25:23,694 - INFO - root - Database initialized - 114
+2026-02-02 22:25:23,882 - INFO - root - Database initialized :) - 25
+2026-02-02 22:25:23,883 - INFO - root - Database is closing - 100
+2026-02-02 22:25:23,883 - INFO - root - Database is closed  - 106
+2026-02-02 22:25:23,887 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:25:23,890 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:25:23,891 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:25:23,891 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:25:23,892 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:25:23,893 - WARNING - root - No action :/ - 73
+2026-02-02 22:25:25,618 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:25:25,621 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:27:55,766 - INFO - root - Database initialized - 114
+2026-02-02 22:28:11,374 - INFO - root - Database initialized - 114
+2026-02-02 22:28:16,196 - INFO - root - Database initialized - 114
+2026-02-02 22:28:24,416 - INFO - root - Database initialized - 114
+2026-02-02 22:28:27,587 - INFO - root - Database initialized - 114
+2026-02-02 22:28:27,774 - INFO - root - Database initialized :) - 25
+2026-02-02 22:28:27,775 - INFO - root - Database is closing - 100
+2026-02-02 22:28:27,775 - INFO - root - Database is closed  - 106
+2026-02-02 22:28:27,779 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:28:27,790 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:28:27,790 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:28:27,791 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:28:27,792 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:28:27,792 - WARNING - root - No action :/ - 73
+2026-02-02 22:28:39,529 - INFO - root - Database initialized - 114
+2026-02-02 22:28:42,827 - INFO - root - Database initialized - 114
+2026-02-02 22:28:43,020 - INFO - root - Database initialized :) - 25
+2026-02-02 22:28:43,020 - INFO - root - Database is closing - 100
+2026-02-02 22:28:43,021 - INFO - root - Database is closed  - 106
+2026-02-02 22:28:43,024 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:28:43,035 - INFO - root - Username alperen count is 1 - 125
+2026-02-02 22:28:43,036 - INFO - root - Photo readed(C:\Users\Ömer Çavuþ\PycharmProjects\vixgon\backend\users\alperen.png) size 13987  - 41
+2026-02-02 22:28:43,036 - INFO - root - Data converted successfully to b64 format - 19
+2026-02-02 22:28:43,037 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "POST /vixgon/api/login_with_token HTTP/1.1" 200 18875 - 544
+2026-02-02 22:28:43,038 - WARNING - root - No action :/ - 73
+2026-02-02 22:28:44,233 - DEBUG - urllib3.connectionpool - Starting new HTTP connection (1): 127.0.0.1:80 - 241
+2026-02-02 22:28:44,238 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:29:53,244 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-02 22:29:53,271 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544
+2026-02-02 22:29:59,683 - DEBUG - urllib3.connectionpool - Resetting dropped connection: 127.0.0.1 - 289
+2026-02-02 22:29:59,686 - DEBUG - urllib3.connectionpool - http://127.0.0.1:80 "GET /vixgon/api/get_shelfs HTTP/1.1" 200 1257 - 544

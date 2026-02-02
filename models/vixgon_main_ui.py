@@ -544,7 +544,17 @@ class Ui_MainWindow(object):
 "                    border-bottom-right-radius: 10px;\n"
 "                    border-bottom-left-radius: 10px;\n"
 "                   color:  #ced9cf;\n"
-"                  }")
+"                  }\n"
+"QComboBox QAbstractItemView QScrollBar:vertical {\n"
+"	background-color: \"white\";\n"
+"\n"
+"}\n"
+"\n"
+"QComboBox QAbstractI"
+                        "temView QScrollBar:vertical:slider {\n"
+"	background-color: none;\n"
+"\n"
+"}")
         self.item_shelf_box.setFrame(True)
 
         self.horizontalLayout_5.addWidget(self.item_shelf_box)

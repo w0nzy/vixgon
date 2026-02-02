@@ -1,7 +1,5 @@
 ﻿import jwt
-import base64
 import secrets
-from typing import Annotated
 from datetime import timedelta
 from datetime import datetime
 from datetime import timezone
@@ -16,14 +14,15 @@ from fastapi import (
 from fastapi.security import OAuth2PasswordBearer
 from fastapi.exceptions import HTTPException
 from argon2 import PasswordHasher
-from pydantic import Secret
+
+from backend.hash import compare_hash
+from modules.error_handling import error
+from backend.util import generate_item_path
+from modules.vixgon_log import create_logger
+from backend.util import read_user_photo, safeb64decode
+from backend.models import LoginModel,TokenData,ItemCreateDataModel
 from backend.db import Database, DatabaseRegisterCode, DatabaseUserRegisterModel
 from backend.models import ShelfList, UserDataModel, UserLoginDataModel, UserRegistrationResponseModel
-from backend.models import LoginModel,TokenData
-from backend.util import read_user_photo
-from backend.util import put_action_to_http_header
-from modules.vixgon_log import create_logger
-from backend.hash import compare_hash
 logger = create_logger()
 backend_api = FastAPI()
 argon2 = PasswordHasher()
@@ -35,13 +34,11 @@ def validate_user_token(header: Request):
     token_data = header
     if isinstance(header,Request):
         token_data = header.headers.get("Authorization")
-        if token_data is None or len(token_data.split(" ")) < 2:
+        if token_data is None:
             raise HTTPException(status_code = 401,detail = "No token",headers = {"WWW-Authenticate":"Bearer"})
-        token_data = token_data.split(" ")[1]
-    print(token_data,token_data.__class__)
+
     try:
-        decoded_jwt = jwt.decode(token_data,jwt_secret_key,algorithms=["HS256"])
-        username = decoded_jwt.get("sub")
+        jwt.decode(token_data,jwt_secret_key,algorithms=["HS256"])
     except Exception as e: # fix here
         logger.critical("Validation error %s" % (str(e)))
         raise HTTPException(status_code = 401,detail = "Expired token",headers = {"WWW-Authenticate":"Bearer"})
@@ -82,14 +79,7 @@ async def register_user(data: UserDataModel) -> UserRegistrationResponseModel:
             return UserRegistrationResponseModel(detail = "Check username or password contains bad value")
         case _:
             return UserRegistrationResponseModel(detail = "Unknown error %s" % (result))
-            logger.critical("Cannot register user :( )")
-@backend_api.post("/vixgon/test")
-async def test_data() -> dict:
-    return {"token":secrets.token_hex(32)}
 
-@backend_api.get("/vixgon/api/get_users")
-async def get_users() -> dict:
-    return {"users":database.extract_all_users()}
 
 @backend_api.get("/vixgon/api/get_user/{user_name}")
 async def get_user(user_name: str) -> UserDataModel:
@@ -108,14 +98,38 @@ async def login_test(user_input: LoginModel) -> UserLoginDataModel:
     logger.warning("Wrong password or username %s:%s" % (user_input.username,user_input.password))
     return UserLoginDataModel()
 
-@backend_api.post("/vixgon/api/login_with_token/{token}")
-async def login_with_token(token: Annotated[str,Depends(validate_user_token)]) -> UserLoginDataModel:
-    return database.get_username_from_token(token)
-
+@backend_api.post("/vixgon/api/login_with_token")
+async def login_with_token(token = Depends(validate_user_token)) -> UserLoginDataModel:
+    return database.get_username_from_token(token.token)
 @backend_api.get("/vixgon/api/get_shelfs")
-async def get_shelfs(headers: Response,token = Depends(validate_user_token)) -> ShelfList:
-    headers.headers["action"] = "get-shelf"
+async def get_shelfs(response: Response,token = Depends(validate_user_token)) -> ShelfList:
+    response.headers["action"] = "get-shelfs"
     return database.get_shelfs()
-@backend_api.post("/vixgon/header/test")
-async def header_test(text: str,header_creds = Depends(put_action_to_http_header)):
-    return {"data":text}
+
+@backend_api.post("/vixgon/api/create_item")
+async def create_item_data(data: ItemCreateDataModel) -> dict:
+    if database.get_shelf_count(data.item_shelf) == 0:
+        return {"bad_shelf":data.item_shelf}
+    if not database.create_item(data.item_name,data.item_shelf,data.item_description,data.item_barcode,data.created_by_who):
+        return {"cannot_create_item":data.item_shelf}
+    return {"success":data.item_name}
+@error(return_value={"status":"fail"})
+@backend_api.post("/vixgon/api/add_item_photo")
+async def save_photo(data: str,item_name: str,token = Depends(validate_user_token)) -> dict:
+    print(database.get_item_count(item_name))
+    if database.get_item_count(item_name) == 0:
+        raise ValueError("Item name %s does not exist" % (item_name))
+    with open(generate_item_path(item_name),"wb") as fd:
+        fd.write(safeb64decode(data))
+    return {"status":"success"}
+@backend_api.post("/vixgon/api/add_item")
+async def add_item(item_barcode: str,count: int,token = Depends(validate_user_token)) -> dict:
+    if database.get_item_count(item_barcode) == 0:
+        return {"no_item":item_barcode}
+    return {"success":item_barcode} if database.add_item(item_barcode,count) else {"bad_item":item_barcode}
+
+@backend_api.get("/vixgon/api/get_item/{item_barcode}")
+async def get_item(item_barcode: str,get_photos = False) -> dict:
+    if database.get_item_count(item_barcode) == 0:
+        return {"no_item":item_barcode}
+    return database.get_item(item_barcode,get_photos)

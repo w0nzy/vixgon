@@ -5,7 +5,7 @@ import logging
 
 from . import is_running_exe
 
-
+DEBUG = 1
 class ColorizedFormat(logging.Formatter):
     color_table = {
         logging.INFO:"\033[1;92m",
@@ -27,9 +27,12 @@ def create_logger():
     log_file_format = logging.Formatter("%(asctime)s - %(levelname)s - %(name)s - %(message)s - %(lineno)s")
     file_handler = logging.FileHandler(log_file_path)
     colorized_formatter = ColorizedFormat()
-    stream_handler = logging.StreamHandler()
-    stream_handler.setFormatter(colorized_formatter)
-    stream_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(log_file_format)
-    logging.basicConfig(handlers=[file_handler,stream_handler],encoding="utf-8",level = logging.DEBUG)
+    handlers = [file_handler]
+    if DEBUG:
+        stream_handler = logging.StreamHandler()
+        stream_handler.setFormatter(colorized_formatter)
+        stream_handler.setLevel(logging.DEBUG)
+        handlers.append(stream_handler)
+    logging.basicConfig(handlers=handlers,encoding="utf-8",level = logging.DEBUG)
     return logging.getLogger()

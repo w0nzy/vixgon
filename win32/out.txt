@@ -1,0 +1,10 @@
+==================================================
+Function Name     : CreateShortcut
+Address           : 0x0000000180001730
+Relative Address  : 0x00001730
+Ordinal           : 1 (0x1)
+Filename          : _win32_backend.dll
+Full Path         : C:\Users\Ömer Çavuþ\vixgon\win32\_win32_backend.dll
+Type              : Exported Function
+==================================================
+

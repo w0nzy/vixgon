@@ -48,3 +48,11 @@ class ShelfList(BaseModel):
 
 class TokenData(BaseModel):
     token: str
+
+class ItemCreateDataModel(BaseModel):
+    item_name: str
+    item_shelf: str
+    item_barcode: str
+    item_description: str
+    item_paths: List[str]
+    created_by_who: str
